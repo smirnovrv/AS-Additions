@@ -60,7 +60,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>АС</Vendor>
-			<Version>3.3.3.17 (62)</Version>
+			<Version>3.3.3.17 (78)</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -168,6 +168,7 @@
 			<CommonPicture>НаШагНазад</CommonPicture>
 			<CommonPicture>ВернутьИсполнителю</CommonPicture>
 			<CommonPicture>СтрелкаВлево</CommonPicture>
+			<Role>ИИТ_Оператор</Role>
 			<CommonTemplate>ПФ_MXL_Т1</CommonTemplate>
 			<FilterCriterion>ДокументыПоКонтрагенту</FilterCriterion>
 			<FilterCriterion>ДокументыПоДоговоруКонтрагента</FilterCriterion>
@@ -454,6 +455,8 @@
 			<Document>ФормированиеЗаписейРаздела7ДекларацииНДС</Document>
 			<Document>ФормированиеУставногоКапитала</Document>
 			<Document>ЭкземплярПроцесса</Document>
+			<Document>АС_КС2</Document>
+			<Document>АС_Договор</Document>
 			<DocumentJournal>Деньги</DocumentJournal>
 			<DocumentJournal>ЖурналОпераций</DocumentJournal>
 			<Enum>ИнструментыРазмещенияОстатков</Enum>
@@ -534,6 +537,7 @@
 			<Report>ИИТ_ДанныеЖурналаПередачиВСнабжение</Report>
 			<Report>ИсторияСогласования</Report>
 			<Report>АС_НеЗакрытыеЗаказыПоставщикам</Report>
+			<Report>АС_НеЗакрытыеЗаказыПоставщикам2</Report>
 			<DataProcessor>ИИТ_ПроставитьПраваДоступаДоОрганизаций</DataProcessor>
 			<DataProcessor>ЗадачиИОповещенияТекущегоПользователя</DataProcessor>
 			<DataProcessor>РаботаСФайлами</DataProcessor>

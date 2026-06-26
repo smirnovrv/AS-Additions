@@ -204,6 +204,11 @@
 						<Representation>PictureAndText</Representation>
 						<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="1831"/>
 					</Popup>
+					<Button name="ФормаАС_РедактироватьРеквизиты" id="2396">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.АС_РедактироватьРеквизиты</CommandName>
+						<ExtendedTooltip name="ФормаАС_РедактироватьРеквизитыРасширеннаяПодсказка" id="2397"/>
+					</Button>
 				</ChildItems>
 			</ButtonGroup>
 			<Button name="ФормаСправка" id="1822">
@@ -3513,6 +3518,28 @@
 			</Type>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="АС_РедактироватьРеквизиты" id="1000000">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать реквизиты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Change</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="After">АЛФ_РедактироватьРеквизитыПосле</Action>
+			<Representation>Picture</Representation>
+		</Command>
+	</Commands>
 	<BaseForm version="2.20">
 		<VerticalScroll>useIfNecessary</VerticalScroll>
 		<AutoTime>CurrentOrLast</AutoTime>

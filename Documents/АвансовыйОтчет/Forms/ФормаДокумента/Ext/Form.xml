@@ -353,12 +353,16 @@
 			<BackColor>style:ЦветБаннераБежевый</BackColor>
 			<ExtendedTooltip name="ГруппаБаннерЧекиПодотчетныхЛицРасширеннаяПодсказка" id="764"/>
 			<ChildItems>
-				<LabelField name="БаннерЧекиПодотчетныхЛицТекст" id="765">
-					<TitleLocation>None</TitleLocation>
+				<PictureDecoration name="КартинкаБаннерЧекиПодотчетныхЛицВнимание" id="823">
+					<Visible>false</Visible>
+					<ContextMenu name="КартинкаБаннерЧекиПодотчетныхЛицВниманиеКонтекстноеМеню" id="824"/>
+					<ExtendedTooltip name="КартинкаБаннерЧекиПодотчетныхЛицВниманиеРасширеннаяПодсказка" id="825"/>
+				</PictureDecoration>
+				<LabelDecoration name="БаннерЧекиПодотчетныхЛицТекст" id="765">
 					<AutoMaxWidth>false</AutoMaxWidth>
-					<ContextMenu name="БаннерЧекиПодотчетныхЛицТекстКонтекстноеМеню" id="766"/>
-					<ExtendedTooltip name="БаннерЧекиПодотчетныхЛицТекстРасширеннаяПодсказка" id="767"/>
-				</LabelField>
+					<ContextMenu name="БаннерЧекиПодотчетныхЛицТекстКонтекстноеМеню" id="827"/>
+					<ExtendedTooltip name="БаннерЧекиПодотчетныхЛицТекстРасширеннаяПодсказка" id="828"/>
+				</LabelDecoration>
 				<PictureDecoration name="КартинкаЗакрытьБаннерЧекиПодотчетныхЛиц" id="768">
 					<Height>1</Height>
 					<Title formatted="false">
@@ -2286,13 +2290,36 @@
 							<ViewStatusLocation>None</ViewStatusLocation>
 							<SearchControlLocation>None</SearchControlLocation>
 							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="ПрочееКонтекстноеМеню" id="116"/>
+							<ContextMenu name="ПрочееКонтекстноеМеню" id="116">
+								<ChildItems>
+									<Button name="ПрочееКонтекстноеМенюВставитьСтроки" id="836">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ПрочееКонтекстноеМенюВставитьСтрокиРасширеннаяПодсказка" id="837"/>
+									</Button>
+									<Button name="ПрочееКонтекстноеМенюСкопироватьСтроки" id="838">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ПрочееКонтекстноеМенюСкопироватьСтрокиРасширеннаяПодсказка" id="839"/>
+									</Button>
+								</ChildItems>
+							</ContextMenu>
 							<AutoCommandBar name="ПрочееКоманднаяПанель" id="117">
 								<ChildItems>
 									<Button name="ПрочееЗагрузитьЧеки" id="761">
 										<Type>CommandBarButton</Type>
 										<CommandName>0</CommandName>
 										<ExtendedTooltip name="ПрочееЗагрузитьЧекиРасширеннаяПодсказка" id="762"/>
+									</Button>
+									<Button name="ПрочееСкопироватьСтроки" id="832">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ПрочееСкопироватьСтрокиРасширеннаяПодсказка" id="833"/>
+									</Button>
+									<Button name="ПрочееВставитьСтроки" id="834">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ПрочееВставитьСтрокиРасширеннаяПодсказка" id="835"/>
 									</Button>
 								</ChildItems>
 							</AutoCommandBar>
@@ -4043,7 +4070,7 @@
 					</PictureDecoration>
 				</ChildItems>
 			</UsualGroup>
-			<UsualGroup name="ГруппаБаннерЧекиПодотчетныхЛиц" id="763">
+			<UsualGroup name="ГруппаБаннерЧекиПодотчетныхЛиц" id="821">
 				<Visible>false</Visible>
 				<Title>
 					<v8:item>
@@ -4057,15 +4084,19 @@
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<BackColor>style:ЦветБаннераБежевый</BackColor>
-				<ExtendedTooltip name="ГруппаБаннерЧекиПодотчетныхЛицРасширеннаяПодсказка" id="764"/>
+				<ExtendedTooltip name="ГруппаБаннерЧекиПодотчетныхЛицРасширеннаяПодсказка" id="822"/>
 				<ChildItems>
-					<LabelField name="БаннерЧекиПодотчетныхЛицТекст" id="765">
-						<TitleLocation>None</TitleLocation>
+					<PictureDecoration name="КартинкаБаннерЧекиПодотчетныхЛицВнимание" id="823">
+						<Visible>false</Visible>
+						<ContextMenu name="КартинкаБаннерЧекиПодотчетныхЛицВниманиеКонтекстноеМеню" id="824"/>
+						<ExtendedTooltip name="КартинкаБаннерЧекиПодотчетныхЛицВниманиеРасширеннаяПодсказка" id="825"/>
+					</PictureDecoration>
+					<LabelDecoration name="БаннерЧекиПодотчетныхЛицТекст" id="826">
 						<AutoMaxWidth>false</AutoMaxWidth>
-						<ContextMenu name="БаннерЧекиПодотчетныхЛицТекстКонтекстноеМеню" id="766"/>
-						<ExtendedTooltip name="БаннерЧекиПодотчетныхЛицТекстРасширеннаяПодсказка" id="767"/>
-					</LabelField>
-					<PictureDecoration name="КартинкаЗакрытьБаннерЧекиПодотчетныхЛиц" id="768">
+						<ContextMenu name="БаннерЧекиПодотчетныхЛицТекстКонтекстноеМеню" id="827"/>
+						<ExtendedTooltip name="БаннерЧекиПодотчетныхЛицТекстРасширеннаяПодсказка" id="828"/>
+					</LabelDecoration>
+					<PictureDecoration name="КартинкаЗакрытьБаннерЧекиПодотчетныхЛиц" id="829">
 						<Height>1</Height>
 						<Title formatted="false">
 							<v8:item>
@@ -4077,8 +4108,8 @@
 						<GroupVerticalAlign>Top</GroupVerticalAlign>
 						<Hyperlink>true</Hyperlink>
 						<FileDragMode>AsFile</FileDragMode>
-						<ContextMenu name="КартинкаЗакрытьБаннерЧекиПодотчетныхЛицКонтекстноеМеню" id="769"/>
-						<ExtendedTooltip name="КартинкаЗакрытьБаннерЧекиПодотчетныхЛицРасширеннаяПодсказка" id="770"/>
+						<ContextMenu name="КартинкаЗакрытьБаннерЧекиПодотчетныхЛицКонтекстноеМеню" id="830"/>
+						<ExtendedTooltip name="КартинкаЗакрытьБаннерЧекиПодотчетныхЛицРасширеннаяПодсказка" id="831"/>
 					</PictureDecoration>
 				</ChildItems>
 			</UsualGroup>
@@ -5992,13 +6023,36 @@
 								<ViewStatusLocation>None</ViewStatusLocation>
 								<SearchControlLocation>None</SearchControlLocation>
 								<RowFilter xsi:nil="true"/>
-								<ContextMenu name="ПрочееКонтекстноеМеню" id="116"/>
+								<ContextMenu name="ПрочееКонтекстноеМеню" id="116">
+									<ChildItems>
+										<Button name="ПрочееКонтекстноеМенюВставитьСтроки" id="836">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ПрочееКонтекстноеМенюВставитьСтрокиРасширеннаяПодсказка" id="837"/>
+										</Button>
+										<Button name="ПрочееКонтекстноеМенюСкопироватьСтроки" id="838">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ПрочееКонтекстноеМенюСкопироватьСтрокиРасширеннаяПодсказка" id="839"/>
+										</Button>
+									</ChildItems>
+								</ContextMenu>
 								<AutoCommandBar name="ПрочееКоманднаяПанель" id="117">
 									<ChildItems>
 										<Button name="ПрочееЗагрузитьЧеки" id="761">
 											<Type>CommandBarButton</Type>
 											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ПрочееЗагрузитьЧекиРасширеннаяПодсказка" id="762"/>
+										</Button>
+										<Button name="ПрочееСкопироватьСтроки" id="832">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ПрочееСкопироватьСтрокиРасширеннаяПодсказка" id="833"/>
+										</Button>
+										<Button name="ПрочееВставитьСтроки" id="834">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ПрочееВставитьСтрокиРасширеннаяПодсказка" id="835"/>
 										</Button>
 									</ChildItems>
 								</AutoCommandBar>

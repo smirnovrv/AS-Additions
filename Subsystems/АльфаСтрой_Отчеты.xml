@@ -14,6 +14,7 @@
 			<ExtendedConfigurationObject>c0ea8b7d-f29d-4cf4-9a40-8070a3bb4fa4</ExtendedConfigurationObject>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.АС_НеЗакрытыеЗаказыПоставщикам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.АС_НеЗакрытыеЗаказыПоставщикам2</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

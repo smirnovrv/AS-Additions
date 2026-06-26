@@ -41,6 +41,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="OnOpen" callType="Before">АЛФ_ПриОткрытииПеред</Event>
 		<Event name="OnCreateAtServer" callType="After">АЛФ_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>

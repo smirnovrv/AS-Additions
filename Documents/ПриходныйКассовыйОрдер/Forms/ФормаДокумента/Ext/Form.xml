@@ -1161,6 +1161,14 @@
 										<InputField name="РасшифровкаПлатежаПроект" id="721">
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<ChoiceParameters>
+												<app:item name="Отбор.АС_ПроектУчета">
+													<app:value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xs:boolean">true</Value>
+													</app:value>
+												</app:item>
+											</ChoiceParameters>
 											<ContextMenu name="РасшифровкаПлатежаПроектКонтекстноеМеню" id="722"/>
 											<ExtendedTooltip name="РасшифровкаПлатежаПроектРасширеннаяПодсказка" id="723"/>
 										</InputField>
@@ -1543,6 +1551,14 @@
 										<InputField name="РасшифровкаВыручкиПроект" id="766">
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<ChoiceParameters>
+												<app:item name="Отбор.АС_ПроектУчета">
+													<app:value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xs:boolean">true</Value>
+													</app:value>
+												</app:item>
+											</ChoiceParameters>
 											<ContextMenu name="РасшифровкаВыручкиПроектКонтекстноеМеню" id="767"/>
 											<ExtendedTooltip name="РасшифровкаВыручкиПроектРасширеннаяПодсказка" id="768"/>
 										</InputField>
@@ -1756,6 +1772,14 @@
 													<ExtendedTooltip name="ЦФОПрочиеРасширеннаяПодсказка" id="709"/>
 												</InputField>
 												<InputField name="ПроектПрочие" id="710">
+													<ChoiceParameters>
+														<app:item name="Отбор.АС_ПроектУчета">
+															<app:value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation/>
+																<Value xsi:type="xs:boolean">true</Value>
+															</app:value>
+														</app:item>
+													</ChoiceParameters>
 													<ContextMenu name="ПроектПрочиеКонтекстноеМеню" id="711"/>
 													<ExtendedTooltip name="ПроектПрочиеРасширеннаяПодсказка" id="712"/>
 												</InputField>
@@ -2098,6 +2122,14 @@
 									<ExtendedTooltip name="ЦФОРасширеннаяПодсказка" id="799"/>
 								</InputField>
 								<InputField name="Проект" id="800">
+									<ChoiceParameters>
+										<app:item name="Отбор.АС_ПроектУчета">
+											<app:value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:boolean">true</Value>
+											</app:value>
+										</app:item>
+									</ChoiceParameters>
 									<ContextMenu name="ПроектКонтекстноеМеню" id="801"/>
 									<ExtendedTooltip name="ПроектРасширеннаяПодсказка" id="802"/>
 								</InputField>
@@ -3349,6 +3381,14 @@
 											<InputField name="РасшифровкаПлатежаПроект" id="721">
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
+												<ChoiceParameters>
+													<app:item name="Отбор.АС_ПроектУчета">
+														<app:value xsi:type="FormChoiceListDesTimeValue">
+															<Presentation/>
+															<Value xsi:type="xs:boolean">true</Value>
+														</app:value>
+													</app:item>
+												</ChoiceParameters>
 												<ContextMenu name="РасшифровкаПлатежаПроектКонтекстноеМеню" id="722"/>
 												<ExtendedTooltip name="РасшифровкаПлатежаПроектРасширеннаяПодсказка" id="723"/>
 											</InputField>
@@ -3731,6 +3771,14 @@
 											<InputField name="РасшифровкаВыручкиПроект" id="766">
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
+												<ChoiceParameters>
+													<app:item name="Отбор.АС_ПроектУчета">
+														<app:value xsi:type="FormChoiceListDesTimeValue">
+															<Presentation/>
+															<Value xsi:type="xs:boolean">true</Value>
+														</app:value>
+													</app:item>
+												</ChoiceParameters>
 												<ContextMenu name="РасшифровкаВыручкиПроектКонтекстноеМеню" id="767"/>
 												<ExtendedTooltip name="РасшифровкаВыручкиПроектРасширеннаяПодсказка" id="768"/>
 											</InputField>
@@ -3944,6 +3992,14 @@
 														<ExtendedTooltip name="ЦФОПрочиеРасширеннаяПодсказка" id="709"/>
 													</InputField>
 													<InputField name="ПроектПрочие" id="710">
+														<ChoiceParameters>
+															<app:item name="Отбор.АС_ПроектУчета">
+																<app:value xsi:type="FormChoiceListDesTimeValue">
+																	<Presentation/>
+																	<Value xsi:type="xs:boolean">true</Value>
+																</app:value>
+															</app:item>
+														</ChoiceParameters>
 														<ContextMenu name="ПроектПрочиеКонтекстноеМеню" id="711"/>
 														<ExtendedTooltip name="ПроектПрочиеРасширеннаяПодсказка" id="712"/>
 													</InputField>
@@ -4286,6 +4342,14 @@
 										<ExtendedTooltip name="ЦФОРасширеннаяПодсказка" id="799"/>
 									</InputField>
 									<InputField name="Проект" id="800">
+										<ChoiceParameters>
+											<app:item name="Отбор.АС_ПроектУчета">
+												<app:value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation/>
+													<Value xsi:type="xs:boolean">true</Value>
+												</app:value>
+											</app:item>
+										</ChoiceParameters>
 										<ContextMenu name="ПроектКонтекстноеМеню" id="801"/>
 										<ExtendedTooltip name="ПроектРасширеннаяПодсказка" id="802"/>
 									</InputField>
