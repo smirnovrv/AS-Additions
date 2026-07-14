@@ -60,17 +60,12 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>АС</Vendor>
-			<Version>3.3.3.17 (78)</Version>
+			<Version>3.3.3.17 (83)</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
 			<Copyright/>
-			<VendorInformationAddress>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>https://asp-1c.ru/</v8:content>
-				</v8:item>
-			</VendorInformationAddress>
+			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 		</Properties>
@@ -112,6 +107,7 @@
 			<StyleItem>ЦветФонаВыделения</StyleItem>
 			<StyleItem>ПоясняющийОшибкуТекст</StyleItem>
 			<StyleItem>ЦветОшибкиБанковскогоСчета</StyleItem>
+			<StyleItem>НекорректныйКонтрагентЦветФонаВСписке</StyleItem>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
 			<CommonPicture>ДокументЗагруженИзБанка</CommonPicture>
 			<CommonPicture>ДополнительныеРеквизитыСведения</CommonPicture>
@@ -534,6 +530,8 @@
 			<Enum>УдалитьВидыДенежныхСредств</Enum>
 			<Enum>СпособыОплатыПлатежей</Enum>
 			<Enum>ИсточникиКурсовВалют</Enum>
+			<Enum>ИИТ_ТипПлатежаВЗаявке</Enum>
+			<Enum>ВидыСвойств</Enum>
 			<Report>ИИТ_ДанныеЖурналаПередачиВСнабжение</Report>
 			<Report>ИсторияСогласования</Report>
 			<Report>АС_НеЗакрытыеЗаказыПоставщикам</Report>

@@ -306,6 +306,23 @@
 							</Type>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="0391a53e-5c1b-4cae-8111-f5be16297719">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаВзаиморасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ff38e8ce-2ac8-4f6e-b5a7-952d9b81cc1b</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 			<TabularSection uuid="d7ed8cbb-4972-4259-bed1-91a0d776b3b6">
