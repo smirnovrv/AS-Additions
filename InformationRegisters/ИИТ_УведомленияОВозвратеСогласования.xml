@@ -95,6 +95,18 @@
 					</Type>
 				</Properties>
 			</Dimension>
+			<Dimension uuid="e0c54dae-9ab3-46cc-9cfe-b14acb099028">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Заявка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>181c5517-5d73-4eea-8b7b-873acfaee83c</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

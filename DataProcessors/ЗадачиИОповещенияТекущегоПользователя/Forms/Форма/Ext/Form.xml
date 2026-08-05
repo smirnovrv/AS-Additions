@@ -2228,6 +2228,137 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
+		<Attribute name="АС_УведомленияЕТ" id="1000001">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уведомления ЕТ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ  РАЗРЕШЕННЫЕ
+	ИИТ_УведомленияОВозвратеСогласования.Прочитано КАК Прочитано,
+	ИИТ_УведомленияОВозвратеСогласования.Заявка КАК ДокументСсылка,
+	ИИТ_УведомленияОВозвратеСогласования.Пояснение КАК Пояснение,
+	ИИТ_УведомленияОВозвратеСогласования.Ответственный КАК Ответственный,
+	ИИТ_УведомленияОВозвратеСогласования.Заявка.Статус КАК Статус,
+	ИИТ_УведомленияОВозвратеСогласования.Заявка.ОбъектСтроительства КАК ОбъектСтроительства,
+	ИИТ_УведомленияОВозвратеСогласования.Заявка.Подразделение КАК Бригада
+ИЗ
+	РегистрСведений.ИИТ_УведомленияОВозвратеСогласования КАК ИИТ_УведомленияОВозвратеСогласования
+ГДЕ
+	ИИТ_УведомленияОВозвратеСогласования.Ответственный = &amp;ТекПользователь
+	И ИИТ_УведомленияОВозвратеСогласования.Заявка ССЫЛКА Документ.ИИТ_ЕжедневныйТабельУчета
+
+</QueryText>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Прочитано</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Шрифт</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Font" ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="АС_ЕжедневныйТабель" id="1000002">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ежедневный табель</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	"Ежедневный табель" КАК ОбъектСистемы,
+	ЗадачиУниверсальныхПроцессов.Задача.СвязанныйОбъект.Дата КАК Дата,
+	"Согласуйте ежедневный табель" КАК Описание,
+	ЗадачиУниверсальныхПроцессов.Задача.СвязанныйОбъект.ОбъектСтроительства КАК ОбъектСтроительства,
+	ЗадачиУниверсальныхПроцессов.Задача.СвязанныйОбъект.Ссылка КАК Ссылка,
+	Заместители.ЗамещаемыйПользователь КАК ЗамещаемыйПользователь,
+	ЗадачиУниверсальныхПроцессов.Задача.СвязанныйОбъект.Подразделение КАК Бригада
+ИЗ
+	РегистрСведений.ОтложеннаяОбработкаЭтаповПроцессов КАК ЗадачиУниверсальныхПроцессов
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Заместители КАК Заместители
+		ПО ЗадачиУниверсальныхПроцессов.Ответственный = Заместители.ЗамещаемыйПользователь
+ГДЕ
+	ЗадачиУниверсальныхПроцессов.Выполнено = ЛОЖЬ
+	И ЗадачиУниверсальныхПроцессов.ВидДействия В (ЗНАЧЕНИЕ(Перечисление.СобытияОтложеннойОбработкиПроцессов.ОбработкаЭтапаСогласования), ЗНАЧЕНИЕ(Перечисление.СобытияОтложеннойОбработкиПроцессов.ДополнительноеСогласованиеЭтапа))
+	И ЗадачиУниверсальныхПроцессов.Задача.СвязанныйОбъект ССЫЛКА Документ.ИИТ_ЕжедневныйТабельУчета
+	И ЗадачиУниверсальныхПроцессов.ДокументПроцесса.ПометкаУдаления = ЛОЖЬ
+	И (ЗадачиУниверсальныхПроцессов.Ответственный = &amp;ТекПользователь
+			ИЛИ Заместители.Заместитель = &amp;ТекПользователь)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Ежедневный табель",
+	ИИТ_УведомленияОВозвратеСогласования.ДатаСоздания,
+	ИИТ_УведомленияОВозвратеСогласования.Пояснение,
+	ИИТ_УведомленияОВозвратеСогласования.Заявка.ОбъектСтроительства,
+	ИИТ_УведомленияОВозвратеСогласования.Заявка,
+	NULL,
+	ИИТ_УведомленияОВозвратеСогласования.Заявка.Подразделение
+ИЗ
+	РегистрСведений.ИИТ_УведомленияОВозвратеСогласования КАК ИИТ_УведомленияОВозвратеСогласования
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Заместители КАК Заместители
+		ПО ИИТ_УведомленияОВозвратеСогласования.Ответственный = Заместители.ЗамещаемыйПользователь
+ГДЕ
+	ИИТ_УведомленияОВозвратеСогласования.Заявка ССЫЛКА Документ.ИИТ_ЗаявкаНаЗакуп
+	И (ИИТ_УведомленияОВозвратеСогласования.Ответственный = &amp;ТекПользователь
+			ИЛИ Заместители.Заместитель = &amp;ТекПользователь)</QueryText>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ИИТ_ВыборкаПериода" id="1000000">

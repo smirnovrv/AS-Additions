@@ -64,6 +64,36 @@
 					</Type>
 				</Properties>
 			</Dimension>
+			<Dimension uuid="00164975-c362-4c21-8b70-9b80ecff1905">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаНачала</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8b681cbc-785d-4db6-8258-ad09df1efa87</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="cb4975dc-6e13-419b-ae2f-87acd764c73d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаОкончания</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dc6461ff-ce96-4342-90c1-12a4404b7fb9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

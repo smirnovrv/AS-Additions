@@ -60,7 +60,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>АС</Vendor>
-			<Version>3.3.3.17 (83)</Version>
+			<Version>3.3.3.17 (91)</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -256,6 +256,7 @@
 			<Catalog>ИИТ_Конфигурации</Catalog>
 			<Catalog>ИИТ_ПлоскаяНоменклатура</Catalog>
 			<Catalog>ИИТ_Размеры</Catalog>
+			<Catalog>ИИТ_СтатусыЗаявкиНаЗакуп</Catalog>
 			<Catalog>ИИТ_Цвета</Catalog>
 			<Catalog>Кассы</Catalog>
 			<Catalog>КатегорииСобытийОповещений</Catalog>
@@ -308,9 +309,9 @@
 			<Catalog>ФункциональныеНаправления</Catalog>
 			<Catalog>ХарактеристикиНоменклатуры</Catalog>
 			<Catalog>ЦелиРасходаМатериалов</Catalog>
+			<Catalog>ШаблонЦепочкиПлатежей</Catalog>
 			<Catalog>ШаблоныУниверсальныхПроцессов</Catalog>
 			<Catalog>ЭтапыУниверсальныхПроцессов</Catalog>
-			<Catalog>ШаблонЦепочкиПлатежей</Catalog>
 			<Document>АвансовыйОтчет</Document>
 			<Document>АвизоМПЗВходящее</Document>
 			<Document>АвизоМПЗИсходящее</Document>
@@ -324,6 +325,8 @@
 			<Document>АктОРасхождениях</Document>
 			<Document>АктОРасхожденияхПолученный</Document>
 			<Document>АктСверкиВзаиморасчетов</Document>
+			<Document>АС_Договор</Document>
+			<Document>АС_КС2</Document>
 			<Document>АС_ЭкземплярБюджета</Document>
 			<Document>БольничныйЛист</Document>
 			<Document>ВводНачальныхОстатков</Document>
@@ -349,6 +352,7 @@
 			<Document>ЗаявлениеОВвозеТоваров</Document>
 			<Document>ЗаявлениеОЗачетеВСчетПредстоящейОбязанности</Document>
 			<Document>ИзменениеУсловийАренды</Document>
+			<Document>ИИТ_ЕжедневныйТабельУчета</Document>
 			<Document>ИИТ_ЗаявкаНаЗакуп</Document>
 			<Document>ИИТ_ПеремещениеДенежныхСредствПодотчетныхЛиц</Document>
 			<Document>ИнвентаризацияНЗП</Document>
@@ -451,8 +455,6 @@
 			<Document>ФормированиеЗаписейРаздела7ДекларацииНДС</Document>
 			<Document>ФормированиеУставногоКапитала</Document>
 			<Document>ЭкземплярПроцесса</Document>
-			<Document>АС_КС2</Document>
-			<Document>АС_Договор</Document>
 			<DocumentJournal>Деньги</DocumentJournal>
 			<DocumentJournal>ЖурналОпераций</DocumentJournal>
 			<Enum>ИнструментыРазмещенияОстатков</Enum>

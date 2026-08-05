@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="785cc903-4488-4453-a741-8d036d91cab5">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИИТ_СтатусыЗаявкиНаЗакуп" category="Object">
+				<xr:TypeId>9f71c279-6cdd-4dce-a4a7-95628420c691</xr:TypeId>
+				<xr:ValueId>e4413a15-049c-4223-88f9-1dd96a2c8340</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИИТ_СтатусыЗаявкиНаЗакуп" category="Ref">
+				<xr:TypeId>85247800-94da-41d6-95b8-17d3e22cf33f</xr:TypeId>
+				<xr:ValueId>d74a0bfa-43aa-4e2f-bb72-2eedbb8650d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИИТ_СтатусыЗаявкиНаЗакуп" category="Selection">
+				<xr:TypeId>0c379368-d077-4c4e-93ae-12b0108c25ce</xr:TypeId>
+				<xr:ValueId>42c4210c-e928-46bb-a1a4-9905c8a7a6c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИИТ_СтатусыЗаявкиНаЗакуп" category="List">
+				<xr:TypeId>3070ec08-3ef4-4b40-8c2a-908d24940720</xr:TypeId>
+				<xr:ValueId>56d0e24e-4b44-45a1-add0-31cd6de06167</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИИТ_СтатусыЗаявкиНаЗакуп" category="Manager">
+				<xr:TypeId>3b7110b1-c912-4f02-a82a-b2a90da59902</xr:TypeId>
+				<xr:ValueId>65f77aa2-c720-403e-a1aa-d9a951f25c4c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИИТ_СтатусыЗаявкиНаЗакуп</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>74cc09d3-308a-4591-82cc-04d06d709c8f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
