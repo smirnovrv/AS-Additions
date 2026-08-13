@@ -545,6 +545,14 @@
 										<CommandName>0</CommandName>
 										<ExtendedTooltip name="ТоварыВставитьСтрокиРасширеннаяПодсказка" id="628"/>
 									</Button>
+									<SearchStringAddition name="Дополнение1" id="815">
+										<AdditionSource>
+											<Item>Товары</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="Дополнение1КонтекстноеМеню" id="816"/>
+										<ExtendedTooltip name="Дополнение1РасширеннаяПодсказка" id="817"/>
+									</SearchStringAddition>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="ТоварыExtendedTooltip" id="452"/>

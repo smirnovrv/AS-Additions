@@ -680,7 +680,7 @@
 		<Metadata name="CommonPicture.ЧекиНПДОжиданиеОтправки" id="ad292cd5-fef4-4d2f-97c8-518c84dca61e" configVersion="6e4b88ff0c3a3c9ad870ba59c630afe67fac58cf"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_Т1" id="c0c86f57-f2e0-43f4-85f1-20520e10f16b" configVersion="08ed6fe41e0440c8af232f2594c39747cc62a915"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_Т1.Template" id="c0c86f57-f2e0-43f4-85f1-20520e10f16b.0" configVersion="78e18860777fc7b9bc35f3a276d459c64c547b44"/>
-		<Metadata name="Configuration.АЛФ_Доработки" id="ce059e04-e90f-4f6f-ac0a-97a36c55a6fd" configVersion="d348bba71a051716ccbfdc319fb1684461e1bdb4"/>
+		<Metadata name="Configuration.АЛФ_Доработки" id="ce059e04-e90f-4f6f-ac0a-97a36c55a6fd" configVersion="4c01b6e226aaffb1ea7e1a8489bd7a466d3d9003"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя" id="43a0aab6-e22b-44c9-841d-03689ac9d92b" configVersion="2d338aa12d1f0a59726898aa8ebf644b3876a112"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя.Form.Форма" id="e2911d71-ce5d-46d0-98c4-2cf3719d83cf" configVersion="f80a1563fed7fc224d82645f3e16edd2c3d6d84b"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя.Form.Форма.Form" id="e2911d71-ce5d-46d0-98c4-2cf3719d83cf.0" configVersion="c83a63afc6c9855de98b35a74e1d12ac802983a4"/>
@@ -1237,7 +1237,7 @@
 			<Metadata name="Document.ПередачаТоваров.Attribute.Контрагент" id="512c5654-681e-43dc-bd81-2502f153e3cb"/>
 		</Metadata>
 		<Metadata name="Document.ПеремещениеОС" id="70278a98-56d7-44e0-99b5-751db046d434" configVersion="b0e46f7a49b915684ac27ecd1c05dfd0f5e8bc4d"/>
-		<Metadata name="Document.ПеремещениеТоваров" id="3578858a-59f8-4e09-a00f-c69b4b400f71" configVersion="0ae91dd9c1edca8961dd9bf0c66b9e8502d60cb0">
+		<Metadata name="Document.ПеремещениеТоваров" id="3578858a-59f8-4e09-a00f-c69b4b400f71" configVersion="c151183dfda3d8b4732c7f97663fc78afa0183e3">
 			<Metadata name="Document.ПеремещениеТоваров.Attribute.ОбъектПолучатель" id="04d48531-8f4d-46f4-921c-6bfdeba9e171"/>
 			<Metadata name="Document.ПеремещениеТоваров.TabularSection.ТоварыНаКомиссии.Attribute.Номенклатура" id="0d495a45-0563-4082-a531-61fc9a397263"/>
 			<Metadata name="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.ДокументОприходования" id="10e67cea-2aac-432b-896b-f0383cabd0a5"/>
@@ -1306,9 +1306,9 @@
 			<Metadata name="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Коэффициент" id="f615ecae-3adf-46e2-b2f2-a82b6d17937f"/>
 		</Metadata>
 		<Metadata name="Document.ПеремещениеТоваров.Form.ФормаДокумента" id="cbc4603a-e209-4503-9f44-84a91b6d27a5" configVersion="e3c8536b6512626f57241079aa9419df5398e14f"/>
-		<Metadata name="Document.ПеремещениеТоваров.Form.ФормаДокумента.Form" id="cbc4603a-e209-4503-9f44-84a91b6d27a5.0" configVersion="55ca693174705bdac53772dba1fd6a35f527ac2e"/>
+		<Metadata name="Document.ПеремещениеТоваров.Form.ФормаДокумента.Form" id="cbc4603a-e209-4503-9f44-84a91b6d27a5.0" configVersion="ab4fe279969c0a6e5c8ec8c164d4f50e44bc7e13"/>
 		<Metadata name="Document.ПеремещениеТоваров.ManagerModule" id="3578858a-59f8-4e09-a00f-c69b4b400f71.2" configVersion="0e0adc573abef7345f58d0b579669cc3fcb1e949"/>
-		<Metadata name="Document.ПеремещениеТоваров.ObjectModule" id="3578858a-59f8-4e09-a00f-c69b4b400f71.0" configVersion="181c920c0fd0fc9e9a2fb42e3907b89946d2f49a"/>
+		<Metadata name="Document.ПеремещениеТоваров.ObjectModule" id="3578858a-59f8-4e09-a00f-c69b4b400f71.0" configVersion="e5ceca054b8abdd4e14c96bec3251f8305c77515"/>
 		<Metadata name="Document.ПереоценкаТоваровВРознице" id="e6f3b218-e43e-48b3-adb6-61c8af8dd560" configVersion="35e0d1e3238f5e4df7bec992f9f8306e4a1c6a8d"/>
 		<Metadata name="Document.ПлатежноеПоручение" id="d587565d-fb89-47f8-94d6-afdad6d975e3" configVersion="78466e2007b280a3fa8f77eee0588326b0ef7d6e">
 			<Metadata name="Document.ПлатежноеПоручение.Attribute.Контрагент" id="b71ffecd-3d5e-4a0e-a995-d2c64d790e27"/>
