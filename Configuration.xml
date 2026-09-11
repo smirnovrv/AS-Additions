@@ -60,7 +60,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>АС</Vendor>
-			<Version>3.3.3.17 (93)</Version>
+			<Version>3.3.3.17 (96)</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -73,6 +73,7 @@
 			<Language>Русский</Language>
 			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>АльфаСтрой_Отчеты</Subsystem>
+			<Subsystem>АльфаСтрой_Бюджетирование</Subsystem>
 			<StyleItem>ДосьеГиперссылкаЦвет</StyleItem>
 			<StyleItem>ТекстПредопределенногоЗначения</StyleItem>
 			<StyleItem>ПросроченныеДанныеЦвет</StyleItem>

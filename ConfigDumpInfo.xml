@@ -557,7 +557,7 @@
 		<Metadata name="CommonCommand.УниверсальноеСогласование_ПринятьКСогласованию" id="ccf85d77-5c4f-463a-bd80-c0329569e491" configVersion="5ef3fb77f26b4966e435c451dba252af89ceff35"/>
 		<Metadata name="CommonCommand.УниверсальноеСогласование_ПринятьКСогласованию.CommandModule" id="ccf85d77-5c4f-463a-bd80-c0329569e491.2" configVersion="392a215a786b89f9d246e4a38ff5d47a4b26e359"/>
 		<Metadata name="CommonForm.КомментарийИСогласование" id="495bfb6b-c26c-4860-925e-8fd5ad860dcb" configVersion="ae85109068a85f7a6f59bc0bd2b727f9a409f56e"/>
-		<Metadata name="CommonForm.КомментарийИСогласование.Form" id="495bfb6b-c26c-4860-925e-8fd5ad860dcb.0" configVersion="34675ce7ccad653e4988008365424f3c8e4d2d80"/>
+		<Metadata name="CommonForm.КомментарийИСогласование.Form" id="495bfb6b-c26c-4860-925e-8fd5ad860dcb.0" configVersion="b9a5bb1e880fae7a39bdb1c79e028a063334f29b"/>
 		<Metadata name="CommonModule.БанковскиеСчетаФормыКлиентСервер" id="65d5ad80-d4ec-4d56-ab24-e92423d619a1" configVersion="cc217efe87d84a0120e01f5a9c44b69911b0ecb8"/>
 		<Metadata name="CommonModule.БанковскиеСчетаФормыКлиентСервер.Module" id="65d5ad80-d4ec-4d56-ab24-e92423d619a1.0" configVersion="56c630270c52a3aff30b1760614617ca3aacc556"/>
 		<Metadata name="CommonModule.ВстраиваниеУХВызовСервера" id="d510213c-dac1-4a5d-a86d-6bc35222c07e" configVersion="491df92db6591fefefade9d23f945c0c4e036427"/>
@@ -566,16 +566,16 @@
 		<Metadata name="CommonModule.ДатыЗапретаИзменения.Module" id="2d577b39-0548-44de-a8b7-a49913e909c5.0" configVersion="f58498ee6065e7e3277b9b9bce21b6cde3e89aa0"/>
 		<Metadata name="CommonModule.ДатыЗапретаИзмененияБП" id="7cf5de20-1449-427a-8bfe-18c2b2b8c7c9" configVersion="abf1d94542944912cfb7a0617b4fbbe12bf22915"/>
 		<Metadata name="CommonModule.ДатыЗапретаИзмененияБП.Module" id="7cf5de20-1449-427a-8bfe-18c2b2b8c7c9.0" configVersion="91be2ef71dcdd7aa5b68de0f6315d62ab6ff508d"/>
-		<Metadata name="CommonModule.ДействияСогласованиеУХКлиент" id="721d88cb-01ee-4bb3-a368-9ab69910f4e7" configVersion="b8e505012d9d056914c1fd60167807cdce3173a0"/>
-		<Metadata name="CommonModule.ДействияСогласованиеУХКлиент.Module" id="721d88cb-01ee-4bb3-a368-9ab69910f4e7.0" configVersion="e4431ffae9e6bb13b99b1d9ccc5f45b3045b28f2"/>
+		<Metadata name="CommonModule.ДействияСогласованиеУХКлиент" id="721d88cb-01ee-4bb3-a368-9ab69910f4e7" configVersion="7110c182c06bd87da298956c5aeec6d7d96962c4"/>
+		<Metadata name="CommonModule.ДействияСогласованиеУХКлиент.Module" id="721d88cb-01ee-4bb3-a368-9ab69910f4e7.0" configVersion="d783fcc4b1d5b8c0e8ca5c8132b395f2cd3f3fb7"/>
 		<Metadata name="CommonModule.ДоговорыКонтрагентовВстраиваниеУХ" id="e23d3b22-6f50-4ea4-8712-0395b0a5f108" configVersion="6014b7b8d99f5d55cd21af2503062597979dc554"/>
 		<Metadata name="CommonModule.ДоговорыКонтрагентовВстраиваниеУХ.Module" id="e23d3b22-6f50-4ea4-8712-0395b0a5f108.0" configVersion="9d7be7fdf31e2d1432c432b710ff3fe0df1283d4"/>
 		<Metadata name="CommonModule.ДоговорыКонтрагентовФормыУХКлиентСервер" id="97356bd0-2a40-4be1-8773-5bf129fed3c3" configVersion="20b298e85c26853d8c439a6aa35dee48fadc0f92"/>
 		<Metadata name="CommonModule.ДоговорыКонтрагентовФормыУХКлиентСервер.Module" id="97356bd0-2a40-4be1-8773-5bf129fed3c3.0" configVersion="c798b83ab38780e2b22d30ed02cd8a9e0485299f"/>
 		<Metadata name="CommonModule.ИИТ_ВспомогательныеФункцииСервер" id="2799f769-7082-4256-a8bb-861fcaa9280c" configVersion="d3a01f494e2616bcb93fd91665b58ce9d634d759"/>
 		<Metadata name="CommonModule.ИИТ_ВспомогательныеФункцииСервер.Module" id="2799f769-7082-4256-a8bb-861fcaa9280c.0" configVersion="dd027c723c4567e2f13c7f1c41ed5aace0b09e10"/>
-		<Metadata name="CommonModule.МодульУправленияПроцессамиУХ" id="9183b3d4-b5e8-43bd-9b99-b7f1d9422a92" configVersion="db3a1515f68bdefca3dacb716be9a0ed76e30f1e"/>
-		<Metadata name="CommonModule.МодульУправленияПроцессамиУХ.Module" id="9183b3d4-b5e8-43bd-9b99-b7f1d9422a92.0" configVersion="4e2d3f4a290ea9dec036a5276491074670466b82"/>
+		<Metadata name="CommonModule.МодульУправленияПроцессамиУХ" id="9183b3d4-b5e8-43bd-9b99-b7f1d9422a92" configVersion="f6c20c70619a88dc92a1e2b9fd00d663e2800145"/>
+		<Metadata name="CommonModule.МодульУправленияПроцессамиУХ.Module" id="9183b3d4-b5e8-43bd-9b99-b7f1d9422a92.0" configVersion="0a3dad5f96d4483a8ea4c5bf90a0f7c0c11abda8"/>
 		<Metadata name="CommonModule.МониторПортала1СИТС" id="58553467-7475-45d5-a21e-967b6502a1de" configVersion="a11aa46ddfbca023d4b2a562a91c4f092538a7b5"/>
 		<Metadata name="CommonModule.МониторПортала1СИТС.Module" id="58553467-7475-45d5-a21e-967b6502a1de.0" configVersion="540518664806e931160e616c294d31feb71928d7"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="36885afc-1290-4d3a-84ad-cdbd6b80f862" configVersion="6fcd116b09723a7331547a84f6b9afa52f626e52"/>
@@ -680,10 +680,10 @@
 		<Metadata name="CommonPicture.ЧекиНПДОжиданиеОтправки" id="ad292cd5-fef4-4d2f-97c8-518c84dca61e" configVersion="6e4b88ff0c3a3c9ad870ba59c630afe67fac58cf"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_Т1" id="c0c86f57-f2e0-43f4-85f1-20520e10f16b" configVersion="08ed6fe41e0440c8af232f2594c39747cc62a915"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_Т1.Template" id="c0c86f57-f2e0-43f4-85f1-20520e10f16b.0" configVersion="78e18860777fc7b9bc35f3a276d459c64c547b44"/>
-		<Metadata name="Configuration.АЛФ_Доработки" id="ce059e04-e90f-4f6f-ac0a-97a36c55a6fd" configVersion="4c01b6e226aaffb1ea7e1a8489bd7a466d3d9003"/>
+		<Metadata name="Configuration.АЛФ_Доработки" id="ce059e04-e90f-4f6f-ac0a-97a36c55a6fd" configVersion="8fba19a6085c3a54b1d271311afc1510e5be8bbc"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя" id="43a0aab6-e22b-44c9-841d-03689ac9d92b" configVersion="2d338aa12d1f0a59726898aa8ebf644b3876a112"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя.Form.Форма" id="e2911d71-ce5d-46d0-98c4-2cf3719d83cf" configVersion="f80a1563fed7fc224d82645f3e16edd2c3d6d84b"/>
-		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя.Form.Форма.Form" id="e2911d71-ce5d-46d0-98c4-2cf3719d83cf.0" configVersion="c83a63afc6c9855de98b35a74e1d12ac802983a4"/>
+		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя.Form.Форма.Form" id="e2911d71-ce5d-46d0-98c4-2cf3719d83cf.0" configVersion="7d30d0200b9d9c77c2d36ae8db974d309a932805"/>
 		<Metadata name="DataProcessor.ИИТ_ПроставитьПраваДоступаДоОрганизаций" id="8c9716a0-5b05-46cd-9213-c8870be7be58" configVersion="b0b922aed97106626a8bee140cc0033e66620136"/>
 		<Metadata name="DataProcessor.РаботаСФайлами" id="ba45520a-9d14-41cd-81cc-10f2735c75ae" configVersion="30e64a169e51764aee80abcd14d533ee0a3e154b"/>
 		<Metadata name="DataProcessor.РаботаСФайлами.Form.ПрисоединенныеФайлы" id="806a788c-0376-4db8-bea0-c7f13502140e" configVersion="67eec46d5e6430d54df193f3893c41643f7749a9"/>
@@ -2094,6 +2094,7 @@
 		<Metadata name="StyleItem.ШрифтТекстаБаннера" id="276e1974-46ce-49a9-9bcc-7ae86a33b797" configVersion="21a7a342d4795d6037240de2ccd74fec55d8d563"/>
 		<Metadata name="Subsystem.Администрирование" id="c1259235-dbdc-42e5-b2d7-a95049f41e1f" configVersion="b30813e45d534a1742121328fc6581911c6456e6"/>
 		<Metadata name="Subsystem.Администрирование.Subsystem.ОтчетыИОбработки" id="4fb3e2c6-a41c-418c-ad2e-ceb457da056c" configVersion="b44dfc68dd687fbc4acd7f29ff0959e2cf281222"/>
-		<Metadata name="Subsystem.АльфаСтрой_Отчеты" id="89dfbfae-d986-4f10-9e5d-37302d969e6e" configVersion="8aadf43a5f7240f44540ed576c37ab0b654ac647"/>
+		<Metadata name="Subsystem.АльфаСтрой_Бюджетирование" id="6053108d-2858-45b6-ada0-36e6956b3260" configVersion="95f166c30f9144d7191de513a9898839430c8904"/>
+		<Metadata name="Subsystem.АльфаСтрой_Отчеты" id="89dfbfae-d986-4f10-9e5d-37302d969e6e" configVersion="5b082594faf63544831dff650f63199aa8b49288"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
