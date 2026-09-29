@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="c63054da-8d9e-4118-a9c8-a2cb1b9b7ddc">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЭтапыРаздельнойЗакупки" category="Object">
+				<xr:TypeId>9572bc3e-acac-4178-bd97-08b1de43da3a</xr:TypeId>
+				<xr:ValueId>ea74be44-d1b8-477d-a781-853ff56bf8e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЭтапыРаздельнойЗакупки" category="Ref">
+				<xr:TypeId>04fd72a3-1693-430e-b4fb-2dbd173ab715</xr:TypeId>
+				<xr:ValueId>84a266d1-4901-4ef0-84dc-f86ab1320062</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЭтапыРаздельнойЗакупки" category="Selection">
+				<xr:TypeId>8224c3ae-60d5-4386-9e4c-9e4afece0454</xr:TypeId>
+				<xr:ValueId>c2e6954e-ddd4-4985-96bc-0629bc3bce8e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЭтапыРаздельнойЗакупки" category="List">
+				<xr:TypeId>dd9a30bf-40f0-435d-baf5-095a32f5b2e9</xr:TypeId>
+				<xr:ValueId>05866878-0c34-4afe-b50a-1e1711df5dc4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЭтапыРаздельнойЗакупки" category="Manager">
+				<xr:TypeId>58dd7e9f-2487-48a7-8b09-da32d849bb19</xr:TypeId>
+				<xr:ValueId>2f79afe0-3f56-45d0-afb5-351fe873c588</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЭтапыРаздельнойЗакупки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>06d29b96-4d12-4d54-a3cc-36ab6107c198</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -408,6 +408,42 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="e0e95a25-c154-4567-9bc2-382e84aebc41">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЭтапРаздельнойЗакупки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>05424f27-b0e4-49e0-a195-99c158c55152</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЭтапыРаздельнойЗакупки</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="830fb832-280b-41fb-9bbf-2422d80790a8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СкладВСписке</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>adba8913-a2a6-4217-bd9b-43980124b529</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="529ec9d0-9db9-4d5a-b6bb-f1604e81dda6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>УсловиеОплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>07c2328c-bfad-4309-8f7a-4d1c1028e55a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.УсловияОплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаСписка</Form>
 			<Form>ФормаДокументаОбщая</Form>
 			<Form>ФормаДокументаТовары</Form>
@@ -833,6 +869,18 @@
 							<ExtendedConfigurationObject>0faa80a2-8a4b-4882-88bf-f343e422ab71</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c18843ca-2f5d-48db-9319-0d80e1409373">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Склад</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>97d012d9-986c-49c1-b647-cdf6de9eacc2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 							</Type>
 						</Properties>
 					</Attribute>
