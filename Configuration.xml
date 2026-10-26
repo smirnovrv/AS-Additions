@@ -31,6 +31,10 @@
 				<xr:ObjectId>5a50489c-eabc-492e-8026-731a386728c8</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:PropertyState>
+				<xr:Property>ManagedApplicationModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
 				<xr:Property>CommandInterface</xr:Property>
 				<xr:State>Extended</xr:State>
 			</xr:PropertyState>
@@ -60,7 +64,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>АС</Vendor>
-			<Version>3.3.3.17 (101)</Version>
+			<Version>3.3.3.17 (107)</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>

@@ -2449,9 +2449,8 @@
 							<DataPath>Объект.НазначениеПлатежа</DataPath>
 							<TitleLocation>Left</TitleLocation>
 							<TitleHeight>2</TitleHeight>
-							<Width>95</Width>
 							<AutoMaxWidth>false</AutoMaxWidth>
-							<MaxWidth>95</MaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
 							<Height>4</Height>
 							<VerticalStretch>false</VerticalStretch>
 							<MultiLine>true</MultiLine>
