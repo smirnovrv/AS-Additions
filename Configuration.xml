@@ -64,7 +64,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>АС</Vendor>
-			<Version>3.3.3.17 (107)</Version>
+			<Version>3.3.3.17 (115)</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -202,6 +202,7 @@
 			<CommonModule>УчетНДСБП</CommonModule>
 			<CommonModule>УправлениеДоступомСлужебный</CommonModule>
 			<CommonModule>ДоговорыКонтрагентовФормыУХКлиентСервер</CommonModule>
+			<CommonModule>ЗаявкиНаОперации</CommonModule>
 			<CommonModule>ИИТ_ВспомогательныеФункцииСервер</CommonModule>
 			<CommonModule>МониторПортала1СИТС</CommonModule>
 			<CommonModule>УправлениеПроцессамиСогласованияУХ</CommonModule>
@@ -548,6 +549,8 @@
 			<DataProcessor>ЗадачиИОповещенияТекущегоПользователя</DataProcessor>
 			<DataProcessor>РаботаСФайлами</DataProcessor>
 			<DataProcessor>ТОРГ12РаспознаваниеДокументов</DataProcessor>
+			<DataProcessor>АЛФ_ВыгрузкаПлатежейKLAD</DataProcessor>
+			<DataProcessor>АЛФ_ЦепочкаПравДоступа</DataProcessor>
 			<InformationRegister>АналитикаПланированияРасчетовСКонтрагентами</InformationRegister>
 			<InformationRegister>АС_ИсторияИзмененияОклада</InformationRegister>
 			<InformationRegister>АС_ПрисоединенныеФайлы</InformationRegister>

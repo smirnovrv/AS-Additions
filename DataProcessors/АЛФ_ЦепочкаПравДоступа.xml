@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="e6fa0ec3-0046-4340-b261-3a892c727278">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.АЛФ_ЦепочкаПравДоступа" category="Object">
+				<xr:TypeId>b9434f19-97d3-4900-9a98-7a6836c1df7c</xr:TypeId>
+				<xr:ValueId>f78cca8d-c6cd-45dc-a9e1-fcc34aceb1ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.АЛФ_ЦепочкаПравДоступа" category="Manager">
+				<xr:TypeId>c55dfeb0-b825-40ca-8cc5-d467632866b7</xr:TypeId>
+				<xr:ValueId>62f6e872-5ed7-4483-bc2b-d6285c40756b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АЛФ_ЦепочкаПравДоступа</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цепочка прав доступа</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Объект метаданных → Роль → Профиль → Группа доступа → Пользователь</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.АЛФ_ЦепочкаПравДоступа.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывает цепочку выдачи прав: объект метаданных → роль → профиль групп доступа → группа доступа → пользователь.
+Учитываются записи регистра ПраваРолей (наличие записи = право «Чтение») и права расширений через УправлениеДоступомСлужебный.ПраваРолейРасширений.
+Не учитывает RLS по значениям, права на реквизиты/команды/формы и интерактивные ограничения сверх флагов регистра.</v8:content>
+				</v8:item>
+			</Explanation>
+		</Properties>
+		<ChildObjects>
+			<Form>Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

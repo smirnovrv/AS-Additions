@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаСформировать" id="1">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.Сформировать</CommandName>
+				<ExtendedTooltip name="ФормаСформироватьРасширеннаяПодсказка" id="2"/>
+			</Button>
+			<Button name="ФормаОчиститьРезультат" id="3">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОчиститьРезультат</CommandName>
+				<ExtendedTooltip name="ФормаОчиститьРезультатРасширеннаяПодсказка" id="4"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаОтбор" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>true</ShowTitle>
+			<ExtendedTooltip name="ГруппаОтборРасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаОтборСтрока1" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор строка 1</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаОтборСтрока1РасширеннаяПодсказка" id="13"/>
+					<ChildItems>
+						<InputField name="ОбъектМетаданных" id="14">
+							<DataPath>ОбъектМетаданных</DataPath>
+							<ClearButton>true</ClearButton>
+							<ContextMenu name="ОбъектМетаданныхКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="ОбъектМетаданныхРасширеннаяПодсказка" id="16"/>
+						</InputField>
+						<InputField name="Пользователь" id="17">
+							<DataPath>Пользователь</DataPath>
+							<ClearButton>true</ClearButton>
+							<ContextMenu name="ПользовательКонтекстноеМеню" id="18"/>
+							<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="19"/>
+						</InputField>
+						<CheckBoxField name="ТолькоИзменение" id="20">
+							<DataPath>ТолькоИзменение</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ТолькоИзменениеКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="ТолькоИзменениеРасширеннаяПодсказка" id="22"/>
+						</CheckBoxField>
+						<LabelDecoration name="НадписьКоличество" id="23">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Строк: 0</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="НадписьКоличествоКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="НадписьКоличествоРасширеннаяПодсказка" id="25"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаОтборСтрока2" id="26">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор строка 2</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаОтборСтрока2РасширеннаяПодсказка" id="27"/>
+					<ChildItems>
+						<InputField name="Роль" id="28">
+							<DataPath>Роль</DataPath>
+							<ClearButton>true</ClearButton>
+							<ContextMenu name="РольКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="РольРасширеннаяПодсказка" id="30"/>
+						</InputField>
+						<InputField name="Профиль" id="31">
+							<DataPath>Профиль</DataPath>
+							<ClearButton>true</ClearButton>
+							<ContextMenu name="ПрофильКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="ПрофильРасширеннаяПодсказка" id="33"/>
+						</InputField>
+						<InputField name="ГруппаДоступа" id="34">
+							<DataPath>ГруппаДоступа</DataPath>
+							<ClearButton>true</ClearButton>
+							<ContextMenu name="ГруппаДоступаКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="ГруппаДоступаРасширеннаяПодсказка" id="36"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<LabelDecoration name="НадписьПояснение" id="40">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цепочка: объект метаданных → роль → профиль → группа доступа → пользователь. Учитывается право «Чтение» (наличие записи в РС.ПраваРолей) и права расширений. Обязателен отбор по объекту и/или пользователю. Не показывает RLS по значениям и права на реквизиты.</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="НадписьПояснениеКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="НадписьПояснениеРасширеннаяПодсказка" id="42"/>
+		</LabelDecoration>
+		<Table name="Цепочка" id="50">
+			<Representation>List</Representation>
+			<ReadOnly>true</ReadOnly>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<DataPath>Цепочка</DataPath>
+			<CommandSet>
+				<ExcludedCommand>Add</ExcludedCommand>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
+			</CommandSet>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ЦепочкаКонтекстноеМеню" id="51"/>
+			<AutoCommandBar name="ЦепочкаКоманднаяПанель" id="52">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ЦепочкаРасширеннаяПодсказка" id="53"/>
+			<SearchStringAddition name="ЦепочкаСтрокаПоиска" id="54">
+				<AdditionSource>
+					<Item>Цепочка</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЦепочкаСтрокаПоискаКонтекстноеМеню" id="55"/>
+				<ExtendedTooltip name="ЦепочкаСтрокаПоискаРасширеннаяПодсказка" id="56"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ЦепочкаСостояниеПросмотра" id="57">
+				<AdditionSource>
+					<Item>Цепочка</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЦепочкаСостояниеПросмотраКонтекстноеМеню" id="58"/>
+				<ExtendedTooltip name="ЦепочкаСостояниеПросмотраРасширеннаяПодсказка" id="59"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ЦепочкаУправлениеПоиском" id="60">
+				<AdditionSource>
+					<Item>Цепочка</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ЦепочкаУправлениеПоискомКонтекстноеМеню" id="61"/>
+				<ExtendedTooltip name="ЦепочкаУправлениеПоискомРасширеннаяПодсказка" id="62"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ЦепочкаОбъектПолноеИмя" id="100">
+					<DataPath>Цепочка.ОбъектПолноеИмя</DataPath>
+					<ContextMenu name="ЦепочкаОбъектПолноеИмяКонтекстноеМеню" id="101"/>
+					<ExtendedTooltip name="ЦепочкаОбъектПолноеИмяРасширеннаяПодсказка" id="102"/>
+				</InputField>
+				<InputField name="ЦепочкаОбъектСиноним" id="103">
+					<DataPath>Цепочка.ОбъектСиноним</DataPath>
+					<ContextMenu name="ЦепочкаОбъектСинонимКонтекстноеМеню" id="104"/>
+					<ExtendedTooltip name="ЦепочкаОбъектСинонимРасширеннаяПодсказка" id="105"/>
+				</InputField>
+				<InputField name="ЦепочкаРольПолноеИмя" id="106">
+					<DataPath>Цепочка.РольПолноеИмя</DataPath>
+					<ContextMenu name="ЦепочкаРольПолноеИмяКонтекстноеМеню" id="107"/>
+					<ExtendedTooltip name="ЦепочкаРольПолноеИмяРасширеннаяПодсказка" id="108"/>
+				</InputField>
+				<InputField name="ЦепочкаРольСиноним" id="109">
+					<DataPath>Цепочка.РольСиноним</DataPath>
+					<ContextMenu name="ЦепочкаРольСинонимКонтекстноеМеню" id="110"/>
+					<ExtendedTooltip name="ЦепочкаРольСинонимРасширеннаяПодсказка" id="111"/>
+				</InputField>
+				<InputField name="ЦепочкаПрофиль" id="112">
+					<DataPath>Цепочка.Профиль</DataPath>
+					<ContextMenu name="ЦепочкаПрофильКонтекстноеМеню" id="113"/>
+					<ExtendedTooltip name="ЦепочкаПрофильРасширеннаяПодсказка" id="114"/>
+				</InputField>
+				<InputField name="ЦепочкаГруппаДоступа" id="115">
+					<DataPath>Цепочка.ГруппаДоступа</DataPath>
+					<ContextMenu name="ЦепочкаГруппаДоступаКонтекстноеМеню" id="116"/>
+					<ExtendedTooltip name="ЦепочкаГруппаДоступаРасширеннаяПодсказка" id="117"/>
+				</InputField>
+				<InputField name="ЦепочкаПользователь" id="118">
+					<DataPath>Цепочка.Пользователь</DataPath>
+					<ContextMenu name="ЦепочкаПользовательКонтекстноеМеню" id="119"/>
+					<ExtendedTooltip name="ЦепочкаПользовательРасширеннаяПодсказка" id="120"/>
+				</InputField>
+				<CheckBoxField name="ЦепочкаПравоЧтение" id="121">
+					<DataPath>Цепочка.ПравоЧтение</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЦепочкаПравоЧтениеКонтекстноеМеню" id="122"/>
+					<ExtendedTooltip name="ЦепочкаПравоЧтениеРасширеннаяПодсказка" id="123"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЦепочкаПравоИзменение" id="124">
+					<DataPath>Цепочка.ПравоИзменение</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЦепочкаПравоИзменениеКонтекстноеМеню" id="125"/>
+					<ExtendedTooltip name="ЦепочкаПравоИзменениеРасширеннаяПодсказка" id="126"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЦепочкаПравоДобавление" id="127">
+					<DataPath>Цепочка.ПравоДобавление</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЦепочкаПравоДобавлениеКонтекстноеМеню" id="128"/>
+					<ExtendedTooltip name="ЦепочкаПравоДобавлениеРасширеннаяПодсказка" id="129"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЦепочкаПравоПросмотр" id="130">
+					<DataPath>Цепочка.ПравоПросмотр</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЦепочкаПравоПросмотрКонтекстноеМеню" id="131"/>
+					<ExtendedTooltip name="ЦепочкаПравоПросмотрРасширеннаяПодсказка" id="132"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЦепочкаПравоРедактирование" id="133">
+					<DataPath>Цепочка.ПравоРедактирование</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЦепочкаПравоРедактированиеКонтекстноеМеню" id="134"/>
+					<ExtendedTooltip name="ЦепочкаПравоРедактированиеРасширеннаяПодсказка" id="135"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЦепочкаПравоЧтениеБезОграничения" id="136">
+					<DataPath>Цепочка.ПравоЧтениеБезОграничения</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЦепочкаПравоЧтениеБезОграниченияКонтекстноеМеню" id="137"/>
+					<ExtendedTooltip name="ЦепочкаПравоЧтениеБезОграниченияРасширеннаяПодсказка" id="138"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЦепочкаПравоИзменениеБезОграничения" id="139">
+					<DataPath>Цепочка.ПравоИзменениеБезОграничения</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЦепочкаПравоИзменениеБезОграниченияКонтекстноеМеню" id="140"/>
+					<ExtendedTooltip name="ЦепочкаПравоИзменениеБезОграниченияРасширеннаяПодсказка" id="141"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.АЛФ_ЦепочкаПравДоступа</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ОбъектМетаданных" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект метаданных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
+				<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовРасширений</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Роль" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Роль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
+				<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовРасширений</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Профиль" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Профиль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ПрофилиГруппДоступа</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ГруппаДоступа" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа доступа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ГруппыДоступа</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Пользователь" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользователь</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТолькоИзменение" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Только изменение</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Цепочка" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цепочка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ОбъектМетаданных" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Объект метаданных</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
+						<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовРасширений</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ОбъектПолноеИмя" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Объект (полное имя)</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОбъектСиноним" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Объект (синоним)</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Роль" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Роль</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
+						<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовРасширений</v8:Type>
+					</Type>
+				</Column>
+				<Column name="РольПолноеИмя" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Роль (полное имя)</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="РольСиноним" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Роль (синоним)</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Профиль" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Профиль</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПрофилиГруппДоступа</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ГруппаДоступа" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа доступа</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГруппыДоступа</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Пользователь" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВнешниеПользователи</v8:Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПравоЧтение" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Чтение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПравоИзменение" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПравоДобавление" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Добавление</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПравоПросмотр" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Просмотр</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПравоРедактирование" id="14">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Редактирование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПравоЧтениеБезОграничения" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Чтение без ограничения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПравоИзменениеБезОграничения" id="16">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменение без ограничения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Сформировать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Построить цепочку прав по отборам</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сформировать</Action>
+		</Command>
+		<Command name="ОчиститьРезультат" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить таблицу результата</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьРезультат</Action>
+		</Command>
+	</Commands>
+</Form>

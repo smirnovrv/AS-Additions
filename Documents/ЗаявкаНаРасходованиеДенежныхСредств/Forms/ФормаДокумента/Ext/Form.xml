@@ -2450,8 +2450,8 @@
 							<TitleLocation>Left</TitleLocation>
 							<TitleHeight>2</TitleHeight>
 							<AutoMaxWidth>false</AutoMaxWidth>
-							<HorizontalStretch>true</HorizontalStretch>
 							<Height>4</Height>
+							<HorizontalStretch>true</HorizontalStretch>
 							<VerticalStretch>false</VerticalStretch>
 							<MultiLine>true</MultiLine>
 							<ContextMenu name="НазначениеПлатежаКонтекстноеМеню" id="1366"/>

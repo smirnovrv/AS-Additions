@@ -1096,6 +1096,7 @@
 				</Properties>
 				<ChildObjects/>
 			</TabularSection>
+			<Form>ФормаВыбора</Form>
 			<Form>ФормаСписка</Form>
 			<Form>ФормаСпискаОбщая</Form>
 			<Form>ФормаЭлемента</Form>
