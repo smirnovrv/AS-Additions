@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<GroupList>2:02023637-7868-4a5f-8576-835a76e0c9ba</GroupList>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -43,7 +43,6 @@
 							<ExtendedTooltip name="ГруппаОтборВладелецРасширеннаяПодсказка" id="90"/>
 							<ChildItems>
 								<CheckBoxField name="ОтборВладелецИспользование" id="91">
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОтборВладелецИспользованиеКонтекстноеМеню" id="92"/>
 									<ExtendedTooltip name="ОтборВладелецИспользованиеРасширеннаяПодсказка" id="93"/>
 								</CheckBoxField>
@@ -69,7 +68,6 @@
 							<ExtendedTooltip name="ГруппаОтборВидДоговораРасширеннаяПодсказка" id="98"/>
 							<ChildItems>
 								<CheckBoxField name="ОтборВидДоговораИспользование" id="99">
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОтборВидДоговораИспользованиеКонтекстноеМеню" id="100"/>
 									<ExtendedTooltip name="ОтборВидДоговораИспользованиеРасширеннаяПодсказка" id="101"/>
 								</CheckBoxField>
@@ -100,7 +98,6 @@
 							<ExtendedTooltip name="ГруппаОтборВидДоговораУХРасширеннаяПодсказка" id="143"/>
 							<ChildItems>
 								<CheckBoxField name="ОтборВидДоговораУХИспользование" id="144">
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОтборВидДоговораУХИспользованиеКонтекстноеМеню" id="145"/>
 									<ExtendedTooltip name="ОтборВидДоговораУХИспользованиеРасширеннаяПодсказка" id="146"/>
 								</CheckBoxField>
@@ -142,7 +139,6 @@
 							<ExtendedTooltip name="ГруппаОтборДействуетНаРасширеннаяПодсказка" id="80"/>
 							<ChildItems>
 								<CheckBoxField name="ОтборДействуетНаИспользование" id="81">
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОтборДействуетНаИспользованиеКонтекстноеМеню" id="82"/>
 									<ExtendedTooltip name="ОтборДействуетНаИспользованиеРасширеннаяПодсказка" id="83"/>
 								</CheckBoxField>
@@ -167,7 +163,6 @@
 							<ExtendedTooltip name="ГруппаОтборПоОрганизацииРасширеннаяПодсказка" id="110"/>
 							<ChildItems>
 								<CheckBoxField name="ОтборОрганизацияИспользование" id="111">
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОтборОрганизацияИспользованиеКонтекстноеМеню" id="112"/>
 									<ExtendedTooltip name="ОтборОрганизацияИспользованиеРасширеннаяПодсказка" id="113"/>
 								</CheckBoxField>
@@ -210,6 +205,7 @@
 					<v8:content>Командная панель</v8:content>
 				</v8:item>
 			</Title>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ГруппаКоманднаяПанельРасширеннаяПодсказка" id="55"/>
 			<ChildItems>
 				<CommandBar name="ГруппаКоманднаяПанельЛевая" id="205">
@@ -601,7 +597,7 @@
 			<CommandBarLocation>None</CommandBarLocation>
 			<SkipOnInput>false</SkipOnInput>
 			<DefaultItem>true</DefaultItem>
-			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
 			<FileDragMode>AsFile</FileDragMode>
@@ -767,7 +763,6 @@
 					<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="35"/>
 				</LabelField>
 				<CheckBoxField name="ДоговорПодписан" id="200">
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ДоговорПодписанКонтекстноеМеню" id="201"/>
 					<ExtendedTooltip name="ДоговорПодписанРасширеннаяПодсказка" id="202"/>
 				</CheckBoxField>
@@ -795,7 +790,7 @@
 		</Table>
 	</ChildItems>
 	<Attributes/>
-	<BaseForm version="2.20">
+	<BaseForm version="2.21">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 		<GroupList>2:02023637-7868-4a5f-8576-835a76e0c9ba</GroupList>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -839,7 +834,6 @@
 								<ExtendedTooltip name="ГруппаОтборВладелецРасширеннаяПодсказка" id="90"/>
 								<ChildItems>
 									<CheckBoxField name="ОтборВладелецИспользование" id="91">
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ОтборВладелецИспользованиеКонтекстноеМеню" id="92"/>
 										<ExtendedTooltip name="ОтборВладелецИспользованиеРасширеннаяПодсказка" id="93"/>
 									</CheckBoxField>
@@ -865,7 +859,6 @@
 								<ExtendedTooltip name="ГруппаОтборВидДоговораРасширеннаяПодсказка" id="98"/>
 								<ChildItems>
 									<CheckBoxField name="ОтборВидДоговораИспользование" id="99">
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ОтборВидДоговораИспользованиеКонтекстноеМеню" id="100"/>
 										<ExtendedTooltip name="ОтборВидДоговораИспользованиеРасширеннаяПодсказка" id="101"/>
 									</CheckBoxField>
@@ -896,7 +889,6 @@
 								<ExtendedTooltip name="ГруппаОтборВидДоговораУХРасширеннаяПодсказка" id="150"/>
 								<ChildItems>
 									<CheckBoxField name="ОтборВидДоговораУХИспользование" id="151">
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ОтборВидДоговораУХИспользованиеКонтекстноеМеню" id="152"/>
 										<ExtendedTooltip name="ОтборВидДоговораУХИспользованиеРасширеннаяПодсказка" id="153"/>
 									</CheckBoxField>
@@ -938,7 +930,6 @@
 								<ExtendedTooltip name="ГруппаОтборДействуетНаРасширеннаяПодсказка" id="80"/>
 								<ChildItems>
 									<CheckBoxField name="ОтборДействуетНаИспользование" id="81">
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ОтборДействуетНаИспользованиеКонтекстноеМеню" id="82"/>
 										<ExtendedTooltip name="ОтборДействуетНаИспользованиеРасширеннаяПодсказка" id="83"/>
 									</CheckBoxField>
@@ -963,7 +954,6 @@
 								<ExtendedTooltip name="ГруппаОтборПоОрганизацииРасширеннаяПодсказка" id="110"/>
 								<ChildItems>
 									<CheckBoxField name="ОтборОрганизацияИспользование" id="111">
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ОтборОрганизацияИспользованиеКонтекстноеМеню" id="112"/>
 										<ExtendedTooltip name="ОтборОрганизацияИспользованиеРасширеннаяПодсказка" id="113"/>
 									</CheckBoxField>
@@ -1400,7 +1390,7 @@
 				<CommandBarLocation>None</CommandBarLocation>
 				<SkipOnInput>false</SkipOnInput>
 				<DefaultItem>true</DefaultItem>
-				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 				<EnableStartDrag>true</EnableStartDrag>
 				<EnableDrag>true</EnableDrag>
 				<FileDragMode>AsFile</FileDragMode>
@@ -1566,7 +1556,6 @@
 						<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="35"/>
 					</LabelField>
 					<CheckBoxField name="ДоговорПодписан" id="200">
-						<CheckBoxType>Auto</CheckBoxType>
 						<ContextMenu name="ДоговорПодписанКонтекстноеМеню" id="201"/>
 						<ExtendedTooltip name="ДоговорПодписанРасширеннаяПодсказка" id="202"/>
 					</CheckBoxField>

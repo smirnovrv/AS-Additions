@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<CommandSet>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -14,6 +14,7 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>0</CommandName>
+				<ButtonImportance>Main</ButtonImportance>
 				<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="265"/>
 			</Button>
 			<Button name="ФормаЗаписать" id="439">
@@ -186,6 +187,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 									<ExtendedTooltip name="ДатаExtendedTooltip" id="237"/>
@@ -235,7 +237,6 @@
 сопровождается несколькими документами</v8:content>
 										</v8:item>
 									</ToolTip>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЕстьВторойДокументОснованиеКонтекстноеМеню" id="492"/>
 									<ExtendedTooltip name="ЕстьВторойДокументОснованиеРасширеннаяПодсказка" id="493"/>
 								</CheckBoxField>
@@ -370,12 +371,14 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 							<ExtendedTooltip name="НомерExtendedTooltip" id="238"/>
 						</InputField>
 						<InputField name="Организация" id="5">
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
 							<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="232"/>
 						</InputField>
@@ -999,13 +1002,11 @@
 								<xr:Common>false</xr:Common>
 							</UserVisible>
 							<TitleLocation>None</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЭлектронныеТрудовыеКнижки_ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="318"/>
 							<ExtendedTooltip name="ЭлектронныеТрудовыеКнижки_ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="319"/>
 						</CheckBoxField>
 						<CheckBoxField name="ОтразитьВТрудовойКнижке" id="344">
 							<TitleLocation>None</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="345"/>
 							<ExtendedTooltip name="ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="346"/>
 						</CheckBoxField>
@@ -1097,11 +1098,13 @@
 				<InputField name="Комментарий" id="224">
 					<TitleLocation>Left</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="КомментарийКонтекстноеМеню" id="225"/>
 					<ExtendedTooltip name="КомментарийExtendedTooltip" id="263"/>
 				</InputField>
 				<InputField name="Ответственный" id="222">
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="223"/>
 					<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="239"/>
 				</InputField>
@@ -1109,7 +1112,7 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes/>
-	<BaseForm version="2.20">
+	<BaseForm version="2.21">
 		<VerticalScroll>useIfNecessary</VerticalScroll>
 		<CommandSet>
 			<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -1124,6 +1127,7 @@
 					<Type>CommandBarButton</Type>
 					<DefaultButton>true</DefaultButton>
 					<CommandName>0</CommandName>
+					<ButtonImportance>Main</ButtonImportance>
 					<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="265"/>
 				</Button>
 				<Button name="ФормаЗаписать" id="439">
@@ -1292,6 +1296,7 @@
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<Width>10</Width>
 										<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 										<ExtendedTooltip name="ДатаExtendedTooltip" id="237"/>
@@ -1341,7 +1346,6 @@
 сопровождается несколькими документами</v8:content>
 											</v8:item>
 										</ToolTip>
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ЕстьВторойДокументОснованиеКонтекстноеМеню" id="492"/>
 										<ExtendedTooltip name="ЕстьВторойДокументОснованиеРасширеннаяПодсказка" id="493"/>
 									</CheckBoxField>
@@ -1476,12 +1480,14 @@
 									</v8:item>
 								</Title>
 								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
 								<HorizontalStretch>false</HorizontalStretch>
 								<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 								<ExtendedTooltip name="НомерExtendedTooltip" id="238"/>
 							</InputField>
 							<InputField name="Организация" id="5">
 								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
 								<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
 								<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="232"/>
 							</InputField>
@@ -2105,13 +2111,11 @@
 									<xr:Common>false</xr:Common>
 								</UserVisible>
 								<TitleLocation>None</TitleLocation>
-								<CheckBoxType>Auto</CheckBoxType>
 								<ContextMenu name="ЭлектронныеТрудовыеКнижки_ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="318"/>
 								<ExtendedTooltip name="ЭлектронныеТрудовыеКнижки_ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="319"/>
 							</CheckBoxField>
 							<CheckBoxField name="ОтразитьВТрудовойКнижке" id="344">
 								<TitleLocation>None</TitleLocation>
-								<CheckBoxType>Auto</CheckBoxType>
 								<ContextMenu name="ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="345"/>
 								<ExtendedTooltip name="ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="346"/>
 							</CheckBoxField>
@@ -2203,11 +2207,13 @@
 					<InputField name="Комментарий" id="224">
 						<TitleLocation>Left</TitleLocation>
 						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
 						<ContextMenu name="КомментарийКонтекстноеМеню" id="225"/>
 						<ExtendedTooltip name="КомментарийExtendedTooltip" id="263"/>
 					</InputField>
 					<InputField name="Ответственный" id="222">
 						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
 						<ContextMenu name="ОтветственныйКонтекстноеМеню" id="223"/>
 						<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="239"/>
 					</InputField>

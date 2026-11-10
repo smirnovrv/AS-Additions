@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -60,7 +60,6 @@
 								<CheckBoxField name="Проект" id="531">
 									<Enabled>false</Enabled>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПроектКонтекстноеМеню" id="532"/>
 									<ExtendedTooltip name="ПроектРасширеннаяПодсказка" id="533"/>
 								</CheckBoxField>
@@ -158,7 +157,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="НеОцениваетсяПоКритериямКонтекстноеМеню" id="824"/>
 									<ExtendedTooltip name="НеОцениваетсяПоКритериямРасширеннаяПодсказка" id="825"/>
 								</CheckBoxField>
@@ -285,7 +283,7 @@
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Collapsible</Behavior>
-									<ControlRepresentation>Picture</ControlRepresentation>
+									<ControlRepresentation>Button</ControlRepresentation>
 									<ExtendedTooltip name="ГруппаПараметрыРасчетаМоделиРасширеннаяПодсказка" id="849"/>
 									<ChildItems>
 										<InputField name="ПериодичностьРасчетаАнализаKPI" id="832">
@@ -336,7 +334,7 @@
 									<Group>Vertical</Group>
 									<Behavior>Collapsible</Behavior>
 									<Collapsed>true</Collapsed>
-									<ControlRepresentation>Picture</ControlRepresentation>
+									<ControlRepresentation>Button</ControlRepresentation>
 									<Representation>NormalSeparation</Representation>
 									<ExtendedTooltip name="ГруппаЗначенияПоУмолчаниюРасширеннаяПодсказка" id="119"/>
 									<ChildItems>
@@ -680,11 +678,13 @@
 												<InputField name="КлючевыеПоказателиНаименованиеПоказателя" id="564">
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КлючевыеПоказателиНаименованиеПоказателяКонтекстноеМеню" id="565"/>
 													<ExtendedTooltip name="КлючевыеПоказателиНаименованиеПоказателяРасширеннаяПодсказка" id="566"/>
 												</InputField>
 												<InputField name="Сравнение" id="561">
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>6</Width>
 													<Format>
 														<v8:item>
@@ -703,6 +703,7 @@
 												</InputField>
 												<InputField name="Базис" id="558">
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>6</Width>
 													<Format>
 														<v8:item>
@@ -722,6 +723,7 @@
 												<InputField name="КлючевыеПоказателиОтклонение" id="570">
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>6</Width>
 													<Format>
 														<v8:item>
@@ -742,6 +744,7 @@
 												<InputField name="КлючевыеПоказателиПроцентОтклонения" id="573">
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>6</Width>
 													<Format>
 														<v8:item>
@@ -762,6 +765,7 @@
 												<InputField name="КлючевыеПоказателиПроцентВыполнения" id="576">
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>6</Width>
 													<Format>
 														<v8:item>
@@ -851,11 +855,13 @@
 													<ChildItems>
 														<InputField name="АтрибутыПроектовСценарий" id="757">
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовСценарийКонтекстноеМеню" id="758"/>
 															<ExtendedTooltip name="АтрибутыПроектовСценарийРасширеннаяПодсказка" id="759"/>
 														</InputField>
 														<InputField name="АтрибутыПроектовОценкаПроекта" id="712">
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовОценкаПроектаКонтекстноеМеню" id="713"/>
 															<ExtendedTooltip name="АтрибутыПроектовОценкаПроектаРасширеннаяПодсказка" id="714"/>
 														</InputField>
@@ -867,6 +873,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовСтавкаДисконтированияКонтекстноеМеню" id="755"/>
 															<ExtendedTooltip name="АтрибутыПроектовСтавкаДисконтированияРасширеннаяПодсказка" id="756"/>
 														</InputField>
@@ -901,6 +908,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовДатаНачалаКонтекстноеМеню" id="698"/>
 															<ExtendedTooltip name="АтрибутыПроектовДатаНачалаРасширеннаяПодсказка" id="699"/>
 														</InputField>
@@ -912,6 +920,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовДатаОкончанияКонтекстноеМеню" id="701"/>
 															<ExtendedTooltip name="АтрибутыПроектовДатаОкончанияРасширеннаяПодсказка" id="702"/>
 														</InputField>
@@ -924,6 +933,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовДлительностьДнейКонтекстноеМеню" id="704"/>
 															<ExtendedTooltip name="АтрибутыПроектовДлительностьДнейРасширеннаяПодсказка" id="705"/>
 														</InputField>
@@ -958,6 +968,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовИтогоПоступленияБДДСКонтекстноеМеню" id="737"/>
 															<ExtendedTooltip name="АтрибутыПроектовИтогоПоступленияБДДСРасширеннаяПодсказка" id="738"/>
 														</InputField>
@@ -969,6 +980,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовИтогоСписанияБДДСКонтекстноеМеню" id="716"/>
 															<ExtendedTooltip name="АтрибутыПроектовИтогоСписанияБДДСРасширеннаяПодсказка" id="717"/>
 														</InputField>
@@ -981,6 +993,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовИтогоЧистыйДенежныйПотокКонтекстноеМеню" id="746"/>
 															<ExtendedTooltip name="АтрибутыПроектовИтогоЧистыйДенежныйПотокРасширеннаяПодсказка" id="747"/>
 														</InputField>
@@ -1025,12 +1038,14 @@
 															<ChildItems>
 																<InputField name="АтрибутыПроектовNPV" id="706">
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>8</Width>
 																	<ContextMenu name="АтрибутыПроектовNPVКонтекстноеМеню" id="707"/>
 																	<ExtendedTooltip name="АтрибутыПроектовNPVРасширеннаяПодсказка" id="708"/>
 																</InputField>
 																<InputField name="АтрибутыПроектовIRR" id="709">
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>8</Width>
 																	<ContextMenu name="АтрибутыПроектовIRRКонтекстноеМеню" id="710"/>
 																	<ExtendedTooltip name="АтрибутыПроектовIRRРасширеннаяПодсказка" id="711"/>
@@ -1055,12 +1070,14 @@
 															<ChildItems>
 																<InputField name="АтрибутыПроектовPI" id="733">
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>8</Width>
 																	<ContextMenu name="АтрибутыПроектовPIКонтекстноеМеню" id="734"/>
 																	<ExtendedTooltip name="АтрибутыПроектовPIРасширеннаяПодсказка" id="735"/>
 																</InputField>
 																<InputField name="АтрибутыПроектовPBP" id="727">
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>8</Width>
 																	<ContextMenu name="АтрибутыПроектовPBPКонтекстноеМеню" id="728"/>
 																	<ExtendedTooltip name="АтрибутыПроектовPBPРасширеннаяПодсказка" id="729"/>
@@ -1069,6 +1086,7 @@
 														</ColumnGroup>
 														<InputField name="АтрибутыПроектовFCF" id="730">
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>8</Width>
 															<ContextMenu name="АтрибутыПроектовFCFКонтекстноеМеню" id="731"/>
 															<ExtendedTooltip name="АтрибутыПроектовFCFРасширеннаяПодсказка" id="732"/>
@@ -1104,6 +1122,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовИтогоДоходыБДРКонтекстноеМеню" id="740"/>
 															<ExtendedTooltip name="АтрибутыПроектовИтогоДоходыБДРРасширеннаяПодсказка" id="741"/>
 														</InputField>
@@ -1115,6 +1134,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовИтогоРасходыБДРКонтекстноеМеню" id="719"/>
 															<ExtendedTooltip name="АтрибутыПроектовИтогоРасходыБДРРасширеннаяПодсказка" id="720"/>
 														</InputField>
@@ -1127,6 +1147,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовИтогоПрибыльУбытокКонтекстноеМеню" id="749"/>
 															<ExtendedTooltip name="АтрибутыПроектовИтогоПрибыльУбытокРасширеннаяПодсказка" id="750"/>
 														</InputField>
@@ -1161,6 +1182,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовИтогоПоступленияРесурсыКонтекстноеМеню" id="743"/>
 															<ExtendedTooltip name="АтрибутыПроектовИтогоПоступленияРесурсыРасширеннаяПодсказка" id="744"/>
 														</InputField>
@@ -1172,6 +1194,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовИтогоСписанияРесурсыКонтекстноеМеню" id="722"/>
 															<ExtendedTooltip name="АтрибутыПроектовИтогоСписанияРесурсыРасширеннаяПодсказка" id="723"/>
 														</InputField>
@@ -1184,6 +1207,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АтрибутыПроектовИтогоМатериальныйБалансКонтекстноеМеню" id="752"/>
 															<ExtendedTooltip name="АтрибутыПроектовИтогоМатериальныйБалансРасширеннаяПодсказка" id="753"/>
 														</InputField>
@@ -1191,6 +1215,7 @@
 												</ColumnGroup>
 												<InputField name="АтрибутыПроектовПроцентЗавершения" id="724">
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="АтрибутыПроектовПроцентЗавершенияКонтекстноеМеню" id="725"/>
 													<ExtendedTooltip name="АтрибутыПроектовПроцентЗавершенияРасширеннаяПодсказка" id="726"/>
 												</InputField>
@@ -1292,11 +1317,13 @@
 							<ChildItems>
 								<LabelField name="ПредшественникиНомерСтроки" id="25">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПредшественникиНомерСтрокиКонтекстноеМеню" id="26"/>
 									<ExtendedTooltip name="ПредшественникиНомерСтрокиРасширеннаяПодсказка" id="27"/>
 								</LabelField>
 								<InputField name="ПредшественникиПроект" id="28">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПредшественникиПроектКонтекстноеМеню" id="29"/>
 									<ExtendedTooltip name="ПредшественникиПроектРасширеннаяПодсказка" id="30"/>
 								</InputField>
@@ -1504,7 +1531,7 @@
 			</dcsset:item>
 		</ConditionalAppearance>
 	</Attributes>
-	<BaseForm version="2.20">
+	<BaseForm version="2.21">
 		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 		<ChildItems>
@@ -1561,7 +1588,6 @@
 									<CheckBoxField name="Проект" id="531">
 										<Enabled>false</Enabled>
 										<TitleLocation>Right</TitleLocation>
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ПроектКонтекстноеМеню" id="532"/>
 										<ExtendedTooltip name="ПроектРасширеннаяПодсказка" id="533"/>
 									</CheckBoxField>
@@ -1658,7 +1684,6 @@
 											</v8:item>
 										</ToolTip>
 										<ToolTipRepresentation>Button</ToolTipRepresentation>
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="НеОцениваетсяПоКритериямКонтекстноеМеню" id="824"/>
 										<ExtendedTooltip name="НеОцениваетсяПоКритериямРасширеннаяПодсказка" id="825"/>
 									</CheckBoxField>
@@ -1784,7 +1809,7 @@
 										</Title>
 										<Group>Vertical</Group>
 										<Behavior>Collapsible</Behavior>
-										<ControlRepresentation>Picture</ControlRepresentation>
+										<ControlRepresentation>Button</ControlRepresentation>
 										<ExtendedTooltip name="ГруппаПараметрыРасчетаМоделиРасширеннаяПодсказка" id="849"/>
 										<ChildItems>
 											<InputField name="ПериодичностьРасчетаАнализаKPI" id="832">
@@ -1835,7 +1860,7 @@
 										<Group>Vertical</Group>
 										<Behavior>Collapsible</Behavior>
 										<Collapsed>true</Collapsed>
-										<ControlRepresentation>Picture</ControlRepresentation>
+										<ControlRepresentation>Button</ControlRepresentation>
 										<Representation>NormalSeparation</Representation>
 										<ExtendedTooltip name="ГруппаЗначенияПоУмолчаниюРасширеннаяПодсказка" id="119"/>
 										<ChildItems>
@@ -2207,11 +2232,13 @@
 													<InputField name="КлючевыеПоказателиНаименованиеПоказателя" id="564">
 														<ReadOnly>true</ReadOnly>
 														<EditMode>EnterOnInput</EditMode>
+														<AutoEditMode>true</AutoEditMode>
 														<ContextMenu name="КлючевыеПоказателиНаименованиеПоказателяКонтекстноеМеню" id="565"/>
 														<ExtendedTooltip name="КлючевыеПоказателиНаименованиеПоказателяРасширеннаяПодсказка" id="566"/>
 													</InputField>
 													<InputField name="Сравнение" id="561">
 														<EditMode>EnterOnInput</EditMode>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>6</Width>
 														<Format>
 															<v8:item>
@@ -2230,6 +2257,7 @@
 													</InputField>
 													<InputField name="Базис" id="558">
 														<EditMode>EnterOnInput</EditMode>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>6</Width>
 														<Format>
 															<v8:item>
@@ -2249,6 +2277,7 @@
 													<InputField name="КлючевыеПоказателиОтклонение" id="570">
 														<ReadOnly>true</ReadOnly>
 														<EditMode>EnterOnInput</EditMode>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>6</Width>
 														<Format>
 															<v8:item>
@@ -2269,6 +2298,7 @@
 													<InputField name="КлючевыеПоказателиПроцентОтклонения" id="573">
 														<ReadOnly>true</ReadOnly>
 														<EditMode>EnterOnInput</EditMode>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>6</Width>
 														<Format>
 															<v8:item>
@@ -2289,6 +2319,7 @@
 													<InputField name="КлючевыеПоказателиПроцентВыполнения" id="576">
 														<ReadOnly>true</ReadOnly>
 														<EditMode>EnterOnInput</EditMode>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>6</Width>
 														<Format>
 															<v8:item>
@@ -2378,11 +2409,13 @@
 														<ChildItems>
 															<InputField name="АтрибутыПроектовСценарий" id="757">
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовСценарийКонтекстноеМеню" id="758"/>
 																<ExtendedTooltip name="АтрибутыПроектовСценарийРасширеннаяПодсказка" id="759"/>
 															</InputField>
 															<InputField name="АтрибутыПроектовОценкаПроекта" id="712">
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовОценкаПроектаКонтекстноеМеню" id="713"/>
 																<ExtendedTooltip name="АтрибутыПроектовОценкаПроектаРасширеннаяПодсказка" id="714"/>
 															</InputField>
@@ -2394,6 +2427,7 @@
 																	</v8:item>
 																</Title>
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовСтавкаДисконтированияКонтекстноеМеню" id="755"/>
 																<ExtendedTooltip name="АтрибутыПроектовСтавкаДисконтированияРасширеннаяПодсказка" id="756"/>
 															</InputField>
@@ -2428,6 +2462,7 @@
 																	</v8:item>
 																</Title>
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовДатаНачалаКонтекстноеМеню" id="698"/>
 																<ExtendedTooltip name="АтрибутыПроектовДатаНачалаРасширеннаяПодсказка" id="699"/>
 															</InputField>
@@ -2439,6 +2474,7 @@
 																	</v8:item>
 																</Title>
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовДатаОкончанияКонтекстноеМеню" id="701"/>
 																<ExtendedTooltip name="АтрибутыПроектовДатаОкончанияРасширеннаяПодсказка" id="702"/>
 															</InputField>
@@ -2451,6 +2487,7 @@
 																	</v8:item>
 																</Title>
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовДлительностьДнейКонтекстноеМеню" id="704"/>
 																<ExtendedTooltip name="АтрибутыПроектовДлительностьДнейРасширеннаяПодсказка" id="705"/>
 															</InputField>
@@ -2485,6 +2522,7 @@
 																	</v8:item>
 																</Title>
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовИтогоПоступленияБДДСКонтекстноеМеню" id="737"/>
 																<ExtendedTooltip name="АтрибутыПроектовИтогоПоступленияБДДСРасширеннаяПодсказка" id="738"/>
 															</InputField>
@@ -2496,6 +2534,7 @@
 																	</v8:item>
 																</Title>
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовИтогоСписанияБДДСКонтекстноеМеню" id="716"/>
 																<ExtendedTooltip name="АтрибутыПроектовИтогоСписанияБДДСРасширеннаяПодсказка" id="717"/>
 															</InputField>
@@ -2508,6 +2547,7 @@
 																	</v8:item>
 																</Title>
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовИтогоЧистыйДенежныйПотокКонтекстноеМеню" id="746"/>
 																<ExtendedTooltip name="АтрибутыПроектовИтогоЧистыйДенежныйПотокРасширеннаяПодсказка" id="747"/>
 															</InputField>
@@ -2552,12 +2592,14 @@
 																<ChildItems>
 																	<InputField name="АтрибутыПроектовNPV" id="706">
 																		<EditMode>EnterOnInput</EditMode>
+																		<AutoEditMode>true</AutoEditMode>
 																		<Width>8</Width>
 																		<ContextMenu name="АтрибутыПроектовNPVКонтекстноеМеню" id="707"/>
 																		<ExtendedTooltip name="АтрибутыПроектовNPVРасширеннаяПодсказка" id="708"/>
 																	</InputField>
 																	<InputField name="АтрибутыПроектовIRR" id="709">
 																		<EditMode>EnterOnInput</EditMode>
+																		<AutoEditMode>true</AutoEditMode>
 																		<Width>8</Width>
 																		<ContextMenu name="АтрибутыПроектовIRRКонтекстноеМеню" id="710"/>
 																		<ExtendedTooltip name="АтрибутыПроектовIRRРасширеннаяПодсказка" id="711"/>
@@ -2582,12 +2624,14 @@
 																<ChildItems>
 																	<InputField name="АтрибутыПроектовPI" id="733">
 																		<EditMode>EnterOnInput</EditMode>
+																		<AutoEditMode>true</AutoEditMode>
 																		<Width>8</Width>
 																		<ContextMenu name="АтрибутыПроектовPIКонтекстноеМеню" id="734"/>
 																		<ExtendedTooltip name="АтрибутыПроектовPIРасширеннаяПодсказка" id="735"/>
 																	</InputField>
 																	<InputField name="АтрибутыПроектовPBP" id="727">
 																		<EditMode>EnterOnInput</EditMode>
+																		<AutoEditMode>true</AutoEditMode>
 																		<Width>8</Width>
 																		<ContextMenu name="АтрибутыПроектовPBPКонтекстноеМеню" id="728"/>
 																		<ExtendedTooltip name="АтрибутыПроектовPBPРасширеннаяПодсказка" id="729"/>
@@ -2596,6 +2640,7 @@
 															</ColumnGroup>
 															<InputField name="АтрибутыПроектовFCF" id="730">
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<Width>8</Width>
 																<ContextMenu name="АтрибутыПроектовFCFКонтекстноеМеню" id="731"/>
 																<ExtendedTooltip name="АтрибутыПроектовFCFРасширеннаяПодсказка" id="732"/>
@@ -2631,6 +2676,7 @@
 																	</v8:item>
 																</Title>
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовИтогоДоходыБДРКонтекстноеМеню" id="740"/>
 																<ExtendedTooltip name="АтрибутыПроектовИтогоДоходыБДРРасширеннаяПодсказка" id="741"/>
 															</InputField>
@@ -2642,6 +2688,7 @@
 																	</v8:item>
 																</Title>
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовИтогоРасходыБДРКонтекстноеМеню" id="719"/>
 																<ExtendedTooltip name="АтрибутыПроектовИтогоРасходыБДРРасширеннаяПодсказка" id="720"/>
 															</InputField>
@@ -2654,6 +2701,7 @@
 																	</v8:item>
 																</Title>
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовИтогоПрибыльУбытокКонтекстноеМеню" id="749"/>
 																<ExtendedTooltip name="АтрибутыПроектовИтогоПрибыльУбытокРасширеннаяПодсказка" id="750"/>
 															</InputField>
@@ -2688,6 +2736,7 @@
 																	</v8:item>
 																</Title>
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовИтогоПоступленияРесурсыКонтекстноеМеню" id="743"/>
 																<ExtendedTooltip name="АтрибутыПроектовИтогоПоступленияРесурсыРасширеннаяПодсказка" id="744"/>
 															</InputField>
@@ -2699,6 +2748,7 @@
 																	</v8:item>
 																</Title>
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовИтогоСписанияРесурсыКонтекстноеМеню" id="722"/>
 																<ExtendedTooltip name="АтрибутыПроектовИтогоСписанияРесурсыРасширеннаяПодсказка" id="723"/>
 															</InputField>
@@ -2711,6 +2761,7 @@
 																	</v8:item>
 																</Title>
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="АтрибутыПроектовИтогоМатериальныйБалансКонтекстноеМеню" id="752"/>
 																<ExtendedTooltip name="АтрибутыПроектовИтогоМатериальныйБалансРасширеннаяПодсказка" id="753"/>
 															</InputField>
@@ -2718,6 +2769,7 @@
 													</ColumnGroup>
 													<InputField name="АтрибутыПроектовПроцентЗавершения" id="724">
 														<EditMode>EnterOnInput</EditMode>
+														<AutoEditMode>true</AutoEditMode>
 														<ContextMenu name="АтрибутыПроектовПроцентЗавершенияКонтекстноеМеню" id="725"/>
 														<ExtendedTooltip name="АтрибутыПроектовПроцентЗавершенияРасширеннаяПодсказка" id="726"/>
 													</InputField>
@@ -2819,11 +2871,13 @@
 								<ChildItems>
 									<LabelField name="ПредшественникиНомерСтроки" id="25">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ПредшественникиНомерСтрокиКонтекстноеМеню" id="26"/>
 										<ExtendedTooltip name="ПредшественникиНомерСтрокиРасширеннаяПодсказка" id="27"/>
 									</LabelField>
 									<InputField name="ПредшественникиПроект" id="28">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ПредшественникиПроектКонтекстноеМеню" id="29"/>
 										<ExtendedTooltip name="ПредшественникиПроектРасширеннаяПодсказка" id="30"/>
 									</InputField>

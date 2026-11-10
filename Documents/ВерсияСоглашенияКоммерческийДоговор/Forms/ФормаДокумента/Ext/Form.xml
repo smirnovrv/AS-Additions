@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTitle>false</AutoTitle>
 	<CommandSet>
 		<ExcludedCommand>Delete</ExcludedCommand>
@@ -704,7 +704,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ФиксированнаяСуммаДоговораКонтекстноеМеню" id="1693"/>
 											<ExtendedTooltip name="ФиксированнаяСуммаДоговораРасширеннаяПодсказка" id="1694"/>
 											<Events>
@@ -766,7 +765,6 @@
 												<CheckBoxField name="КонтролироватьПревышениеСуммы" id="1598">
 													<TitleLocation>Right</TitleLocation>
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="КонтролироватьПревышениеСуммыКонтекстноеМеню" id="1599"/>
 													<ExtendedTooltip name="КонтролироватьПревышениеСуммыРасширеннаяПодсказка" id="1600"/>
 												</CheckBoxField>
@@ -790,13 +788,12 @@
 									<Group>Vertical</Group>
 									<Behavior>Collapsible</Behavior>
 									<Collapsed>true</Collapsed>
-									<ControlRepresentation>Picture</ControlRepresentation>
+									<ControlRepresentation>Button</ControlRepresentation>
 									<Representation>None</Representation>
 									<ExtendedTooltip name="ГруппаГосударственныйКонтрактРасширеннаяПодсказка" id="326"/>
 									<ChildItems>
 										<CheckBoxField name="ЭтоГосударственныйКонтракт" id="327">
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЭтоГосударственныйКонтрактКонтекстноеМеню" id="328"/>
 											<ExtendedTooltip name="ЭтоГосударственныйКонтрактРасширеннаяПодсказка" id="329"/>
 										</CheckBoxField>
@@ -817,13 +814,12 @@
 									<Group>Vertical</Group>
 									<Behavior>Collapsible</Behavior>
 									<Collapsed>true</Collapsed>
-									<ControlRepresentation>Picture</ControlRepresentation>
+									<ControlRepresentation>Button</ControlRepresentation>
 									<Representation>None</Representation>
 									<ExtendedTooltip name="ГруппаВалютныйКонтрольРасширеннаяПодсказка" id="305"/>
 									<ChildItems>
 										<CheckBoxField name="ТребуетсяПостановкаНаУчетВалютногоКонтроля" id="306">
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ТребуетсяПостановкаНаУчетВалютногоКонтроляКонтекстноеМеню" id="307"/>
 											<ExtendedTooltip name="ТребуетсяПостановкаНаУчетВалютногоКонтроляРасширеннаяПодсказка" id="308"/>
 										</CheckBoxField>
@@ -930,7 +926,6 @@
 											<v8:content>Если флажок установлен, при неисполнении графика расчетов ответственный по договору будет получать уведомление.</v8:content>
 										</v8:item>
 									</ToolTip>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="КонтролироватьНарушенияУсловийДоговораКонтекстноеМеню" id="1661"/>
 									<ExtendedTooltip name="КонтролироватьНарушенияУсловийДоговораРасширеннаяПодсказка" id="1662"/>
 								</CheckBoxField>
@@ -975,7 +970,6 @@
 										</InputField>
 										<CheckBoxField name="ОпорныйГрафик" id="1720">
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОпорныйГрафикКонтекстноеМеню" id="1721"/>
 											<ExtendedTooltip name="ОпорныйГрафикРасширеннаяПодсказка" id="1722"/>
 										</CheckBoxField>
@@ -1040,7 +1034,7 @@
 											<TitleLocation>None</TitleLocation>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОграничиватьСуммуЗадолженностиКонтекстноеМеню" id="257"/>
 											<ExtendedTooltip name="ОграничиватьСуммуЗадолженностиРасширеннаяПодсказка" id="258"/>
 										</CheckBoxField>
@@ -1052,6 +1046,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДопустимаяСуммаЗадолженностиКонтекстноеМеню" id="260"/>
 											<ExtendedTooltip name="ДопустимаяСуммаЗадолженностиExtendedTooltip" id="261"/>
 										</InputField>
@@ -1102,7 +1097,6 @@
 													<v8:content>Если флажок установлен, в заявках на оплату по данному договору будет запрещен выбор валюты.</v8:content>
 												</v8:item>
 											</ToolTip>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЗапретПлатежаВПрочихВалютахКонтекстноеМеню" id="159"/>
 											<ExtendedTooltip name="ЗапретПлатежаВПрочихВалютахРасширеннаяПодсказка" id="160"/>
 										</CheckBoxField>
@@ -1119,7 +1113,7 @@
 									<VerticalSpacing>Half</VerticalSpacing>
 									<Behavior>Collapsible</Behavior>
 									<Collapsed>true</Collapsed>
-									<ControlRepresentation>Picture</ControlRepresentation>
+									<ControlRepresentation>Button</ControlRepresentation>
 									<Representation>None</Representation>
 									<ExtendedTooltip name="ГруппаКурсПлатежаРасширеннаяПодсказка" id="162"/>
 									<ChildItems>
@@ -1420,7 +1414,7 @@
 									<Group>Vertical</Group>
 									<Behavior>Collapsible</Behavior>
 									<Collapsed>true</Collapsed>
-									<ControlRepresentation>Picture</ControlRepresentation>
+									<ControlRepresentation>Button</ControlRepresentation>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУсловиеОплатыРасширеннаяПодсказка" id="281"/>
@@ -1454,6 +1448,7 @@
 													</Title>
 													<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 													<FileDragMode>AsFile</FileDragMode>
+													<PictureColor>style:ТекстИнформационнойНадписи</PictureColor>
 													<ContextMenu name="ДекорацияПредупреждениеУсловиеОплатыКонтекстноеМеню" id="288"/>
 													<ExtendedTooltip name="ДекорацияПредупреждениеУсловиеОплатыРасширеннаяПодсказка" id="289"/>
 												</PictureDecoration>
@@ -1524,7 +1519,7 @@
 									<Group>Vertical</Group>
 									<Behavior>Collapsible</Behavior>
 									<Collapsed>true</Collapsed>
-									<ControlRepresentation>Picture</ControlRepresentation>
+									<ControlRepresentation>Button</ControlRepresentation>
 									<Representation>None</Representation>
 									<ThroughAlign>DontUse</ThroughAlign>
 									<ExtendedTooltip name="ГруппаФормированиеПлатежейРасширеннаяПодсказка" id="266"/>
@@ -1561,7 +1556,7 @@
 							<VerticalSpacing>Half</VerticalSpacing>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаБанковскиеСчетаРасширеннаяПодсказка" id="336"/>
 							<ChildItems>
@@ -1634,7 +1629,6 @@
 													<v8:content>Признак того, что при расчетах по данному договору может использоваться только указанный банковский счет организации.</v8:content>
 												</v8:item>
 											</ToolTip>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ФиксированныйСчетОрганизацииКонтекстноеМеню" id="346"/>
 											<ExtendedTooltip name="ФиксированныйСчетОрганизацииРасширеннаяПодсказка" id="347"/>
 										</CheckBoxField>
@@ -1693,7 +1687,6 @@
 													<v8:content>Признак того, что при расчетах по данному договору может использоваться только указанный банковский счет контрагента.</v8:content>
 												</v8:item>
 											</ToolTip>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ФиксированныйСчетКонтрагентаКонтекстноеМеню" id="354"/>
 											<ExtendedTooltip name="ФиксированныйСчетКонтрагентаРасширеннаяПодсказка" id="355"/>
 										</CheckBoxField>
@@ -1711,7 +1704,7 @@
 							<Group>Horizontal</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаПениРасширеннаяПодсказка" id="357"/>
 							<ChildItems>
@@ -1781,7 +1774,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаФакторингРасширеннаяПодсказка" id="370"/>
 							<ChildItems>
@@ -1838,7 +1831,7 @@
 							<VerticalSpacing>Half</VerticalSpacing>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаСведенияОбОбеспеченииРасширеннаяПодсказка" id="883"/>
 							<ChildItems>
@@ -1857,7 +1850,6 @@
 									<ChildItems>
 										<CheckBoxField name="ВыданноеОбеспечение" id="886">
 											<TitleLocation>None</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ВыданноеОбеспечениеКонтекстноеМеню" id="887"/>
 											<ExtendedTooltip name="ВыданноеОбеспечениеРасширеннаяПодсказка" id="888"/>
 										</CheckBoxField>
@@ -1889,7 +1881,6 @@
 									<ChildItems>
 										<CheckBoxField name="ПолученноеОбеспечение" id="894">
 											<TitleLocation>None</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПолученноеОбеспечениеКонтекстноеМеню" id="895"/>
 											<ExtendedTooltip name="ПолученноеОбеспечениеРасширеннаяПодсказка" id="896"/>
 										</CheckBoxField>
@@ -1918,7 +1909,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаСтрахованиеРасширеннаяПодсказка" id="901"/>
 							<ChildItems>
@@ -1989,11 +1980,13 @@
 									<ChildItems>
 										<LabelField name="РискиНомерСтроки" id="1028">
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РискиНомерСтрокиКонтекстноеМеню" id="1029"/>
 											<ExtendedTooltip name="РискиНомерСтрокиРасширеннаяПодсказка" id="1030"/>
 										</LabelField>
 										<InputField name="РискиРиск" id="1031">
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РискиРискКонтекстноеМеню" id="1032"/>
 											<ExtendedTooltip name="РискиРискРасширеннаяПодсказка" id="1033"/>
 										</InputField>
@@ -2011,7 +2004,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаОбъектыЗалогаРасширеннаяПодсказка" id="936"/>
 							<ChildItems>
@@ -2052,6 +2045,7 @@
 									<ChildItems>
 										<InputField name="ТаблицаОбъектыЗалогаОбъектЗалога" id="1421">
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТаблицаОбъектыЗалогаОбъектЗалогаКонтекстноеМеню" id="1422"/>
 											<ExtendedTooltip name="ТаблицаОбъектыЗалогаОбъектЗалогаРасширеннаяПодсказка" id="1423"/>
 										</InputField>
@@ -2063,32 +2057,38 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТаблицаОбъектыЗалогаПериодКонтекстноеМеню" id="1404"/>
 											<ExtendedTooltip name="ТаблицаОбъектыЗалогаПериодРасширеннаяПодсказка" id="1405"/>
 										</InputField>
 										<InputField name="ТаблицаОбъектыЗалогаДатаОкончания" id="1406">
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТаблицаОбъектыЗалогаДатаОкончанияКонтекстноеМеню" id="1407"/>
 											<ExtendedTooltip name="ТаблицаОбъектыЗалогаДатаОкончанияРасширеннаяПодсказка" id="1408"/>
 										</InputField>
 										<InputField name="ТаблицаОбъектыЗалогаДоговорЗалога" id="1409">
 											<Visible>false</Visible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТаблицаОбъектыЗалогаДоговорЗалогаКонтекстноеМеню" id="1410"/>
 											<ExtendedTooltip name="ТаблицаОбъектыЗалогаДоговорЗалогаРасширеннаяПодсказка" id="1411"/>
 										</InputField>
 										<InputField name="ТаблицаОбъектыЗалогаЗалоговаяСтоимость" id="1412">
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТаблицаОбъектыЗалогаЗалоговаяСтоимостьКонтекстноеМеню" id="1413"/>
 											<ExtendedTooltip name="ТаблицаОбъектыЗалогаЗалоговаяСтоимостьРасширеннаяПодсказка" id="1414"/>
 										</InputField>
 										<InputField name="ТаблицаОбъектыЗалогаКоличество" id="1415">
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТаблицаОбъектыЗалогаКоличествоКонтекстноеМеню" id="1416"/>
 											<ExtendedTooltip name="ТаблицаОбъектыЗалогаКоличествоРасширеннаяПодсказка" id="1417"/>
 										</InputField>
 										<InputField name="ТаблицаОбъектыЗалогаКомментарий" id="1418">
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТаблицаОбъектыЗалогаКомментарийКонтекстноеМеню" id="1419"/>
 											<ExtendedTooltip name="ТаблицаОбъектыЗалогаКомментарийРасширеннаяПодсказка" id="1420"/>
 										</InputField>
@@ -2107,7 +2107,7 @@
 							<Group>Horizontal</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowLeftMargin>false</ShowLeftMargin>
 							<ExtendedTooltip name="ГруппаКомиссионноеВознаграждениеExtendedTooltip" id="583"/>
@@ -2170,7 +2170,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаДоставкаРасширеннаяПодсказка" id="1907"/>
 							<ChildItems>
@@ -2196,7 +2196,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ThroughAlign>DontUse</ThroughAlign>
 							<ExtendedTooltip name="ГруппаРасчетыПрочееРасширеннаяПодсказка" id="396"/>
@@ -2237,7 +2237,7 @@
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<United>false</United>
 							<ExtendedTooltip name="ГруппаПараметрыГрафикаРасширеннаяПодсказка" id="1633"/>
@@ -2250,6 +2250,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриоритетПлатежаКонтекстноеМеню" id="514"/>
 									<ExtendedTooltip name="ПриоритетПлатежаExtendedTooltip" id="515"/>
 								</InputField>
@@ -2310,7 +2311,7 @@
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Collapsible</Behavior>
-									<ControlRepresentation>Picture</ControlRepresentation>
+									<ControlRepresentation>Button</ControlRepresentation>
 									<Representation>None</Representation>
 									<United>false</United>
 									<ShowTitle>false</ShowTitle>
@@ -2348,7 +2349,6 @@
 												</RadioButtonField>
 												<CheckBoxField name="АвтоматическоеСозданиеПлатежныхПозиций" id="1891">
 													<TitleLocation>Left</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="АвтоматическоеСозданиеПлатежныхПозицийКонтекстноеМеню" id="1892"/>
 													<ExtendedTooltip name="АвтоматическоеСозданиеПлатежныхПозицийРасширеннаяПодсказка" id="1893"/>
 												</CheckBoxField>
@@ -2368,7 +2368,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<United>false</United>
 							<ExtendedTooltip name="ГруппаБюджетированиеРасширеннаяПодсказка" id="490"/>
@@ -2438,7 +2438,7 @@
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
 									<Collapsed>true</Collapsed>
-									<ControlRepresentation>Picture</ControlRepresentation>
+									<ControlRepresentation>Button</ControlRepresentation>
 									<Representation>None</Representation>
 									<ThroughAlign>Use</ThroughAlign>
 									<ExtendedTooltip name="ГруппаСтатьяДДСРасширеннаяПодсказка" id="500"/>
@@ -2451,6 +2451,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="502"/>
 											<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="503"/>
 										</InputField>
@@ -2479,7 +2480,7 @@
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
 									<Collapsed>true</Collapsed>
-									<ControlRepresentation>Picture</ControlRepresentation>
+									<ControlRepresentation>Button</ControlRepresentation>
 									<Representation>None</Representation>
 									<ThroughAlign>Use</ThroughAlign>
 									<ExtendedTooltip name="ГруппаСтатьяБДРРасширеннаяПодсказка" id="530"/>
@@ -2548,19 +2549,16 @@
 							<ChildItems>
 								<CheckBoxField name="ВозможностьПродленияСрокаДействия" id="696">
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВозможностьПродленияСрокаДействияКонтекстноеМеню" id="697"/>
 									<ExtendedTooltip name="ВозможностьПродленияСрокаДействияРасширеннаяПодсказка" id="698"/>
 								</CheckBoxField>
 								<CheckBoxField name="ПрекращениеОбязательствСОкончаниемСрокаДействия" id="699">
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПрекращениеОбязательствСОкончаниемСрокаДействияКонтекстноеМеню" id="700"/>
 									<ExtendedTooltip name="ПрекращениеОбязательствСОкончаниемСрокаДействияРасширеннаяПодсказка" id="701"/>
 								</CheckBoxField>
 								<CheckBoxField name="Пролонгация" id="702">
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПролонгацияКонтекстноеМеню" id="703"/>
 									<ExtendedTooltip name="ПролонгацияРасширеннаяПодсказка" id="704"/>
 								</CheckBoxField>
@@ -2622,7 +2620,6 @@
 						</InputField>
 						<CheckBoxField name="НеВключенВПланЗакупкиЧасть15Ст4ФЗ223" id="1601">
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="НеВключенВПланЗакупкиЧасть15Ст4ФЗ223КонтекстноеМеню" id="1602"/>
 							<ExtendedTooltip name="НеВключенВПланЗакупкиЧасть15Ст4ФЗ223РасширеннаяПодсказка" id="1603"/>
 						</CheckBoxField>
@@ -2650,13 +2647,11 @@
 								</LabelField>
 								<CheckBoxField name="ПриоритетУчастияМалогоИСреднегоПредпринимательства" id="1610">
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПриоритетУчастияМалогоИСреднегоПредпринимательстваКонтекстноеМеню" id="1611"/>
 									<ExtendedTooltip name="ПриоритетУчастияМалогоИСреднегоПредпринимательстваРасширеннаяПодсказка" id="1612"/>
 								</CheckBoxField>
 								<CheckBoxField name="ПривлечениеМалогоИСреднегоПредпринимательстваКакПодрядчиков" id="1607">
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПривлечениеМалогоИСреднегоПредпринимательстваКакПодрядчиковКонтекстноеМеню" id="1608"/>
 									<ExtendedTooltip name="ПривлечениеМалогоИСреднегоПредпринимательстваКакПодрядчиковРасширеннаяПодсказка" id="1609"/>
 								</CheckBoxField>
@@ -2681,7 +2676,6 @@
 									<ChildItems>
 										<CheckBoxField name="НеУчитыватьПриРасчетеДолиЗакупокУСМП" id="1615">
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="НеУчитыватьПриРасчетеДолиЗакупокУСМПКонтекстноеМеню" id="1616"/>
 											<ExtendedTooltip name="НеУчитыватьПриРасчетеДолиЗакупокУСМПРасширеннаяПодсказка" id="1617"/>
 										</CheckBoxField>
@@ -2808,11 +2802,13 @@
 							<ChildItems>
 								<InputField name="НоменклатураПоСтатьямДатаПоставки" id="1812">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="НоменклатураПоСтатьямДатаПоставкиКонтекстноеМеню" id="1813"/>
 									<ExtendedTooltip name="НоменклатураПоСтатьямДатаПоставкиРасширеннаяПодсказка" id="1814"/>
 								</InputField>
 								<InputField name="НоменклатураПоСтатьямСумма" id="1815">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="НоменклатураПоСтатьямСуммаКонтекстноеМеню" id="1816"/>
 									<ExtendedTooltip name="НоменклатураПоСтатьямСуммаРасширеннаяПодсказка" id="1817"/>
 								</InputField>
@@ -2912,6 +2908,7 @@
 										<InputField name="ПланПоставокПоПериодамНомерСтроки" id="1313">
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ПланПоставокПоПериодамНомерСтрокиКонтекстноеМеню" id="1314"/>
 											<ExtendedTooltip name="ПланПоставокПоПериодамНомерСтрокиРасширеннаяПодсказка" id="1315"/>
 										</InputField>
@@ -2927,6 +2924,7 @@
 												<InputField name="ПланПоставокПоПериодамЛот" id="1346">
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>12</Width>
 													<ContextMenu name="ПланПоставокПоПериодамЛотКонтекстноеМеню" id="1347"/>
 													<ExtendedTooltip name="ПланПоставокПоПериодамЛотРасширеннаяПодсказка" id="1348"/>
@@ -2934,6 +2932,7 @@
 												<InputField name="ПланПоставокПоПериодамНоменклатура" id="1295">
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>12</Width>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ПланПоставокПоПериодамНоменклатураКонтекстноеМеню" id="1296"/>
@@ -2942,6 +2941,7 @@
 												<InputField name="ПланПоставокПоПериодамХарактеристика" id="1384">
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>12</Width>
 													<ChoiceParameterLinks>
 														<xr:Link>
@@ -2966,6 +2966,7 @@
 											<ChildItems>
 												<InputField name="ПланПоставокПоПериодамОрганизация" id="1319">
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>12</Width>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ПланПоставокПоПериодамОрганизацияКонтекстноеМеню" id="1320"/>
@@ -2974,6 +2975,7 @@
 												<InputField name="ПланПоставокПоПериодамМестоПоставки" id="1325">
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>12</Width>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ПланПоставокПоПериодамМестоПоставкиКонтекстноеМеню" id="1326"/>
@@ -2998,18 +3000,21 @@
 											<ChildItems>
 												<InputField name="ПланПоставокПоПериодамСтраныПроисхождения" id="1707">
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПланПоставокПоПериодамСтраныПроисхожденияКонтекстноеМеню" id="1708"/>
 													<ExtendedTooltip name="ПланПоставокПоПериодамСтраныПроисхожденияРасширеннаяПодсказка" id="1709"/>
 												</InputField>
 												<InputField name="ПланПоставокПоПериодамСтранаПроизводителя" id="1710">
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПланПоставокПоПериодамСтранаПроизводителяКонтекстноеМеню" id="1711"/>
 													<ExtendedTooltip name="ПланПоставокПоПериодамСтранаПроизводителяРасширеннаяПодсказка" id="1712"/>
 												</InputField>
 												<InputField name="ПланПоставокПоПериодамНоменклатураПоставщика" id="1713">
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<DropListButton>false</DropListButton>
 													<QuickChoice>false</QuickChoice>
 													<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
@@ -3032,6 +3037,7 @@
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
 													<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>12</Width>
 													<ContextMenu name="ПланПоставокПоПериодамМенеджерКонтекстноеМеню" id="1344"/>
 													<ExtendedTooltip name="ПланПоставокПоПериодамМенеджерРасширеннаяПодсказка" id="1345"/>
@@ -3039,6 +3045,7 @@
 												<InputField name="ПланПоставокПоПериодамПроект" id="1322">
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>12</Width>
 													<ContextMenu name="ПланПоставокПоПериодамПроектКонтекстноеМеню" id="1323"/>
 													<ExtendedTooltip name="ПланПоставокПоПериодамПроектРасширеннаяПодсказка" id="1324"/>
@@ -3046,6 +3053,7 @@
 												<InputField name="ПланПоставокПоПериодамДоговорСПокупателем" id="1340">
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>12</Width>
 													<ContextMenu name="ПланПоставокПоПериодамДоговорСПокупателемКонтекстноеМеню" id="1341"/>
 													<ExtendedTooltip name="ПланПоставокПоПериодамДоговорСПокупателемРасширеннаяПодсказка" id="1342"/>
@@ -3074,6 +3082,7 @@
 													<ChildItems>
 														<InputField name="ПланПоставокПоПериодамЕдиницаИзмерения" id="1298">
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>5</Width>
 															<ContextMenu name="ПланПоставокПоПериодамЕдиницаИзмеренияКонтекстноеМеню" id="1299"/>
 															<ExtendedTooltip name="ПланПоставокПоПериодамЕдиницаИзмеренияРасширеннаяПодсказка" id="1300"/>
@@ -3082,6 +3091,7 @@
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInFooter>false</ShowInFooter>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>3</Width>
 															<ContextMenu name="ПланПоставокПоПериодамКоэффициентКонтекстноеМеню" id="1311"/>
 															<ExtendedTooltip name="ПланПоставокПоПериодамКоэффициентРасширеннаяПодсказка" id="1312"/>
@@ -3089,6 +3099,7 @@
 														<InputField name="ПланПоставокПоПериодамКоличество" id="1301">
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInFooter>false</ShowInFooter>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>6</Width>
 															<ContextMenu name="ПланПоставокПоПериодамКоличествоКонтекстноеМеню" id="1302"/>
 															<ExtendedTooltip name="ПланПоставокПоПериодамКоличествоРасширеннаяПодсказка" id="1303"/>
@@ -3107,6 +3118,7 @@
 														<InputField name="ПланПоставокПоПериодамЦена" id="1304">
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInFooter>false</ShowInFooter>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>6</Width>
 															<ContextMenu name="ПланПоставокПоПериодамЦенаКонтекстноеМеню" id="1305"/>
 															<ExtendedTooltip name="ПланПоставокПоПериодамЦенаРасширеннаяПодсказка" id="1306"/>
@@ -3115,6 +3127,7 @@
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
 															<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>6</Width>
 															<ContextMenu name="ПланПоставокПоПериодамСуммаКонтекстноеМеню" id="1308"/>
 															<ExtendedTooltip name="ПланПоставокПоПериодамСуммаРасширеннаяПодсказка" id="1309"/>
@@ -3136,6 +3149,7 @@
 												<InputField name="ПланПоставокПоПериодамСтавкаНДС" id="1328">
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>6</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>6</MaxWidth>
@@ -3146,6 +3160,7 @@
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>6</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>6</MaxWidth>
@@ -3170,6 +3185,7 @@
 										<InputField name="ПланПоставокПоПериодамСтатьяБюджета" id="1731">
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ПланПоставокПоПериодамСтатьяБюджетаКонтекстноеМеню" id="1732"/>
 											<ExtendedTooltip name="ПланПоставокПоПериодамСтатьяБюджетаРасширеннаяПодсказка" id="1733"/>
 										</InputField>
@@ -3188,6 +3204,7 @@
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInFooter>false</ShowInFooter>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="ПланПоставокПоПериодамКолонкаРазделительКонтекстноеМеню" id="1737"/>
 									<ExtendedTooltip name="ПланПоставокПоПериодамКолонкаРазделительРасширеннаяПодсказка" id="1738"/>
@@ -3472,11 +3489,13 @@
 							<ChildItems>
 								<LabelField name="ДвиженияОперацииНомерСтроки" id="1844">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДвиженияОперацииНомерСтрокиКонтекстноеМеню" id="1845"/>
 									<ExtendedTooltip name="ДвиженияОперацииНомерСтрокиРасширеннаяПодсказка" id="1846"/>
 								</LabelField>
 								<InputField name="ДвиженияОперацииВидБюджета" id="1847">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ListChoiceMode>true</ListChoiceMode>
 									<ChoiceList>
 										<xr:Item>
@@ -3505,36 +3524,43 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДвиженияОперацииПериодичностьКонтекстноеМеню" id="1897"/>
 									<ExtendedTooltip name="ДвиженияОперацииПериодичностьРасширеннаяПодсказка" id="1898"/>
 								</InputField>
 								<InputField name="ДвиженияОперацииПериод" id="1850">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДвиженияОперацииПериодКонтекстноеМеню" id="1851"/>
 									<ExtendedTooltip name="ДвиженияОперацииПериодРасширеннаяПодсказка" id="1852"/>
 								</InputField>
 								<InputField name="ДвиженияОперацииСумма" id="1883">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДвиженияОперацииСуммаКонтекстноеМеню" id="1884"/>
 									<ExtendedTooltip name="ДвиженияОперацииСуммаРасширеннаяПодсказка" id="1885"/>
 								</InputField>
 								<InputField name="ДвиженияОперацииПриходРасход" id="1853">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДвиженияОперацииПриходРасходКонтекстноеМеню" id="1854"/>
 									<ExtendedTooltip name="ДвиженияОперацииПриходРасходРасширеннаяПодсказка" id="1855"/>
 								</InputField>
 								<InputField name="ДвиженияОперацииЦФО" id="1856">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДвиженияОперацииЦФОКонтекстноеМеню" id="1857"/>
 									<ExtendedTooltip name="ДвиженияОперацииЦФОРасширеннаяПодсказка" id="1858"/>
 								</InputField>
 								<InputField name="ДвиженияОперацииПроект" id="1859">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДвиженияОперацииПроектКонтекстноеМеню" id="1860"/>
 									<ExtendedTooltip name="ДвиженияОперацииПроектРасширеннаяПодсказка" id="1861"/>
 								</InputField>
 								<InputField name="ДвиженияОперацииСтатьяБюджета" id="1862">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДвиженияОперацииСтатьяБюджетаКонтекстноеМеню" id="1863"/>
 									<ExtendedTooltip name="ДвиженияОперацииСтатьяБюджетаРасширеннаяПодсказка" id="1864"/>
 								</InputField>
@@ -3556,31 +3582,37 @@
 									<ChildItems>
 										<InputField name="ДвиженияОперацииАналитика1" id="1865">
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДвиженияОперацииАналитика1КонтекстноеМеню" id="1866"/>
 											<ExtendedTooltip name="ДвиженияОперацииАналитика1РасширеннаяПодсказка" id="1867"/>
 										</InputField>
 										<InputField name="ДвиженияОперацииАналитика2" id="1868">
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДвиженияОперацииАналитика2КонтекстноеМеню" id="1869"/>
 											<ExtendedTooltip name="ДвиженияОперацииАналитика2РасширеннаяПодсказка" id="1870"/>
 										</InputField>
 										<InputField name="ДвиженияОперацииАналитика3" id="1871">
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДвиженияОперацииАналитика3КонтекстноеМеню" id="1872"/>
 											<ExtendedTooltip name="ДвиженияОперацииАналитика3РасширеннаяПодсказка" id="1873"/>
 										</InputField>
 										<InputField name="ДвиженияОперацииАналитика4" id="1874">
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДвиженияОперацииАналитика4КонтекстноеМеню" id="1875"/>
 											<ExtendedTooltip name="ДвиженияОперацииАналитика4РасширеннаяПодсказка" id="1876"/>
 										</InputField>
 										<InputField name="ДвиженияОперацииАналитика5" id="1877">
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДвиженияОперацииАналитика5КонтекстноеМеню" id="1878"/>
 											<ExtendedTooltip name="ДвиженияОперацииАналитика5РасширеннаяПодсказка" id="1879"/>
 										</InputField>
 										<InputField name="ДвиженияОперацииАналитика6" id="1880">
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДвиженияОперацииАналитика6КонтекстноеМеню" id="1881"/>
 											<ExtendedTooltip name="ДвиженияОперацииАналитика6РасширеннаяПодсказка" id="1882"/>
 										</InputField>
@@ -3600,7 +3632,7 @@
 					<ExtendedTooltip name="СтраницаПериодическиеОперацииРасширеннаяПодсказка" id="804"/>
 					<ChildItems>
 						<Table name="ПериодическиеОперации" id="805">
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -3733,7 +3765,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowLeftMargin>false</ShowLeftMargin>
 							<ExtendedTooltip name="ГруппаБухгалтерскийУчетРасширеннаяПодсказка" id="1698"/>
@@ -3834,7 +3866,7 @@
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowLeftMargin>false</ShowLeftMargin>
 							<ExtendedTooltip name="ГруппаНДСРасширеннаяПодсказка" id="544"/>
@@ -3976,7 +4008,6 @@
 											</UserVisible>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="НДСПоСтавкам4и2КонтекстноеМеню" id="580"/>
 											<ExtendedTooltip name="НДСПоСтавкам4и2РасширеннаяПодсказка" id="581">
 												<Title formatted="false">
@@ -4017,7 +4048,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="УчетАгентскогоНДСПокупателемКонтекстноеМеню" id="548"/>
 											<ExtendedTooltip name="УчетАгентскогоНДСПокупателемРасширеннаяПодсказка" id="549"/>
 										</CheckBoxField>
@@ -4137,7 +4167,6 @@
 									<ChildItems>
 										<CheckBoxField name="СчетаФактурыОтИмениОрганизации" id="1152">
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="СчетаФактурыОтИмениОрганизацииКонтекстноеМеню" id="1153"/>
 											<ExtendedTooltip name="СчетаФактурыОтИмениОрганизацииРасширеннаяПодсказка" id="1154"/>
 										</CheckBoxField>
@@ -4211,7 +4240,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЭлектронныеУслугиИностранцаКонтекстноеМеню" id="1427"/>
 											<ExtendedTooltip name="ЭлектронныеУслугиИностранцаРасширеннаяПодсказка" id="1428"/>
 										</CheckBoxField>
@@ -4305,7 +4333,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="УчетАгентскогоНДСКонтекстноеМеню" id="566"/>
 											<ExtendedTooltip name="УчетАгентскогоНДСExtendedTooltip" id="567"/>
 										</CheckBoxField>
@@ -4351,7 +4378,7 @@
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<Group>AlwaysHorizontal</Group>
 							<Behavior>Collapsible</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаРСБУРасширеннаяПодсказка" id="1686"/>
 							<ChildItems>
@@ -4547,7 +4574,6 @@
 						</InputField>
 						<CheckBoxField name="РучнойРасчетРезерваПоЗадолженности" id="608">
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РучнойРасчетРезерваПоЗадолженностиКонтекстноеМеню" id="609"/>
 							<ExtendedTooltip name="РучнойРасчетРезерваПоЗадолженностиРасширеннаяПодсказка" id="610"/>
 						</CheckBoxField>
@@ -4616,7 +4642,7 @@
 							<Group>Horizontal</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowLeftMargin>false</ShowLeftMargin>
 							<ExtendedTooltip name="ГруппаПодписиРасширеннаяПодсказка" id="1056"/>
@@ -4772,7 +4798,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПодписанКонтекстноеМеню" id="1082"/>
 													<ExtendedTooltip name="ПодписанРасширеннаяПодсказка" id="1083"/>
 												</CheckBoxField>
@@ -4879,7 +4904,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ThroughAlign>Use</ThroughAlign>
 							<ExtendedTooltip name="ГруппаАльтернативноеНаименованиеРасширеннаяПодсказка" id="435"/>
@@ -4966,7 +4991,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowLeftMargin>false</ShowLeftMargin>
 							<ExtendedTooltip name="ГруппаХранениеРасширеннаяПодсказка" id="1110"/>
@@ -5019,7 +5044,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowLeftMargin>false</ShowLeftMargin>
 							<ExtendedTooltip name="ГруппаДополнительнаяИнформацияРасширеннаяПодсказка" id="1128"/>
@@ -5059,7 +5084,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowLeftMargin>false</ShowLeftMargin>
 							<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="478"/>
@@ -5075,7 +5100,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowLeftMargin>false</ShowLeftMargin>
 							<ExtendedTooltip name="ГруппаПлатежныйАгентРасширеннаяПодсказка" id="658"/>
@@ -5088,7 +5113,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПлатежныйАгентКонтекстноеМеню" id="660"/>
 									<ExtendedTooltip name="ПлатежныйАгентРасширеннаяПодсказка" id="661"/>
 								</CheckBoxField>
@@ -5230,7 +5254,7 @@
 							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="1142"/>
 							<ChildItems>
@@ -5279,7 +5303,7 @@
 			</dcsset:item>
 		</ConditionalAppearance>
 	</Attributes>
-	<BaseForm version="2.20">
+	<BaseForm version="2.21">
 		<AutoTitle>false</AutoTitle>
 		<CommandSet>
 			<ExcludedCommand>Delete</ExcludedCommand>
@@ -5981,7 +6005,6 @@
 													</v8:item>
 												</Title>
 												<TitleLocation>Right</TitleLocation>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="ФиксированнаяСуммаДоговораКонтекстноеМеню" id="1693"/>
 												<ExtendedTooltip name="ФиксированнаяСуммаДоговораРасширеннаяПодсказка" id="1694"/>
 											</CheckBoxField>
@@ -6040,7 +6063,6 @@
 													<CheckBoxField name="КонтролироватьПревышениеСуммы" id="1598">
 														<TitleLocation>Right</TitleLocation>
 														<ToolTipRepresentation>Button</ToolTipRepresentation>
-														<CheckBoxType>Auto</CheckBoxType>
 														<ContextMenu name="КонтролироватьПревышениеСуммыКонтекстноеМеню" id="1599"/>
 														<ExtendedTooltip name="КонтролироватьПревышениеСуммыРасширеннаяПодсказка" id="1600"/>
 													</CheckBoxField>
@@ -6064,13 +6086,12 @@
 										<Group>Vertical</Group>
 										<Behavior>Collapsible</Behavior>
 										<Collapsed>true</Collapsed>
-										<ControlRepresentation>Picture</ControlRepresentation>
+										<ControlRepresentation>Button</ControlRepresentation>
 										<Representation>None</Representation>
 										<ExtendedTooltip name="ГруппаГосударственныйКонтрактРасширеннаяПодсказка" id="326"/>
 										<ChildItems>
 											<CheckBoxField name="ЭтоГосударственныйКонтракт" id="327">
 												<TitleLocation>Right</TitleLocation>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="ЭтоГосударственныйКонтрактКонтекстноеМеню" id="328"/>
 												<ExtendedTooltip name="ЭтоГосударственныйКонтрактРасширеннаяПодсказка" id="329"/>
 											</CheckBoxField>
@@ -6091,13 +6112,12 @@
 										<Group>Vertical</Group>
 										<Behavior>Collapsible</Behavior>
 										<Collapsed>true</Collapsed>
-										<ControlRepresentation>Picture</ControlRepresentation>
+										<ControlRepresentation>Button</ControlRepresentation>
 										<Representation>None</Representation>
 										<ExtendedTooltip name="ГруппаВалютныйКонтрольРасширеннаяПодсказка" id="305"/>
 										<ChildItems>
 											<CheckBoxField name="ТребуетсяПостановкаНаУчетВалютногоКонтроля" id="306">
 												<TitleLocation>Right</TitleLocation>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="ТребуетсяПостановкаНаУчетВалютногоКонтроляКонтекстноеМеню" id="307"/>
 												<ExtendedTooltip name="ТребуетсяПостановкаНаУчетВалютногоКонтроляРасширеннаяПодсказка" id="308"/>
 											</CheckBoxField>
@@ -6204,7 +6224,6 @@
 												<v8:content>Если флажок установлен, при неисполнении графика расчетов ответственный по договору будет получать уведомление.</v8:content>
 											</v8:item>
 										</ToolTip>
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="КонтролироватьНарушенияУсловийДоговораКонтекстноеМеню" id="1661"/>
 										<ExtendedTooltip name="КонтролироватьНарушенияУсловийДоговораРасширеннаяПодсказка" id="1662"/>
 									</CheckBoxField>
@@ -6249,7 +6268,6 @@
 											</InputField>
 											<CheckBoxField name="ОпорныйГрафик" id="1720">
 												<TitleLocation>Right</TitleLocation>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="ОпорныйГрафикКонтекстноеМеню" id="1721"/>
 												<ExtendedTooltip name="ОпорныйГрафикРасширеннаяПодсказка" id="1722"/>
 											</CheckBoxField>
@@ -6314,7 +6332,7 @@
 												<TitleLocation>None</TitleLocation>
 												<ToolTipRepresentation>Button</ToolTipRepresentation>
 												<EditMode>EnterOnInput</EditMode>
-												<CheckBoxType>Auto</CheckBoxType>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ОграничиватьСуммуЗадолженностиКонтекстноеМеню" id="257"/>
 												<ExtendedTooltip name="ОграничиватьСуммуЗадолженностиРасширеннаяПодсказка" id="258"/>
 											</CheckBoxField>
@@ -6326,6 +6344,7 @@
 													</v8:item>
 												</Title>
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ДопустимаяСуммаЗадолженностиКонтекстноеМеню" id="260"/>
 												<ExtendedTooltip name="ДопустимаяСуммаЗадолженностиExtendedTooltip" id="261"/>
 											</InputField>
@@ -6376,7 +6395,6 @@
 														<v8:content>Если флажок установлен, в заявках на оплату по данному договору будет запрещен выбор валюты.</v8:content>
 													</v8:item>
 												</ToolTip>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="ЗапретПлатежаВПрочихВалютахКонтекстноеМеню" id="159"/>
 												<ExtendedTooltip name="ЗапретПлатежаВПрочихВалютахРасширеннаяПодсказка" id="160"/>
 											</CheckBoxField>
@@ -6393,7 +6411,7 @@
 										<VerticalSpacing>Half</VerticalSpacing>
 										<Behavior>Collapsible</Behavior>
 										<Collapsed>true</Collapsed>
-										<ControlRepresentation>Picture</ControlRepresentation>
+										<ControlRepresentation>Button</ControlRepresentation>
 										<Representation>None</Representation>
 										<ExtendedTooltip name="ГруппаКурсПлатежаРасширеннаяПодсказка" id="162"/>
 										<ChildItems>
@@ -6694,7 +6712,7 @@
 										<Group>Vertical</Group>
 										<Behavior>Collapsible</Behavior>
 										<Collapsed>true</Collapsed>
-										<ControlRepresentation>Picture</ControlRepresentation>
+										<ControlRepresentation>Button</ControlRepresentation>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаУсловиеОплатыРасширеннаяПодсказка" id="281"/>
@@ -6728,6 +6746,7 @@
 														</Title>
 														<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 														<FileDragMode>AsFile</FileDragMode>
+														<PictureColor>style:ТекстИнформационнойНадписи</PictureColor>
 														<ContextMenu name="ДекорацияПредупреждениеУсловиеОплатыКонтекстноеМеню" id="288"/>
 														<ExtendedTooltip name="ДекорацияПредупреждениеУсловиеОплатыРасширеннаяПодсказка" id="289"/>
 													</PictureDecoration>
@@ -6798,7 +6817,7 @@
 										<Group>Vertical</Group>
 										<Behavior>Collapsible</Behavior>
 										<Collapsed>true</Collapsed>
-										<ControlRepresentation>Picture</ControlRepresentation>
+										<ControlRepresentation>Button</ControlRepresentation>
 										<Representation>None</Representation>
 										<ThroughAlign>DontUse</ThroughAlign>
 										<ExtendedTooltip name="ГруппаФормированиеПлатежейРасширеннаяПодсказка" id="266"/>
@@ -6835,7 +6854,7 @@
 								<VerticalSpacing>Half</VerticalSpacing>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаБанковскиеСчетаРасширеннаяПодсказка" id="336"/>
 								<ChildItems>
@@ -6908,7 +6927,6 @@
 														<v8:content>Признак того, что при расчетах по данному договору может использоваться только указанный банковский счет организации.</v8:content>
 													</v8:item>
 												</ToolTip>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="ФиксированныйСчетОрганизацииКонтекстноеМеню" id="346"/>
 												<ExtendedTooltip name="ФиксированныйСчетОрганизацииРасширеннаяПодсказка" id="347"/>
 											</CheckBoxField>
@@ -6967,7 +6985,6 @@
 														<v8:content>Признак того, что при расчетах по данному договору может использоваться только указанный банковский счет контрагента.</v8:content>
 													</v8:item>
 												</ToolTip>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="ФиксированныйСчетКонтрагентаКонтекстноеМеню" id="354"/>
 												<ExtendedTooltip name="ФиксированныйСчетКонтрагентаРасширеннаяПодсказка" id="355"/>
 											</CheckBoxField>
@@ -6985,7 +7002,7 @@
 								<Group>Horizontal</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаПениРасширеннаяПодсказка" id="357"/>
 								<ChildItems>
@@ -7055,7 +7072,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаФакторингРасширеннаяПодсказка" id="370"/>
 								<ChildItems>
@@ -7112,7 +7129,7 @@
 								<VerticalSpacing>Half</VerticalSpacing>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаСведенияОбОбеспеченииРасширеннаяПодсказка" id="883"/>
 								<ChildItems>
@@ -7131,7 +7148,6 @@
 										<ChildItems>
 											<CheckBoxField name="ВыданноеОбеспечение" id="886">
 												<TitleLocation>None</TitleLocation>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="ВыданноеОбеспечениеКонтекстноеМеню" id="887"/>
 												<ExtendedTooltip name="ВыданноеОбеспечениеРасширеннаяПодсказка" id="888"/>
 											</CheckBoxField>
@@ -7163,7 +7179,6 @@
 										<ChildItems>
 											<CheckBoxField name="ПолученноеОбеспечение" id="894">
 												<TitleLocation>None</TitleLocation>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="ПолученноеОбеспечениеКонтекстноеМеню" id="895"/>
 												<ExtendedTooltip name="ПолученноеОбеспечениеРасширеннаяПодсказка" id="896"/>
 											</CheckBoxField>
@@ -7192,7 +7207,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаСтрахованиеРасширеннаяПодсказка" id="901"/>
 								<ChildItems>
@@ -7263,11 +7278,13 @@
 										<ChildItems>
 											<LabelField name="РискиНомерСтроки" id="1028">
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="РискиНомерСтрокиКонтекстноеМеню" id="1029"/>
 												<ExtendedTooltip name="РискиНомерСтрокиРасширеннаяПодсказка" id="1030"/>
 											</LabelField>
 											<InputField name="РискиРиск" id="1031">
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="РискиРискКонтекстноеМеню" id="1032"/>
 												<ExtendedTooltip name="РискиРискРасширеннаяПодсказка" id="1033"/>
 											</InputField>
@@ -7285,7 +7302,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаОбъектыЗалогаРасширеннаяПодсказка" id="936"/>
 								<ChildItems>
@@ -7326,6 +7343,7 @@
 										<ChildItems>
 											<InputField name="ТаблицаОбъектыЗалогаОбъектЗалога" id="1421">
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ТаблицаОбъектыЗалогаОбъектЗалогаКонтекстноеМеню" id="1422"/>
 												<ExtendedTooltip name="ТаблицаОбъектыЗалогаОбъектЗалогаРасширеннаяПодсказка" id="1423"/>
 											</InputField>
@@ -7337,32 +7355,38 @@
 													</v8:item>
 												</Title>
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ТаблицаОбъектыЗалогаПериодКонтекстноеМеню" id="1404"/>
 												<ExtendedTooltip name="ТаблицаОбъектыЗалогаПериодРасширеннаяПодсказка" id="1405"/>
 											</InputField>
 											<InputField name="ТаблицаОбъектыЗалогаДатаОкончания" id="1406">
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ТаблицаОбъектыЗалогаДатаОкончанияКонтекстноеМеню" id="1407"/>
 												<ExtendedTooltip name="ТаблицаОбъектыЗалогаДатаОкончанияРасширеннаяПодсказка" id="1408"/>
 											</InputField>
 											<InputField name="ТаблицаОбъектыЗалогаДоговорЗалога" id="1409">
 												<Visible>false</Visible>
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ТаблицаОбъектыЗалогаДоговорЗалогаКонтекстноеМеню" id="1410"/>
 												<ExtendedTooltip name="ТаблицаОбъектыЗалогаДоговорЗалогаРасширеннаяПодсказка" id="1411"/>
 											</InputField>
 											<InputField name="ТаблицаОбъектыЗалогаЗалоговаяСтоимость" id="1412">
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ТаблицаОбъектыЗалогаЗалоговаяСтоимостьКонтекстноеМеню" id="1413"/>
 												<ExtendedTooltip name="ТаблицаОбъектыЗалогаЗалоговаяСтоимостьРасширеннаяПодсказка" id="1414"/>
 											</InputField>
 											<InputField name="ТаблицаОбъектыЗалогаКоличество" id="1415">
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ТаблицаОбъектыЗалогаКоличествоКонтекстноеМеню" id="1416"/>
 												<ExtendedTooltip name="ТаблицаОбъектыЗалогаКоличествоРасширеннаяПодсказка" id="1417"/>
 											</InputField>
 											<InputField name="ТаблицаОбъектыЗалогаКомментарий" id="1418">
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ТаблицаОбъектыЗалогаКомментарийКонтекстноеМеню" id="1419"/>
 												<ExtendedTooltip name="ТаблицаОбъектыЗалогаКомментарийРасширеннаяПодсказка" id="1420"/>
 											</InputField>
@@ -7381,7 +7405,7 @@
 								<Group>Horizontal</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ShowLeftMargin>false</ShowLeftMargin>
 								<ExtendedTooltip name="ГруппаКомиссионноеВознаграждениеExtendedTooltip" id="583"/>
@@ -7444,7 +7468,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаДоставкаРасширеннаяПодсказка" id="1907"/>
 								<ChildItems>
@@ -7470,7 +7494,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ThroughAlign>DontUse</ThroughAlign>
 								<ExtendedTooltip name="ГруппаРасчетыПрочееРасширеннаяПодсказка" id="396"/>
@@ -7511,7 +7535,7 @@
 								</Title>
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<United>false</United>
 								<ExtendedTooltip name="ГруппаПараметрыГрафикаРасширеннаяПодсказка" id="1633"/>
@@ -7524,6 +7548,7 @@
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ПриоритетПлатежаКонтекстноеМеню" id="514"/>
 										<ExtendedTooltip name="ПриоритетПлатежаExtendedTooltip" id="515"/>
 									</InputField>
@@ -7584,7 +7609,7 @@
 										</Title>
 										<Group>Vertical</Group>
 										<Behavior>Collapsible</Behavior>
-										<ControlRepresentation>Picture</ControlRepresentation>
+										<ControlRepresentation>Button</ControlRepresentation>
 										<Representation>None</Representation>
 										<United>false</United>
 										<ShowTitle>false</ShowTitle>
@@ -7622,7 +7647,6 @@
 													</RadioButtonField>
 													<CheckBoxField name="АвтоматическоеСозданиеПлатежныхПозиций" id="1891">
 														<TitleLocation>Left</TitleLocation>
-														<CheckBoxType>Auto</CheckBoxType>
 														<ContextMenu name="АвтоматическоеСозданиеПлатежныхПозицийКонтекстноеМеню" id="1892"/>
 														<ExtendedTooltip name="АвтоматическоеСозданиеПлатежныхПозицийРасширеннаяПодсказка" id="1893"/>
 													</CheckBoxField>
@@ -7642,7 +7666,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<United>false</United>
 								<ExtendedTooltip name="ГруппаБюджетированиеРасширеннаяПодсказка" id="490"/>
@@ -7712,7 +7736,7 @@
 										<Group>Vertical</Group>
 										<Behavior>Usual</Behavior>
 										<Collapsed>true</Collapsed>
-										<ControlRepresentation>Picture</ControlRepresentation>
+										<ControlRepresentation>Button</ControlRepresentation>
 										<Representation>None</Representation>
 										<ThroughAlign>Use</ThroughAlign>
 										<ExtendedTooltip name="ГруппаСтатьяДДСРасширеннаяПодсказка" id="500"/>
@@ -7725,6 +7749,7 @@
 													</v8:item>
 												</Title>
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="СтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="502"/>
 												<ExtendedTooltip name="СтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="503"/>
 											</InputField>
@@ -7753,7 +7778,7 @@
 										<Group>Vertical</Group>
 										<Behavior>Usual</Behavior>
 										<Collapsed>true</Collapsed>
-										<ControlRepresentation>Picture</ControlRepresentation>
+										<ControlRepresentation>Button</ControlRepresentation>
 										<Representation>None</Representation>
 										<ThroughAlign>Use</ThroughAlign>
 										<ExtendedTooltip name="ГруппаСтатьяБДРРасширеннаяПодсказка" id="530"/>
@@ -7822,19 +7847,16 @@
 								<ChildItems>
 									<CheckBoxField name="ВозможностьПродленияСрокаДействия" id="696">
 										<TitleLocation>Right</TitleLocation>
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ВозможностьПродленияСрокаДействияКонтекстноеМеню" id="697"/>
 										<ExtendedTooltip name="ВозможностьПродленияСрокаДействияРасширеннаяПодсказка" id="698"/>
 									</CheckBoxField>
 									<CheckBoxField name="ПрекращениеОбязательствСОкончаниемСрокаДействия" id="699">
 										<TitleLocation>Right</TitleLocation>
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ПрекращениеОбязательствСОкончаниемСрокаДействияКонтекстноеМеню" id="700"/>
 										<ExtendedTooltip name="ПрекращениеОбязательствСОкончаниемСрокаДействияРасширеннаяПодсказка" id="701"/>
 									</CheckBoxField>
 									<CheckBoxField name="Пролонгация" id="702">
 										<TitleLocation>Right</TitleLocation>
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ПролонгацияКонтекстноеМеню" id="703"/>
 										<ExtendedTooltip name="ПролонгацияРасширеннаяПодсказка" id="704"/>
 									</CheckBoxField>
@@ -7896,7 +7918,6 @@
 							</InputField>
 							<CheckBoxField name="НеВключенВПланЗакупкиЧасть15Ст4ФЗ223" id="1601">
 								<TitleLocation>Right</TitleLocation>
-								<CheckBoxType>Auto</CheckBoxType>
 								<ContextMenu name="НеВключенВПланЗакупкиЧасть15Ст4ФЗ223КонтекстноеМеню" id="1602"/>
 								<ExtendedTooltip name="НеВключенВПланЗакупкиЧасть15Ст4ФЗ223РасширеннаяПодсказка" id="1603"/>
 							</CheckBoxField>
@@ -7924,13 +7945,11 @@
 									</LabelField>
 									<CheckBoxField name="ПриоритетУчастияМалогоИСреднегоПредпринимательства" id="1610">
 										<TitleLocation>Right</TitleLocation>
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ПриоритетУчастияМалогоИСреднегоПредпринимательстваКонтекстноеМеню" id="1611"/>
 										<ExtendedTooltip name="ПриоритетУчастияМалогоИСреднегоПредпринимательстваРасширеннаяПодсказка" id="1612"/>
 									</CheckBoxField>
 									<CheckBoxField name="ПривлечениеМалогоИСреднегоПредпринимательстваКакПодрядчиков" id="1607">
 										<TitleLocation>Right</TitleLocation>
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ПривлечениеМалогоИСреднегоПредпринимательстваКакПодрядчиковКонтекстноеМеню" id="1608"/>
 										<ExtendedTooltip name="ПривлечениеМалогоИСреднегоПредпринимательстваКакПодрядчиковРасширеннаяПодсказка" id="1609"/>
 									</CheckBoxField>
@@ -7955,7 +7974,6 @@
 										<ChildItems>
 											<CheckBoxField name="НеУчитыватьПриРасчетеДолиЗакупокУСМП" id="1615">
 												<TitleLocation>Right</TitleLocation>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="НеУчитыватьПриРасчетеДолиЗакупокУСМПКонтекстноеМеню" id="1616"/>
 												<ExtendedTooltip name="НеУчитыватьПриРасчетеДолиЗакупокУСМПРасширеннаяПодсказка" id="1617"/>
 											</CheckBoxField>
@@ -8082,11 +8100,13 @@
 								<ChildItems>
 									<InputField name="НоменклатураПоСтатьямДатаПоставки" id="1812">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="НоменклатураПоСтатьямДатаПоставкиКонтекстноеМеню" id="1813"/>
 										<ExtendedTooltip name="НоменклатураПоСтатьямДатаПоставкиРасширеннаяПодсказка" id="1814"/>
 									</InputField>
 									<InputField name="НоменклатураПоСтатьямСумма" id="1815">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="НоменклатураПоСтатьямСуммаКонтекстноеМеню" id="1816"/>
 										<ExtendedTooltip name="НоменклатураПоСтатьямСуммаРасширеннаяПодсказка" id="1817"/>
 									</InputField>
@@ -8186,6 +8206,7 @@
 											<InputField name="ПланПоставокПоПериодамНомерСтроки" id="1313">
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInFooter>false</ShowInFooter>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ПланПоставокПоПериодамНомерСтрокиКонтекстноеМеню" id="1314"/>
 												<ExtendedTooltip name="ПланПоставокПоПериодамНомерСтрокиРасширеннаяПодсказка" id="1315"/>
 											</InputField>
@@ -8201,6 +8222,7 @@
 													<InputField name="ПланПоставокПоПериодамЛот" id="1346">
 														<ReadOnly>true</ReadOnly>
 														<EditMode>EnterOnInput</EditMode>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>12</Width>
 														<ContextMenu name="ПланПоставокПоПериодамЛотКонтекстноеМеню" id="1347"/>
 														<ExtendedTooltip name="ПланПоставокПоПериодамЛотРасширеннаяПодсказка" id="1348"/>
@@ -8208,6 +8230,7 @@
 													<InputField name="ПланПоставокПоПериодамНоменклатура" id="1295">
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInFooter>false</ShowInFooter>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>12</Width>
 														<AutoMarkIncomplete>true</AutoMarkIncomplete>
 														<ContextMenu name="ПланПоставокПоПериодамНоменклатураКонтекстноеМеню" id="1296"/>
@@ -8216,6 +8239,7 @@
 													<InputField name="ПланПоставокПоПериодамХарактеристика" id="1384">
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInFooter>false</ShowInFooter>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>12</Width>
 														<ChoiceParameterLinks>
 															<xr:Link>
@@ -8240,6 +8264,7 @@
 												<ChildItems>
 													<InputField name="ПланПоставокПоПериодамОрганизация" id="1319">
 														<EditMode>EnterOnInput</EditMode>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>12</Width>
 														<AutoMarkIncomplete>true</AutoMarkIncomplete>
 														<ContextMenu name="ПланПоставокПоПериодамОрганизацияКонтекстноеМеню" id="1320"/>
@@ -8248,6 +8273,7 @@
 													<InputField name="ПланПоставокПоПериодамМестоПоставки" id="1325">
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInFooter>false</ShowInFooter>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>12</Width>
 														<AutoMarkIncomplete>true</AutoMarkIncomplete>
 														<ContextMenu name="ПланПоставокПоПериодамМестоПоставкиКонтекстноеМеню" id="1326"/>
@@ -8272,18 +8298,21 @@
 												<ChildItems>
 													<InputField name="ПланПоставокПоПериодамСтраныПроисхождения" id="1707">
 														<EditMode>EnterOnInput</EditMode>
+														<AutoEditMode>true</AutoEditMode>
 														<ContextMenu name="ПланПоставокПоПериодамСтраныПроисхожденияКонтекстноеМеню" id="1708"/>
 														<ExtendedTooltip name="ПланПоставокПоПериодамСтраныПроисхожденияРасширеннаяПодсказка" id="1709"/>
 													</InputField>
 													<InputField name="ПланПоставокПоПериодамСтранаПроизводителя" id="1710">
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInFooter>false</ShowInFooter>
+														<AutoEditMode>true</AutoEditMode>
 														<ContextMenu name="ПланПоставокПоПериодамСтранаПроизводителяКонтекстноеМеню" id="1711"/>
 														<ExtendedTooltip name="ПланПоставокПоПериодамСтранаПроизводителяРасширеннаяПодсказка" id="1712"/>
 													</InputField>
 													<InputField name="ПланПоставокПоПериодамНоменклатураПоставщика" id="1713">
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInFooter>false</ShowInFooter>
+														<AutoEditMode>true</AutoEditMode>
 														<DropListButton>false</DropListButton>
 														<QuickChoice>false</QuickChoice>
 														<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
@@ -8306,6 +8335,7 @@
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInFooter>false</ShowInFooter>
 														<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>12</Width>
 														<ContextMenu name="ПланПоставокПоПериодамМенеджерКонтекстноеМеню" id="1344"/>
 														<ExtendedTooltip name="ПланПоставокПоПериодамМенеджерРасширеннаяПодсказка" id="1345"/>
@@ -8313,6 +8343,7 @@
 													<InputField name="ПланПоставокПоПериодамПроект" id="1322">
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInFooter>false</ShowInFooter>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>12</Width>
 														<ContextMenu name="ПланПоставокПоПериодамПроектКонтекстноеМеню" id="1323"/>
 														<ExtendedTooltip name="ПланПоставокПоПериодамПроектРасширеннаяПодсказка" id="1324"/>
@@ -8320,6 +8351,7 @@
 													<InputField name="ПланПоставокПоПериодамДоговорСПокупателем" id="1340">
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInFooter>false</ShowInFooter>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>12</Width>
 														<ContextMenu name="ПланПоставокПоПериодамДоговорСПокупателемКонтекстноеМеню" id="1341"/>
 														<ExtendedTooltip name="ПланПоставокПоПериодамДоговорСПокупателемРасширеннаяПодсказка" id="1342"/>
@@ -8348,6 +8380,7 @@
 														<ChildItems>
 															<InputField name="ПланПоставокПоПериодамЕдиницаИзмерения" id="1298">
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<Width>5</Width>
 																<ContextMenu name="ПланПоставокПоПериодамЕдиницаИзмеренияКонтекстноеМеню" id="1299"/>
 																<ExtendedTooltip name="ПланПоставокПоПериодамЕдиницаИзмеренияРасширеннаяПодсказка" id="1300"/>
@@ -8356,6 +8389,7 @@
 																<ReadOnly>true</ReadOnly>
 																<EditMode>EnterOnInput</EditMode>
 																<ShowInFooter>false</ShowInFooter>
+																<AutoEditMode>true</AutoEditMode>
 																<Width>3</Width>
 																<ContextMenu name="ПланПоставокПоПериодамКоэффициентКонтекстноеМеню" id="1311"/>
 																<ExtendedTooltip name="ПланПоставокПоПериодамКоэффициентРасширеннаяПодсказка" id="1312"/>
@@ -8363,6 +8397,7 @@
 															<InputField name="ПланПоставокПоПериодамКоличество" id="1301">
 																<EditMode>EnterOnInput</EditMode>
 																<ShowInFooter>false</ShowInFooter>
+																<AutoEditMode>true</AutoEditMode>
 																<Width>6</Width>
 																<ContextMenu name="ПланПоставокПоПериодамКоличествоКонтекстноеМеню" id="1302"/>
 																<ExtendedTooltip name="ПланПоставокПоПериодамКоличествоРасширеннаяПодсказка" id="1303"/>
@@ -8381,6 +8416,7 @@
 															<InputField name="ПланПоставокПоПериодамЦена" id="1304">
 																<EditMode>EnterOnInput</EditMode>
 																<ShowInFooter>false</ShowInFooter>
+																<AutoEditMode>true</AutoEditMode>
 																<Width>6</Width>
 																<ContextMenu name="ПланПоставокПоПериодамЦенаКонтекстноеМеню" id="1305"/>
 																<ExtendedTooltip name="ПланПоставокПоПериодамЦенаРасширеннаяПодсказка" id="1306"/>
@@ -8389,6 +8425,7 @@
 																<ReadOnly>true</ReadOnly>
 																<EditMode>EnterOnInput</EditMode>
 																<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+																<AutoEditMode>true</AutoEditMode>
 																<Width>6</Width>
 																<ContextMenu name="ПланПоставокПоПериодамСуммаКонтекстноеМеню" id="1308"/>
 																<ExtendedTooltip name="ПланПоставокПоПериодамСуммаРасширеннаяПодсказка" id="1309"/>
@@ -8410,6 +8447,7 @@
 													<InputField name="ПланПоставокПоПериодамСтавкаНДС" id="1328">
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInFooter>false</ShowInFooter>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>6</Width>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>6</MaxWidth>
@@ -8420,6 +8458,7 @@
 														<ReadOnly>true</ReadOnly>
 														<EditMode>EnterOnInput</EditMode>
 														<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>6</Width>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>6</MaxWidth>
@@ -8444,6 +8483,7 @@
 											<InputField name="ПланПоставокПоПериодамСтатьяБюджета" id="1731">
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInFooter>false</ShowInFooter>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ПланПоставокПоПериодамСтатьяБюджетаКонтекстноеМеню" id="1732"/>
 												<ExtendedTooltip name="ПланПоставокПоПериодамСтатьяБюджетаРасширеннаяПодсказка" id="1733"/>
 											</InputField>
@@ -8462,6 +8502,7 @@
 										<TitleLocation>None</TitleLocation>
 										<EditMode>EnterOnInput</EditMode>
 										<ShowInFooter>false</ShowInFooter>
+										<AutoEditMode>true</AutoEditMode>
 										<Width>1</Width>
 										<ContextMenu name="ПланПоставокПоПериодамКолонкаРазделительКонтекстноеМеню" id="1737"/>
 										<ExtendedTooltip name="ПланПоставокПоПериодамКолонкаРазделительРасширеннаяПодсказка" id="1738"/>
@@ -8746,11 +8787,13 @@
 								<ChildItems>
 									<LabelField name="ДвиженияОперацииНомерСтроки" id="1844">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ДвиженияОперацииНомерСтрокиКонтекстноеМеню" id="1845"/>
 										<ExtendedTooltip name="ДвиженияОперацииНомерСтрокиРасширеннаяПодсказка" id="1846"/>
 									</LabelField>
 									<InputField name="ДвиженияОперацииВидБюджета" id="1847">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ListChoiceMode>true</ListChoiceMode>
 										<ChoiceList>
 											<xr:Item>
@@ -8779,36 +8822,43 @@
 										</UserVisible>
 										<ReadOnly>true</ReadOnly>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ДвиженияОперацииПериодичностьКонтекстноеМеню" id="1897"/>
 										<ExtendedTooltip name="ДвиженияОперацииПериодичностьРасширеннаяПодсказка" id="1898"/>
 									</InputField>
 									<InputField name="ДвиженияОперацииПериод" id="1850">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ДвиженияОперацииПериодКонтекстноеМеню" id="1851"/>
 										<ExtendedTooltip name="ДвиженияОперацииПериодРасширеннаяПодсказка" id="1852"/>
 									</InputField>
 									<InputField name="ДвиженияОперацииСумма" id="1883">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ДвиженияОперацииСуммаКонтекстноеМеню" id="1884"/>
 										<ExtendedTooltip name="ДвиженияОперацииСуммаРасширеннаяПодсказка" id="1885"/>
 									</InputField>
 									<InputField name="ДвиженияОперацииПриходРасход" id="1853">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ДвиженияОперацииПриходРасходКонтекстноеМеню" id="1854"/>
 										<ExtendedTooltip name="ДвиженияОперацииПриходРасходРасширеннаяПодсказка" id="1855"/>
 									</InputField>
 									<InputField name="ДвиженияОперацииЦФО" id="1856">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ДвиженияОперацииЦФОКонтекстноеМеню" id="1857"/>
 										<ExtendedTooltip name="ДвиженияОперацииЦФОРасширеннаяПодсказка" id="1858"/>
 									</InputField>
 									<InputField name="ДвиженияОперацииПроект" id="1859">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ДвиженияОперацииПроектКонтекстноеМеню" id="1860"/>
 										<ExtendedTooltip name="ДвиженияОперацииПроектРасширеннаяПодсказка" id="1861"/>
 									</InputField>
 									<InputField name="ДвиженияОперацииСтатьяБюджета" id="1862">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ДвиженияОперацииСтатьяБюджетаКонтекстноеМеню" id="1863"/>
 										<ExtendedTooltip name="ДвиженияОперацииСтатьяБюджетаРасширеннаяПодсказка" id="1864"/>
 									</InputField>
@@ -8830,31 +8880,37 @@
 										<ChildItems>
 											<InputField name="ДвиженияОперацииАналитика1" id="1865">
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ДвиженияОперацииАналитика1КонтекстноеМеню" id="1866"/>
 												<ExtendedTooltip name="ДвиженияОперацииАналитика1РасширеннаяПодсказка" id="1867"/>
 											</InputField>
 											<InputField name="ДвиженияОперацииАналитика2" id="1868">
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ДвиженияОперацииАналитика2КонтекстноеМеню" id="1869"/>
 												<ExtendedTooltip name="ДвиженияОперацииАналитика2РасширеннаяПодсказка" id="1870"/>
 											</InputField>
 											<InputField name="ДвиженияОперацииАналитика3" id="1871">
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ДвиженияОперацииАналитика3КонтекстноеМеню" id="1872"/>
 												<ExtendedTooltip name="ДвиженияОперацииАналитика3РасширеннаяПодсказка" id="1873"/>
 											</InputField>
 											<InputField name="ДвиженияОперацииАналитика4" id="1874">
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ДвиженияОперацииАналитика4КонтекстноеМеню" id="1875"/>
 												<ExtendedTooltip name="ДвиженияОперацииАналитика4РасширеннаяПодсказка" id="1876"/>
 											</InputField>
 											<InputField name="ДвиженияОперацииАналитика5" id="1877">
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ДвиженияОперацииАналитика5КонтекстноеМеню" id="1878"/>
 												<ExtendedTooltip name="ДвиженияОперацииАналитика5РасширеннаяПодсказка" id="1879"/>
 											</InputField>
 											<InputField name="ДвиженияОперацииАналитика6" id="1880">
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="ДвиженияОперацииАналитика6КонтекстноеМеню" id="1881"/>
 												<ExtendedTooltip name="ДвиженияОперацииАналитика6РасширеннаяПодсказка" id="1882"/>
 											</InputField>
@@ -8874,7 +8930,7 @@
 						<ExtendedTooltip name="СтраницаПериодическиеОперацииРасширеннаяПодсказка" id="804"/>
 						<ChildItems>
 							<Table name="ПериодическиеОперации" id="805">
-								<UseAlternationRowColor>true</UseAlternationRowColor>
+								<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 								<AutoInsertNewRow>true</AutoInsertNewRow>
 								<EnableStartDrag>true</EnableStartDrag>
 								<EnableDrag>true</EnableDrag>
@@ -9007,7 +9063,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ShowLeftMargin>false</ShowLeftMargin>
 								<ExtendedTooltip name="ГруппаБухгалтерскийУчетРасширеннаяПодсказка" id="1698"/>
@@ -9108,7 +9164,7 @@
 								</Title>
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ShowLeftMargin>false</ShowLeftMargin>
 								<ExtendedTooltip name="ГруппаНДСРасширеннаяПодсказка" id="544"/>
@@ -9250,7 +9306,6 @@
 												</UserVisible>
 												<TitleLocation>Right</TitleLocation>
 												<ToolTipRepresentation>Button</ToolTipRepresentation>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="НДСПоСтавкам4и2КонтекстноеМеню" id="580"/>
 												<ExtendedTooltip name="НДСПоСтавкам4и2РасширеннаяПодсказка" id="581">
 													<Title formatted="false">
@@ -9291,7 +9346,6 @@
 													</v8:item>
 												</Title>
 												<TitleLocation>Right</TitleLocation>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="УчетАгентскогоНДСПокупателемКонтекстноеМеню" id="548"/>
 												<ExtendedTooltip name="УчетАгентскогоНДСПокупателемРасширеннаяПодсказка" id="549"/>
 											</CheckBoxField>
@@ -9411,7 +9465,6 @@
 										<ChildItems>
 											<CheckBoxField name="СчетаФактурыОтИмениОрганизации" id="1152">
 												<TitleLocation>Right</TitleLocation>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="СчетаФактурыОтИмениОрганизацииКонтекстноеМеню" id="1153"/>
 												<ExtendedTooltip name="СчетаФактурыОтИмениОрганизацииРасширеннаяПодсказка" id="1154"/>
 											</CheckBoxField>
@@ -9485,7 +9538,6 @@
 													</v8:item>
 												</Title>
 												<TitleLocation>Right</TitleLocation>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="ЭлектронныеУслугиИностранцаКонтекстноеМеню" id="1427"/>
 												<ExtendedTooltip name="ЭлектронныеУслугиИностранцаРасширеннаяПодсказка" id="1428"/>
 											</CheckBoxField>
@@ -9579,7 +9631,6 @@
 													</v8:item>
 												</Title>
 												<TitleLocation>Right</TitleLocation>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="УчетАгентскогоНДСКонтекстноеМеню" id="566"/>
 												<ExtendedTooltip name="УчетАгентскогоНДСExtendedTooltip" id="567"/>
 											</CheckBoxField>
@@ -9625,7 +9676,7 @@
 								<ToolTipRepresentation>Button</ToolTipRepresentation>
 								<Group>AlwaysHorizontal</Group>
 								<Behavior>Collapsible</Behavior>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаРСБУРасширеннаяПодсказка" id="1686"/>
 								<ChildItems>
@@ -9821,7 +9872,6 @@
 							</InputField>
 							<CheckBoxField name="РучнойРасчетРезерваПоЗадолженности" id="608">
 								<TitleLocation>Right</TitleLocation>
-								<CheckBoxType>Auto</CheckBoxType>
 								<ContextMenu name="РучнойРасчетРезерваПоЗадолженностиКонтекстноеМеню" id="609"/>
 								<ExtendedTooltip name="РучнойРасчетРезерваПоЗадолженностиРасширеннаяПодсказка" id="610"/>
 							</CheckBoxField>
@@ -9890,7 +9940,7 @@
 								<Group>Horizontal</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ShowLeftMargin>false</ShowLeftMargin>
 								<ExtendedTooltip name="ГруппаПодписиРасширеннаяПодсказка" id="1056"/>
@@ -10046,7 +10096,6 @@
 															</v8:item>
 														</Title>
 														<TitleLocation>Right</TitleLocation>
-														<CheckBoxType>Auto</CheckBoxType>
 														<ContextMenu name="ПодписанКонтекстноеМеню" id="1082"/>
 														<ExtendedTooltip name="ПодписанРасширеннаяПодсказка" id="1083"/>
 													</CheckBoxField>
@@ -10153,7 +10202,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ThroughAlign>Use</ThroughAlign>
 								<ExtendedTooltip name="ГруппаАльтернативноеНаименованиеРасширеннаяПодсказка" id="435"/>
@@ -10240,7 +10289,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ShowLeftMargin>false</ShowLeftMargin>
 								<ExtendedTooltip name="ГруппаХранениеРасширеннаяПодсказка" id="1110"/>
@@ -10293,7 +10342,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ShowLeftMargin>false</ShowLeftMargin>
 								<ExtendedTooltip name="ГруппаДополнительнаяИнформацияРасширеннаяПодсказка" id="1128"/>
@@ -10333,7 +10382,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ShowLeftMargin>false</ShowLeftMargin>
 								<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="478"/>
@@ -10349,7 +10398,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ShowLeftMargin>false</ShowLeftMargin>
 								<ExtendedTooltip name="ГруппаПлатежныйАгентРасширеннаяПодсказка" id="658"/>
@@ -10362,7 +10411,6 @@
 											</v8:item>
 										</Title>
 										<TitleLocation>Right</TitleLocation>
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ПлатежныйАгентКонтекстноеМеню" id="660"/>
 										<ExtendedTooltip name="ПлатежныйАгентРасширеннаяПодсказка" id="661"/>
 									</CheckBoxField>
@@ -10504,7 +10552,7 @@
 								</Title>
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="1142"/>
 								<ChildItems>

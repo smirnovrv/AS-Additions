@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -21,6 +21,7 @@
 			</UserVisible>
 			<SkipOnInput>true</SkipOnInput>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<CreateButton>false</CreateButton>
 			<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
 			<ExtendedTooltip name="РодительExtendedTooltip" id="41"/>
@@ -46,6 +47,7 @@
 			<ChildItems>
 				<InputField name="Наименование" id="3">
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
 					<ExtendedTooltip name="НаименованиеExtendedTooltip" id="43"/>
 				</InputField>
@@ -54,6 +56,7 @@
 						<xr:Common>false</xr:Common>
 					</UserVisible>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="КодExtendedTooltip" id="44"/>
 				</InputField>
@@ -146,7 +149,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОсобыйПорядокНалогообложенияКонтекстноеМеню" id="105"/>
 									<ExtendedTooltip name="ОсобыйПорядокНалогообложенияРасширеннаяПодсказка" id="106"/>
 								</CheckBoxField>
@@ -169,6 +171,7 @@
 				</v8:item>
 			</Title>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="ТипЦенРозничнойТорговлиКонтекстноеМеню" id="10"/>
 			<ExtendedTooltip name="ТипЦенРозничнойТорговлиExtendedTooltip" id="49"/>
 		</InputField>
@@ -185,6 +188,7 @@
 					<v8:content>Группа кассы</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ThroughAlign>Use</ThroughAlign>
 			<ExtendedTooltip name="ГруппаКассыРасширеннаяПодсказка" id="185"/>
@@ -309,6 +313,7 @@
 					</Title>
 					<TitleHeight>2</TitleHeight>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="НоменклатурнаяГруппаКонтекстноеМеню" id="16"/>
 					<ExtendedTooltip name="НоменклатурнаяГруппаExtendedTooltip" id="51"/>
 				</InputField>
@@ -316,6 +321,7 @@
 		</UsualGroup>
 		<InputField name="ПодразделениеОрганизации" id="13">
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="ПодразделениеОрганизацииКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ПодразделениеОрганизацииExtendedTooltip" id="50"/>
 		</InputField>
@@ -372,12 +378,13 @@
 		<InputField name="Комментарий" id="7">
 			<TitleLocation>Left</TitleLocation>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="КомментарийExtendedTooltip" id="64"/>
 		</InputField>
 	</ChildItems>
 	<Attributes/>
-	<BaseForm version="2.20">
+	<BaseForm version="2.21">
 		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<ChildItems>
@@ -396,6 +403,7 @@
 				</UserVisible>
 				<SkipOnInput>true</SkipOnInput>
 				<EditMode>EnterOnInput</EditMode>
+				<AutoEditMode>true</AutoEditMode>
 				<CreateButton>false</CreateButton>
 				<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
 				<ExtendedTooltip name="РодительExtendedTooltip" id="41"/>
@@ -421,6 +429,7 @@
 				<ChildItems>
 					<InputField name="Наименование" id="3">
 						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
 						<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
 						<ExtendedTooltip name="НаименованиеExtendedTooltip" id="43"/>
 					</InputField>
@@ -429,6 +438,7 @@
 							<xr:Common>false</xr:Common>
 						</UserVisible>
 						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
 						<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 						<ExtendedTooltip name="КодExtendedTooltip" id="44"/>
 					</InputField>
@@ -521,7 +531,6 @@
 											</v8:item>
 										</ToolTip>
 										<ToolTipRepresentation>Button</ToolTipRepresentation>
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ОсобыйПорядокНалогообложенияКонтекстноеМеню" id="105"/>
 										<ExtendedTooltip name="ОсобыйПорядокНалогообложенияРасширеннаяПодсказка" id="106"/>
 									</CheckBoxField>
@@ -544,6 +553,7 @@
 					</v8:item>
 				</Title>
 				<EditMode>EnterOnInput</EditMode>
+				<AutoEditMode>true</AutoEditMode>
 				<ContextMenu name="ТипЦенРозничнойТорговлиКонтекстноеМеню" id="10"/>
 				<ExtendedTooltip name="ТипЦенРозничнойТорговлиExtendedTooltip" id="49"/>
 			</InputField>
@@ -560,6 +570,7 @@
 						<v8:content>Группа кассы</v8:content>
 					</v8:item>
 				</ToolTip>
+				<Behavior>Usual</Behavior>
 				<ShowTitle>false</ShowTitle>
 				<ThroughAlign>Use</ThroughAlign>
 				<ExtendedTooltip name="ГруппаКассыРасширеннаяПодсказка" id="185"/>
@@ -684,6 +695,7 @@
 						</Title>
 						<TitleHeight>2</TitleHeight>
 						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
 						<ContextMenu name="НоменклатурнаяГруппаКонтекстноеМеню" id="16"/>
 						<ExtendedTooltip name="НоменклатурнаяГруппаExtendedTooltip" id="51"/>
 					</InputField>
@@ -691,6 +703,7 @@
 			</UsualGroup>
 			<InputField name="ПодразделениеОрганизации" id="13">
 				<EditMode>EnterOnInput</EditMode>
+				<AutoEditMode>true</AutoEditMode>
 				<ContextMenu name="ПодразделениеОрганизацииКонтекстноеМеню" id="14"/>
 				<ExtendedTooltip name="ПодразделениеОрганизацииExtendedTooltip" id="50"/>
 			</InputField>
@@ -747,6 +760,7 @@
 			<InputField name="Комментарий" id="7">
 				<TitleLocation>Left</TitleLocation>
 				<EditMode>EnterOnInput</EditMode>
+				<AutoEditMode>true</AutoEditMode>
 				<ContextMenu name="КомментарийКонтекстноеМеню" id="8"/>
 				<ExtendedTooltip name="КомментарийExtendedTooltip" id="64"/>
 			</InputField>

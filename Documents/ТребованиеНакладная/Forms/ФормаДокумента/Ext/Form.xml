@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -218,6 +218,7 @@
 								<InputField name="Номер" id="1">
 									<DataPath>Объект.Number</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 									<ExtendedTooltip name="НомерExtendedTooltip" id="161"/>
@@ -232,6 +233,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 									<ExtendedTooltip name="ДатаExtendedTooltip" id="162"/>
 								</InputField>
@@ -404,18 +406,21 @@
 						<InputField name="Организация" id="5">
 							<DataPath>Объект.Организация</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
 							<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="163"/>
 						</InputField>
 						<InputField name="ПодразделениеОрганизации" id="9">
 							<DataPath>Объект.ПодразделениеОрганизации</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПодразделениеОрганизацииКонтекстноеМеню" id="10"/>
 							<ExtendedTooltip name="ПодразделениеОрганизацииExtendedTooltip" id="165"/>
 						</InputField>
 						<InputField name="Склад" id="7">
 							<DataPath>Объект.Склад</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="СкладКонтекстноеМеню" id="8"/>
 							<ExtendedTooltip name="СкладExtendedTooltip" id="164"/>
 						</InputField>
@@ -562,6 +567,7 @@
 									<DataPath>Объект.Материалы.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<FixingInTable>Left</FixingInTable>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="МатериалыНомерСтрокиКонтекстноеМеню" id="51"/>
 									<ExtendedTooltip name="МатериалыНомерСтрокиExtendedTooltip" id="173"/>
 								</LabelField>
@@ -581,6 +587,7 @@
 												<xr:Common>false</xr:Common>
 											</UserVisible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="МатериалыНоменклатураКодКонтекстноеМеню" id="142"/>
@@ -591,6 +598,7 @@
 												<xr:Common>false</xr:Common>
 											</UserVisible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="МатериалыНоменклатураАртикулКонтекстноеМеню" id="144"/>
@@ -611,6 +619,7 @@
 													<DataPath>Объект.Материалы.Номенклатура</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>20</Width>
 													<ContextMenu name="МатериалыНоменклатураКонтекстноеМеню" id="53"/>
 													<ExtendedTooltip name="МатериалыНоменклатураExtendedTooltip" id="176"/>
@@ -621,6 +630,9 @@
 													<FixingInTable>Left</FixingInTable>
 													<CellHyperlink>true</CellHyperlink>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<Width>2</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ValuesPicture>
@@ -646,6 +658,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="МатериалыКоличествоМестКонтекстноеМеню" id="57"/>
@@ -657,6 +670,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="МатериалыЕдиницаИзмеренияКонтекстноеМеню" id="59"/>
@@ -674,6 +688,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>6</Width>
 									<ContextMenu name="МатериалыКоэффициентКонтекстноеМеню" id="61"/>
 									<ExtendedTooltip name="МатериалыКоэффициентExtendedTooltip" id="179"/>
@@ -693,6 +708,7 @@
 											<DataPath>Объект.Материалы.Количество</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="МатериалыКоличествоКонтекстноеМеню" id="63"/>
 											<ExtendedTooltip name="МатериалыКоличествоExtendedTooltip" id="180"/>
@@ -701,6 +717,7 @@
 											<DataPath>Объект.Материалы.ЕдиницаИзмерения</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>6</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="МатериалыНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="405"/>
@@ -711,6 +728,7 @@
 								<InputField name="МатериалыСчет" id="54">
 									<DataPath>Объект.Материалы.Счет</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="МатериалыСчетКонтекстноеМеню" id="55"/>
@@ -721,6 +739,9 @@
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<CellHyperlink>true</CellHyperlink>
+									<AutoEditMode>true</AutoEditMode>
+									<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+									<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 									<Width>20</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<TextColor>style:ЦветГиперссылки</TextColor>
@@ -730,6 +751,7 @@
 								<InputField name="МатериалыОтражениеВУСН" id="68">
 									<DataPath>Объект.Материалы.ОтражениеВУСН</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ListChoiceMode>true</ListChoiceMode>
 									<ChoiceList>
 										<xr:Item>
@@ -766,6 +788,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="МатериалыДокументОприходованияКонтекстноеМеню" id="79"/>
 									<ExtendedTooltip name="МатериалыДокументОприходованияExtendedTooltip" id="185"/>
 								</InputField>
@@ -781,12 +804,14 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="МатериалыСебестоимостьКонтекстноеМеню" id="81"/>
 									<ExtendedTooltip name="МатериалыСебестоимостьExtendedTooltip" id="186"/>
 								</InputField>
 								<InputField name="МатериалыСтранаПроисхождения" id="64">
 									<DataPath>Объект.Материалы.СтранаПроисхождения</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>20</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="МатериалыСтранаПроисхожденияКонтекстноеМеню" id="65"/>
@@ -810,6 +835,7 @@
 											<SkipOnInput>true</SkipOnInput>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>5</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<TextColor>style:ЗаголовкиСтрокЦветТекста</TextColor>
@@ -822,6 +848,9 @@
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<Width>25</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ChoiceButton>true</ChoiceButton>
@@ -837,6 +866,7 @@
 									<ReadOnly>true</ReadOnly>
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<HorizontalStretch>true</HorizontalStretch>
 									<ContextMenu name="МатериалыОтступКонтекстноеМеню" id="316"/>
@@ -871,6 +901,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="КонтрагентКонтекстноеМеню" id="30"/>
 							<ExtendedTooltip name="КонтрагентExtendedTooltip" id="218"/>
@@ -984,6 +1015,7 @@
 									<DataPath>Объект.МатериалыЗаказчика.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<FixingInTable>Left</FixingInTable>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="МатериалыЗаказчикаНомерСтрокиКонтекстноеМеню" id="87"/>
 									<ExtendedTooltip name="МатериалыЗаказчикаНомерСтрокиExtendedTooltip" id="208"/>
 								</LabelField>
@@ -1004,6 +1036,7 @@
 												<xr:Common>false</xr:Common>
 											</UserVisible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="МатериалыЗаказчикаНоменклатураКодКонтекстноеМеню" id="146"/>
@@ -1015,6 +1048,7 @@
 												<xr:Common>false</xr:Common>
 											</UserVisible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="МатериалыЗаказчикаНоменклатураАртикулКонтекстноеМеню" id="148"/>
@@ -1023,6 +1057,7 @@
 										<InputField name="МатериалыЗаказчикаНоменклатура" id="88">
 											<DataPath>Объект.МатериалыЗаказчика.Номенклатура</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="МатериалыЗаказчикаНоменклатураКонтекстноеМеню" id="89"/>
 											<ExtendedTooltip name="МатериалыЗаказчикаНоменклатураExtendedTooltip" id="211"/>
@@ -1041,6 +1076,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="МатериалыЗаказчикаКоличествоМестКонтекстноеМеню" id="93"/>
@@ -1052,6 +1088,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="МатериалыЗаказчикаЕдиницаИзмеренияКонтекстноеМеню" id="95"/>
@@ -1069,6 +1106,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>6</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="МатериалыЗаказчикаКоэффициентКонтекстноеМеню" id="97"/>
@@ -1089,6 +1127,7 @@
 											<DataPath>Объект.МатериалыЗаказчика.Количество</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="МатериалыЗаказчикаКоличествоКонтекстноеМеню" id="99"/>
 											<ExtendedTooltip name="МатериалыЗаказчикаКоличествоExtendedTooltip" id="215"/>
@@ -1097,6 +1136,7 @@
 											<DataPath>Объект.МатериалыЗаказчика.Номенклатура.ЕдиницаИзмерения</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>6</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="МатериалыЗаказчикаНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="410"/>
@@ -1113,6 +1153,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="МатериалыЗаказчикаСчетКонтекстноеМеню" id="91"/>
@@ -1127,6 +1168,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="МатериалыЗаказчикаСчетПередачиКонтекстноеМеню" id="101"/>
@@ -1137,6 +1179,7 @@
 									<ReadOnly>true</ReadOnly>
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<HorizontalStretch>true</HorizontalStretch>
 									<ContextMenu name="МатериалыЗаказчикаОтступКонтекстноеМеню" id="319"/>
@@ -1164,6 +1207,7 @@
 						<RadioButtonField name="НДСвСтоимостиТоваров" id="27">
 							<DataPath>Объект.НДСвСтоимостиТоваров</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<RadioButtonType>Tumbler</RadioButtonType>
 							<ChoiceList>
 								<xr:Item>
@@ -1218,6 +1262,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<RadioButtonType>Tumbler</RadioButtonType>
 							<ChoiceList>
 								<xr:Item>
@@ -1272,6 +1317,7 @@
 								<InputField name="СчетСписанияНДС" id="31">
 									<DataPath>Объект.СчетСписанияНДС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="СчетСписанияНДСКонтекстноеМеню" id="32"/>
 									<ExtendedTooltip name="СчетСписанияНДСExtendedTooltip" id="229"/>
@@ -1279,18 +1325,21 @@
 								<InputField name="СубконтоСписанияНДС1" id="33">
 									<DataPath>Объект.СубконтоСписанияНДС1</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СубконтоСписанияНДС1КонтекстноеМеню" id="34"/>
 									<ExtendedTooltip name="СубконтоСписанияНДС1ExtendedTooltip" id="230"/>
 								</InputField>
 								<InputField name="СубконтоСписанияНДС2" id="35">
 									<DataPath>Объект.СубконтоСписанияНДС2</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СубконтоСписанияНДС2КонтекстноеМеню" id="36"/>
 									<ExtendedTooltip name="СубконтоСписанияНДС2ExtendedTooltip" id="231"/>
 								</InputField>
 								<InputField name="СубконтоСписанияНДС3" id="37">
 									<DataPath>Объект.СубконтоСписанияНДС3</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СубконтоСписанияНДС3КонтекстноеМеню" id="38"/>
 									<ExtendedTooltip name="СубконтоСписанияНДС3ExtendedTooltip" id="232"/>
 								</InputField>
@@ -1428,12 +1477,14 @@
 							<DataPath>Объект.Комментарий</DataPath>
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КомментарийКонтекстноеМеню" id="14"/>
 							<ExtendedTooltip name="КомментарийExtendedTooltip" id="234"/>
 						</InputField>
 						<InputField name="Ответственный" id="11">
 							<DataPath>Объект.Ответственный</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ОтветственныйКонтекстноеМеню" id="12"/>
 							<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="233"/>
 						</InputField>
@@ -1595,7 +1646,7 @@
 			</Columns>
 		</Attribute>
 	</Attributes>
-	<BaseForm version="2.20">
+	<BaseForm version="2.21">
 		<AutoTime>CurrentOrLast</AutoTime>
 		<UsePostingMode>Auto</UsePostingMode>
 		<RepostOnWrite>true</RepostOnWrite>
@@ -1811,6 +1862,7 @@
 									<InputField name="Номер" id="1">
 										<DataPath>Объект.Number</DataPath>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 										<ExtendedTooltip name="НомерExtendedTooltip" id="161"/>
@@ -1825,6 +1877,7 @@
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 										<ExtendedTooltip name="ДатаExtendedTooltip" id="162"/>
 									</InputField>
@@ -1997,18 +2050,21 @@
 							<InputField name="Организация" id="5">
 								<DataPath>Объект.Организация</DataPath>
 								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
 								<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
 								<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="163"/>
 							</InputField>
 							<InputField name="ПодразделениеОрганизации" id="9">
 								<DataPath>Объект.ПодразделениеОрганизации</DataPath>
 								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
 								<ContextMenu name="ПодразделениеОрганизацииКонтекстноеМеню" id="10"/>
 								<ExtendedTooltip name="ПодразделениеОрганизацииExtendedTooltip" id="165"/>
 							</InputField>
 							<InputField name="Склад" id="7">
 								<DataPath>Объект.Склад</DataPath>
 								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
 								<ContextMenu name="СкладКонтекстноеМеню" id="8"/>
 								<ExtendedTooltip name="СкладExtendedTooltip" id="164"/>
 							</InputField>
@@ -2155,6 +2211,7 @@
 										<DataPath>Объект.Материалы.LineNumber</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<FixingInTable>Left</FixingInTable>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="МатериалыНомерСтрокиКонтекстноеМеню" id="51"/>
 										<ExtendedTooltip name="МатериалыНомерСтрокиExtendedTooltip" id="173"/>
 									</LabelField>
@@ -2174,6 +2231,7 @@
 													<xr:Common>false</xr:Common>
 												</UserVisible>
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<Width>10</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="МатериалыНоменклатураКодКонтекстноеМеню" id="142"/>
@@ -2184,6 +2242,7 @@
 													<xr:Common>false</xr:Common>
 												</UserVisible>
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<Width>10</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="МатериалыНоменклатураАртикулКонтекстноеМеню" id="144"/>
@@ -2204,6 +2263,7 @@
 														<DataPath>Объект.Материалы.Номенклатура</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInHeader>false</ShowInHeader>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>20</Width>
 														<ContextMenu name="МатериалыНоменклатураКонтекстноеМеню" id="53"/>
 														<ExtendedTooltip name="МатериалыНоменклатураExtendedTooltip" id="176"/>
@@ -2214,6 +2274,9 @@
 														<FixingInTable>Left</FixingInTable>
 														<CellHyperlink>true</CellHyperlink>
 														<ShowInHeader>false</ShowInHeader>
+														<AutoEditMode>true</AutoEditMode>
+														<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+														<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 														<Width>2</Width>
 														<HorizontalStretch>false</HorizontalStretch>
 														<ValuesPicture>
@@ -2239,6 +2302,7 @@
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<Width>8</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="МатериалыКоличествоМестКонтекстноеМеню" id="57"/>
@@ -2250,6 +2314,7 @@
 											<xr:Common>false</xr:Common>
 										</UserVisible>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<Width>12</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="МатериалыЕдиницаИзмеренияКонтекстноеМеню" id="59"/>
@@ -2267,6 +2332,7 @@
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<Width>6</Width>
 										<ContextMenu name="МатериалыКоэффициентКонтекстноеМеню" id="61"/>
 										<ExtendedTooltip name="МатериалыКоэффициентExtendedTooltip" id="179"/>
@@ -2286,6 +2352,7 @@
 												<DataPath>Объект.Материалы.Количество</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
+												<AutoEditMode>true</AutoEditMode>
 												<Width>10</Width>
 												<ContextMenu name="МатериалыКоличествоКонтекстноеМеню" id="63"/>
 												<ExtendedTooltip name="МатериалыКоличествоExtendedTooltip" id="180"/>
@@ -2293,6 +2360,7 @@
 											<LabelField name="МатериалыНоменклатураЕдиницаИзмерения" id="404">
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
+												<AutoEditMode>true</AutoEditMode>
 												<Width>6</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="МатериалыНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="405"/>
@@ -2303,6 +2371,7 @@
 									<InputField name="МатериалыСчет" id="54">
 										<DataPath>Объект.Материалы.Счет</DataPath>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<Width>12</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="МатериалыСчетКонтекстноеМеню" id="55"/>
@@ -2313,6 +2382,9 @@
 										<ReadOnly>true</ReadOnly>
 										<EditMode>EnterOnInput</EditMode>
 										<CellHyperlink>true</CellHyperlink>
+										<AutoEditMode>true</AutoEditMode>
+										<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+										<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 										<Width>20</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<TextColor>style:ЦветГиперссылки</TextColor>
@@ -2322,6 +2394,7 @@
 									<InputField name="МатериалыОтражениеВУСН" id="68">
 										<DataPath>Объект.Материалы.ОтражениеВУСН</DataPath>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ListChoiceMode>true</ListChoiceMode>
 										<ChoiceList>
 											<xr:Item>
@@ -2358,6 +2431,7 @@
 											<xr:Common>false</xr:Common>
 										</UserVisible>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="МатериалыДокументОприходованияКонтекстноеМеню" id="79"/>
 										<ExtendedTooltip name="МатериалыДокументОприходованияExtendedTooltip" id="185"/>
 									</InputField>
@@ -2373,12 +2447,14 @@
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="МатериалыСебестоимостьКонтекстноеМеню" id="81"/>
 										<ExtendedTooltip name="МатериалыСебестоимостьExtendedTooltip" id="186"/>
 									</InputField>
 									<InputField name="МатериалыСтранаПроисхождения" id="64">
 										<DataPath>Объект.Материалы.СтранаПроисхождения</DataPath>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<Width>20</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="МатериалыСтранаПроисхожденияКонтекстноеМеню" id="65"/>
@@ -2402,6 +2478,7 @@
 												<SkipOnInput>true</SkipOnInput>
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
+												<AutoEditMode>true</AutoEditMode>
 												<Width>5</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<TextColor>style:ЗаголовкиСтрокЦветТекста</TextColor>
@@ -2414,6 +2491,9 @@
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
 												<ShowInHeader>false</ShowInHeader>
+												<AutoEditMode>true</AutoEditMode>
+												<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+												<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 												<Width>25</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ChoiceButton>true</ChoiceButton>
@@ -2429,6 +2509,7 @@
 										<ReadOnly>true</ReadOnly>
 										<TitleLocation>None</TitleLocation>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<Width>1</Width>
 										<HorizontalStretch>true</HorizontalStretch>
 										<ContextMenu name="МатериалыОтступКонтекстноеМеню" id="316"/>
@@ -2463,6 +2544,7 @@
 									</v8:item>
 								</Title>
 								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
 								<HorizontalStretch>false</HorizontalStretch>
 								<ContextMenu name="КонтрагентКонтекстноеМеню" id="30"/>
 								<ExtendedTooltip name="КонтрагентExtendedTooltip" id="218"/>
@@ -2576,6 +2658,7 @@
 										<DataPath>Объект.МатериалыЗаказчика.LineNumber</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<FixingInTable>Left</FixingInTable>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="МатериалыЗаказчикаНомерСтрокиКонтекстноеМеню" id="87"/>
 										<ExtendedTooltip name="МатериалыЗаказчикаНомерСтрокиExtendedTooltip" id="208"/>
 									</LabelField>
@@ -2596,6 +2679,7 @@
 													<xr:Common>false</xr:Common>
 												</UserVisible>
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<Width>10</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="МатериалыЗаказчикаНоменклатураКодКонтекстноеМеню" id="146"/>
@@ -2607,6 +2691,7 @@
 													<xr:Common>false</xr:Common>
 												</UserVisible>
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<Width>10</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="МатериалыЗаказчикаНоменклатураАртикулКонтекстноеМеню" id="148"/>
@@ -2615,6 +2700,7 @@
 											<InputField name="МатериалыЗаказчикаНоменклатура" id="88">
 												<DataPath>Объект.МатериалыЗаказчика.Номенклатура</DataPath>
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<Width>20</Width>
 												<ContextMenu name="МатериалыЗаказчикаНоменклатураКонтекстноеМеню" id="89"/>
 												<ExtendedTooltip name="МатериалыЗаказчикаНоменклатураExtendedTooltip" id="211"/>
@@ -2633,6 +2719,7 @@
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<Width>8</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="МатериалыЗаказчикаКоличествоМестКонтекстноеМеню" id="93"/>
@@ -2644,6 +2731,7 @@
 											<xr:Common>false</xr:Common>
 										</UserVisible>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<Width>12</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="МатериалыЗаказчикаЕдиницаИзмеренияКонтекстноеМеню" id="95"/>
@@ -2661,6 +2749,7 @@
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<Width>6</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="МатериалыЗаказчикаКоэффициентКонтекстноеМеню" id="97"/>
@@ -2681,6 +2770,7 @@
 												<DataPath>Объект.МатериалыЗаказчика.Количество</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
+												<AutoEditMode>true</AutoEditMode>
 												<Width>10</Width>
 												<ContextMenu name="МатериалыЗаказчикаКоличествоКонтекстноеМеню" id="99"/>
 												<ExtendedTooltip name="МатериалыЗаказчикаКоличествоExtendedTooltip" id="215"/>
@@ -2689,6 +2779,7 @@
 												<DataPath>Объект.МатериалыЗаказчика.Номенклатура.ЕдиницаИзмерения</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
+												<AutoEditMode>true</AutoEditMode>
 												<Width>6</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="МатериалыЗаказчикаНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="410"/>
@@ -2705,6 +2796,7 @@
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<Width>12</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="МатериалыЗаказчикаСчетКонтекстноеМеню" id="91"/>
@@ -2719,6 +2811,7 @@
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<Width>12</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="МатериалыЗаказчикаСчетПередачиКонтекстноеМеню" id="101"/>
@@ -2729,6 +2822,7 @@
 										<ReadOnly>true</ReadOnly>
 										<TitleLocation>None</TitleLocation>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<Width>1</Width>
 										<HorizontalStretch>true</HorizontalStretch>
 										<ContextMenu name="МатериалыЗаказчикаОтступКонтекстноеМеню" id="319"/>
@@ -2756,6 +2850,7 @@
 							<RadioButtonField name="НДСвСтоимостиТоваров" id="27">
 								<DataPath>Объект.НДСвСтоимостиТоваров</DataPath>
 								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
 								<RadioButtonType>Tumbler</RadioButtonType>
 								<ChoiceList>
 									<xr:Item>
@@ -2810,6 +2905,7 @@
 									</v8:item>
 								</Title>
 								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
 								<RadioButtonType>Tumbler</RadioButtonType>
 								<ChoiceList>
 									<xr:Item>
@@ -2864,6 +2960,7 @@
 									<InputField name="СчетСписанияНДС" id="31">
 										<DataPath>Объект.СчетСписанияНДС</DataPath>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="СчетСписанияНДСКонтекстноеМеню" id="32"/>
 										<ExtendedTooltip name="СчетСписанияНДСExtendedTooltip" id="229"/>
@@ -2871,18 +2968,21 @@
 									<InputField name="СубконтоСписанияНДС1" id="33">
 										<DataPath>Объект.СубконтоСписанияНДС1</DataPath>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="СубконтоСписанияНДС1КонтекстноеМеню" id="34"/>
 										<ExtendedTooltip name="СубконтоСписанияНДС1ExtendedTooltip" id="230"/>
 									</InputField>
 									<InputField name="СубконтоСписанияНДС2" id="35">
 										<DataPath>Объект.СубконтоСписанияНДС2</DataPath>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="СубконтоСписанияНДС2КонтекстноеМеню" id="36"/>
 										<ExtendedTooltip name="СубконтоСписанияНДС2ExtendedTooltip" id="231"/>
 									</InputField>
 									<InputField name="СубконтоСписанияНДС3" id="37">
 										<DataPath>Объект.СубконтоСписанияНДС3</DataPath>
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="СубконтоСписанияНДС3КонтекстноеМеню" id="38"/>
 										<ExtendedTooltip name="СубконтоСписанияНДС3ExtendedTooltip" id="232"/>
 									</InputField>
@@ -3020,12 +3120,14 @@
 								<DataPath>Объект.Комментарий</DataPath>
 								<TitleLocation>Left</TitleLocation>
 								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
 								<ContextMenu name="КомментарийКонтекстноеМеню" id="14"/>
 								<ExtendedTooltip name="КомментарийExtendedTooltip" id="234"/>
 							</InputField>
 							<InputField name="Ответственный" id="11">
 								<DataPath>Объект.Ответственный</DataPath>
 								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
 								<ContextMenu name="ОтветственныйКонтекстноеМеню" id="12"/>
 								<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="233"/>
 							</InputField>

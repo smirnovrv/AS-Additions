@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<CommandSet>
 		<ExcludedCommand>Write</ExcludedCommand>
@@ -13,6 +13,7 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>0</CommandName>
+				<ButtonImportance>Main</ButtonImportance>
 				<ExtendedTooltip name="КомандаЗаписатьИЗакрытьРасширеннаяПодсказка" id="698"/>
 			</Button>
 			<Button name="КомандаЗаписать" id="699">
@@ -213,6 +214,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 											<ExtendedTooltip name="КодExtendedTooltip" id="634"/>
 										</InputField>
@@ -498,6 +500,7 @@
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаЛичныеДанныеРасширеннаяПодсказка" id="1063"/>
@@ -820,6 +823,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ТекущаяОрганизацияКонтекстноеМеню" id="42"/>
 													<ExtendedTooltip name="ТекущаяОрганизацияExtendedTooltip" id="672"/>
@@ -1056,6 +1060,7 @@
 													<ChildItems>
 														<InputField name="ДатаПриема" id="47">
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ДатаПриемаКонтекстноеМеню" id="48"/>
 															<ExtendedTooltip name="ДатаПриемаExtendedTooltip" id="663"/>
 														</InputField>
@@ -1074,6 +1079,7 @@
 															<ChildItems>
 																<InputField name="ДатаУвольнения" id="49">
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ДатаУвольненияКонтекстноеМеню" id="50"/>
 																	<ExtendedTooltip name="ДатаУвольненияExtendedTooltip" id="664"/>
 																</InputField>
@@ -1128,6 +1134,7 @@
 																				</v8:item>
 																			</Title>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ChoiceParameterLinks>
 																				<xr:Link>
 																					<xr:Name>Отбор.Владелец</xr:Name>
@@ -1146,6 +1153,7 @@
 																				</v8:item>
 																			</Title>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТекущаяДолжностьКонтекстноеМеню" id="46"/>
 																			<ExtendedTooltip name="ТекущаяДолжностьExtendedTooltip" id="674"/>
 																		</InputField>
@@ -1205,6 +1213,7 @@
 																					</Title>
 																					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 																					<Group>AlwaysHorizontal</Group>
+																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ЗаписьЭлектроннойТрудовойКнижкиКнопкаИПодсказкаРасширеннаяПодсказка" id="1071">
@@ -1842,7 +1851,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаБухгалтерскийУчетЗарплатыРасширеннаяПодсказка" id="816"/>
@@ -1929,7 +1938,6 @@
 												<xr:Common>false</xr:Common>
 											</UserVisible>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ДополнитьПредставлениеКонтекстноеМеню" id="261"/>
 											<ExtendedTooltip name="ДополнитьПредставлениеExtendedTooltip" id="684"/>
 										</CheckBoxField>
@@ -1972,7 +1980,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВАрхивеКонтекстноеМеню" id="200"/>
 									<ExtendedTooltip name="ВАрхивеExtendedTooltip" id="693"/>
 								</CheckBoxField>
@@ -2068,7 +2075,7 @@
 			</dcsset:item>
 		</ConditionalAppearance>
 	</Attributes>
-	<BaseForm version="2.20">
+	<BaseForm version="2.21">
 		<VerticalScroll>useIfNecessary</VerticalScroll>
 		<CommandSet>
 			<ExcludedCommand>Write</ExcludedCommand>
@@ -2082,6 +2089,7 @@
 					<Type>CommandBarButton</Type>
 					<DefaultButton>true</DefaultButton>
 					<CommandName>0</CommandName>
+					<ButtonImportance>Main</ButtonImportance>
 					<ExtendedTooltip name="КомандаЗаписатьИЗакрытьРасширеннаяПодсказка" id="698"/>
 				</Button>
 				<Button name="КомандаЗаписать" id="699">
@@ -2282,6 +2290,7 @@
 													</v8:item>
 												</Title>
 												<EditMode>EnterOnInput</EditMode>
+												<AutoEditMode>true</AutoEditMode>
 												<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 												<ExtendedTooltip name="КодExtendedTooltip" id="634"/>
 											</InputField>
@@ -2560,6 +2569,7 @@
 											</v8:item>
 										</Title>
 										<Group>AlwaysHorizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаЛичныеДанныеРасширеннаяПодсказка" id="1063"/>
@@ -2882,6 +2892,7 @@
 															</v8:item>
 														</Title>
 														<EditMode>EnterOnInput</EditMode>
+														<AutoEditMode>true</AutoEditMode>
 														<AutoMarkIncomplete>true</AutoMarkIncomplete>
 														<ContextMenu name="ТекущаяОрганизацияКонтекстноеМеню" id="42"/>
 														<ExtendedTooltip name="ТекущаяОрганизацияExtendedTooltip" id="672"/>
@@ -3118,6 +3129,7 @@
 														<ChildItems>
 															<InputField name="ДатаПриема" id="47">
 																<EditMode>EnterOnInput</EditMode>
+																<AutoEditMode>true</AutoEditMode>
 																<ContextMenu name="ДатаПриемаКонтекстноеМеню" id="48"/>
 																<ExtendedTooltip name="ДатаПриемаExtendedTooltip" id="663"/>
 															</InputField>
@@ -3136,6 +3148,7 @@
 																<ChildItems>
 																	<InputField name="ДатаУвольнения" id="49">
 																		<EditMode>EnterOnInput</EditMode>
+																		<AutoEditMode>true</AutoEditMode>
 																		<ContextMenu name="ДатаУвольненияКонтекстноеМеню" id="50"/>
 																		<ExtendedTooltip name="ДатаУвольненияExtendedTooltip" id="664"/>
 																	</InputField>
@@ -3190,6 +3203,7 @@
 																					</v8:item>
 																				</Title>
 																				<EditMode>EnterOnInput</EditMode>
+																				<AutoEditMode>true</AutoEditMode>
 																				<ChoiceParameterLinks>
 																					<xr:Link>
 																						<xr:Name>Отбор.Владелец</xr:Name>
@@ -3208,6 +3222,7 @@
 																					</v8:item>
 																				</Title>
 																				<EditMode>EnterOnInput</EditMode>
+																				<AutoEditMode>true</AutoEditMode>
 																				<EditTextUpdate>OnValueChange</EditTextUpdate>
 																				<ContextMenu name="ТекущаяДолжностьКонтекстноеМеню" id="46"/>
 																				<ExtendedTooltip name="ТекущаяДолжностьExtendedTooltip" id="674"/>
@@ -3268,6 +3283,7 @@
 																						</Title>
 																						<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 																						<Group>AlwaysHorizontal</Group>
+																						<Behavior>Usual</Behavior>
 																						<Representation>None</Representation>
 																						<ShowTitle>false</ShowTitle>
 																						<ExtendedTooltip name="ЗаписьЭлектроннойТрудовойКнижкиКнопкаИПодсказкаРасширеннаяПодсказка" id="1071">
@@ -3905,7 +3921,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Usual</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаБухгалтерскийУчетЗарплатыРасширеннаяПодсказка" id="816"/>
@@ -3992,7 +4008,6 @@
 													<xr:Common>false</xr:Common>
 												</UserVisible>
 												<TitleLocation>Right</TitleLocation>
-												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="ДополнитьПредставлениеКонтекстноеМеню" id="261"/>
 												<ExtendedTooltip name="ДополнитьПредставлениеExtendedTooltip" id="684"/>
 											</CheckBoxField>
@@ -4035,7 +4050,6 @@
 											</v8:item>
 										</Title>
 										<TitleLocation>Right</TitleLocation>
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ВАрхивеКонтекстноеМеню" id="200"/>
 										<ExtendedTooltip name="ВАрхивеExtendedTooltip" id="693"/>
 									</CheckBoxField>

@@ -1,12 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаЗаполнить" id="1">
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.Заполнить</CommandName>
+				<ButtonImportance>Main</ButtonImportance>
 				<ExtendedTooltip name="ФормаЗаполнитьРасширеннаяПодсказка" id="2"/>
+			</Button>
+			<Button name="ФормаОтправить" id="200">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Отправить</CommandName>
+				<ExtendedTooltip name="ФормаОтправитьРасширеннаяПодсказка" id="201"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -71,12 +77,54 @@
 			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Проведенные списания с расчетного счета. Строка — строка расшифровки платежа; если расшифровки нет, строка — сам документ. Сумма в рублях.</v8:content>
+					<v8:content>Проведенные списания с расчетного счета. Строка — строка расшифровки платежа; если расшифровки нет, строка — сам документ. Сумма в рублях. Кнопка «Отправить в КЛАД» отправляет строки, которые сейчас в таблице.</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="НадписьПояснениеКонтекстноеМеню" id="25"/>
 			<ExtendedTooltip name="НадписьПояснениеРасширеннаяПодсказка" id="26"/>
 		</LabelDecoration>
+		<UsualGroup name="ГруппаОтправка" id="202">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправка</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОтправкаРасширеннаяПодсказка" id="203"/>
+			<ChildItems>
+				<InputField name="КлючДоступа" id="204">
+					<DataPath>КлючДоступа</DataPath>
+					<PasswordMode>true</PasswordMode>
+					<ContextMenu name="КлючДоступаКонтекстноеМеню" id="205"/>
+					<ExtendedTooltip name="КлючДоступаРасширеннаяПодсказка" id="206"/>
+				</InputField>
+				<Button name="СохранитьКлюч" id="207">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.СохранитьКлюч</CommandName>
+					<ExtendedTooltip name="СохранитьКлючРасширеннаяПодсказка" id="208"/>
+				</Button>
+				<CheckBoxField name="ПробныйЗапуск" id="209">
+					<DataPath>ПробныйЗапуск</DataPath>
+					<TitleLocation>Right</TitleLocation>
+					<ContextMenu name="ПробныйЗапускКонтекстноеМеню" id="210"/>
+					<ExtendedTooltip name="ПробныйЗапускРасширеннаяПодсказка" id="211"/>
+				</CheckBoxField>
+				<LabelDecoration name="НадписьКлюч" id="212">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ключ доступа не сохранён</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="НадписьКлючКонтекстноеМеню" id="213"/>
+					<ExtendedTooltip name="НадписьКлючРасширеннаяПодсказка" id="214"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
 		<Table name="Платежи" id="30">
 			<Representation>List</Representation>
 			<ReadOnly>true</ReadOnly>
@@ -286,6 +334,32 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="КлючДоступа" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ключ доступа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПробныйЗапуск" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пробный запуск, снимок не применяется</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="Платежи" id="5">
@@ -583,6 +657,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Заполнить</Action>
+		</Command>
+		<Command name="Отправить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить в КЛАД</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить строки таблицы на сервер КЛАД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Отправить</Action>
+		</Command>
+		<Command name="СохранитьКлюч" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить ключ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать ключ в безопасное хранилище</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьКлюч</Action>
 		</Command>
 	</Commands>
 </Form>

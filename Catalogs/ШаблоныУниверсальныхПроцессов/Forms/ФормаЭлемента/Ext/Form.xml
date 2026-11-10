@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<ScalingMode>Normal</ScalingMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
@@ -37,6 +37,7 @@
 			<ChildItems>
 				<InputField name="Наименование" id="3">
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
 					<ExtendedTooltip name="НаименованиеExtendedTooltip" id="14"/>
 				</InputField>
@@ -48,6 +49,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<HorizontalStretch>true</HorizontalStretch>
 					<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
 					<ExtendedTooltip name="РодительExtendedTooltip" id="16"/>
@@ -172,14 +174,12 @@
 				<CheckBoxField name="ЗапретитьОтзывСогласованияПриОтветеСогласующего" id="160">
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ЗапретитьОтзывСогласованияПриОтветеСогласующегоКонтекстноеМеню" id="161"/>
 					<ExtendedTooltip name="ЗапретитьОтзывСогласованияПриОтветеСогласующегоРасширеннаяПодсказка" id="162"/>
 				</CheckBoxField>
 				<CheckBoxField name="ПриОтклоненииЭтапаВыполнятьПроцессДоКонца" id="163">
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПриОтклоненииЭтапаВыполнятьПроцессДоКонцаКонтекстноеМеню" id="164"/>
 					<ExtendedTooltip name="ПриОтклоненииЭтапаВыполнятьПроцессДоКонцаРасширеннаяПодсказка" id="165"/>
 				</CheckBoxField>
@@ -217,7 +217,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПроверкуКонтрольнойСуммыПриУтвержденииКонтекстноеМеню" id="170"/>
 							<ExtendedTooltip name="ИспользоватьПроверкуКонтрольнойСуммыПриУтвержденииРасширеннаяПодсказка" id="171"/>
 						</CheckBoxField>
@@ -300,7 +299,7 @@
 										<xr:Ref>CommonPicture.ВедущаяКонечнаяТочка</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПараметрыПроцессаПредопределенныйКонтекстноеМеню" id="108"/>
 									<ExtendedTooltip name="ПараметрыПроцессаПредопределенныйРасширеннаяПодсказка" id="109"/>
 								</CheckBoxField>
@@ -324,27 +323,31 @@
 										<xr:Ref>CommonPicture.Зашифрован</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПараметрыПроцессаКлючевойКонтекстноеМеню" id="105"/>
 									<ExtendedTooltip name="ПараметрыПроцессаКлючевойРасширеннаяПодсказка" id="106"/>
 								</CheckBoxField>
 								<InputField name="ПараметрыПроцессаИмяПараметра" id="95">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПараметрыПроцессаИмяПараметраКонтекстноеМеню" id="96"/>
 									<ExtendedTooltip name="ПараметрыПроцессаИмяПараметраРасширеннаяПодсказка" id="97"/>
 								</InputField>
 								<InputField name="ПараметрыПроцессаКодПарамтера" id="98">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПараметрыПроцессаКодПарамтераКонтекстноеМеню" id="99"/>
 									<ExtendedTooltip name="ПараметрыПроцессаКодПарамтераРасширеннаяПодсказка" id="100"/>
 								</InputField>
 								<InputField name="ПараметрыПроцессаТипПарамтера" id="92">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПараметрыПроцессаТипПарамтераКонтекстноеМеню" id="93"/>
 									<ExtendedTooltip name="ПараметрыПроцессаТипПарамтераРасширеннаяПодсказка" id="94"/>
 								</InputField>
 								<InputField name="ПараметрыПроцессаЗначениеПоУмолчанию" id="101">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПараметрыПроцессаЗначениеПоУмолчаниюКонтекстноеМеню" id="102"/>
 									<ExtendedTooltip name="ПараметрыПроцессаЗначениеПоУмолчаниюРасширеннаяПодсказка" id="103"/>
 								</InputField>
@@ -459,8 +462,8 @@
 			</dcsset:item>
 		</ConditionalAppearance>
 	</Attributes>
-	<BaseForm version="2.20">
-		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<BaseForm version="2.21">
+		<WindowOpeningMode>LockOwner</WindowOpeningMode>
 		<VerticalScroll>useIfNecessary</VerticalScroll>
 		<ScalingMode>Normal</ScalingMode>
 		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
@@ -497,6 +500,7 @@
 				<ChildItems>
 					<InputField name="Наименование" id="3">
 						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
 						<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
 						<ExtendedTooltip name="НаименованиеExtendedTooltip" id="14"/>
 					</InputField>
@@ -508,6 +512,7 @@
 							</v8:item>
 						</Title>
 						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
 						<HorizontalStretch>true</HorizontalStretch>
 						<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
 						<ExtendedTooltip name="РодительExtendedTooltip" id="16"/>
@@ -632,14 +637,12 @@
 					<CheckBoxField name="ЗапретитьОтзывСогласованияПриОтветеСогласующего" id="160">
 						<TitleLocation>Right</TitleLocation>
 						<ToolTipRepresentation>Button</ToolTipRepresentation>
-						<CheckBoxType>Auto</CheckBoxType>
 						<ContextMenu name="ЗапретитьОтзывСогласованияПриОтветеСогласующегоКонтекстноеМеню" id="161"/>
 						<ExtendedTooltip name="ЗапретитьОтзывСогласованияПриОтветеСогласующегоРасширеннаяПодсказка" id="162"/>
 					</CheckBoxField>
 					<CheckBoxField name="ПриОтклоненииЭтапаВыполнятьПроцессДоКонца" id="163">
 						<TitleLocation>Right</TitleLocation>
 						<ToolTipRepresentation>Button</ToolTipRepresentation>
-						<CheckBoxType>Auto</CheckBoxType>
 						<ContextMenu name="ПриОтклоненииЭтапаВыполнятьПроцессДоКонцаКонтекстноеМеню" id="164"/>
 						<ExtendedTooltip name="ПриОтклоненииЭтапаВыполнятьПроцессДоКонцаРасширеннаяПодсказка" id="165"/>
 					</CheckBoxField>
@@ -677,7 +680,6 @@
 									</v8:item>
 								</ToolTip>
 								<ToolTipRepresentation>Button</ToolTipRepresentation>
-								<CheckBoxType>Auto</CheckBoxType>
 								<ContextMenu name="ИспользоватьПроверкуКонтрольнойСуммыПриУтвержденииКонтекстноеМеню" id="170"/>
 								<ExtendedTooltip name="ИспользоватьПроверкуКонтрольнойСуммыПриУтвержденииРасширеннаяПодсказка" id="171"/>
 							</CheckBoxField>
@@ -760,7 +762,7 @@
 											<xr:Ref>CommonPicture.ВедущаяКонечнаяТочка</xr:Ref>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
 										</HeaderPicture>
-										<CheckBoxType>Auto</CheckBoxType>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ПараметрыПроцессаПредопределенныйКонтекстноеМеню" id="108"/>
 										<ExtendedTooltip name="ПараметрыПроцессаПредопределенныйРасширеннаяПодсказка" id="109"/>
 									</CheckBoxField>
@@ -784,27 +786,31 @@
 											<xr:Ref>CommonPicture.Зашифрован</xr:Ref>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
 										</HeaderPicture>
-										<CheckBoxType>Auto</CheckBoxType>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ПараметрыПроцессаКлючевойКонтекстноеМеню" id="105"/>
 										<ExtendedTooltip name="ПараметрыПроцессаКлючевойРасширеннаяПодсказка" id="106"/>
 									</CheckBoxField>
 									<InputField name="ПараметрыПроцессаИмяПараметра" id="95">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ПараметрыПроцессаИмяПараметраКонтекстноеМеню" id="96"/>
 										<ExtendedTooltip name="ПараметрыПроцессаИмяПараметраРасширеннаяПодсказка" id="97"/>
 									</InputField>
 									<InputField name="ПараметрыПроцессаКодПарамтера" id="98">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ПараметрыПроцессаКодПарамтераКонтекстноеМеню" id="99"/>
 										<ExtendedTooltip name="ПараметрыПроцессаКодПарамтераРасширеннаяПодсказка" id="100"/>
 									</InputField>
 									<InputField name="ПараметрыПроцессаТипПарамтера" id="92">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ПараметрыПроцессаТипПарамтераКонтекстноеМеню" id="93"/>
 										<ExtendedTooltip name="ПараметрыПроцессаТипПарамтераРасширеннаяПодсказка" id="94"/>
 									</InputField>
 									<InputField name="ПараметрыПроцессаЗначениеПоУмолчанию" id="101">
 										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
 										<ContextMenu name="ПараметрыПроцессаЗначениеПоУмолчаниюКонтекстноеМеню" id="102"/>
 										<ExtendedTooltip name="ПараметрыПроцессаЗначениеПоУмолчаниюРасширеннаяПодсказка" id="103"/>
 									</InputField>

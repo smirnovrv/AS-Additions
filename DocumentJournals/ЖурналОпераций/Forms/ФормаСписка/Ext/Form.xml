@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -102,7 +103,6 @@
 								<CheckBoxField name="ОтборИнформацияИспользование" id="211">
 									<SkipOnInput>true</SkipOnInput>
 									<TitleLocation>None</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОтборИнформацияИспользованиеКонтекстноеМеню" id="212"/>
 									<ExtendedTooltip name="ОтборИнформацияИспользованиеРасширеннаяПодсказка" id="213"/>
 								</CheckBoxField>
@@ -138,7 +138,6 @@
 							<ExtendedTooltip name="ГруппаОтборДоговорКонтрагентаРасширеннаяПодсказка" id="249"/>
 							<ChildItems>
 								<CheckBoxField name="ОтборДоговорКонтрагентаИспользование" id="250">
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОтборДоговорКонтрагентаИспользованиеКонтекстноеМеню" id="251"/>
 									<ExtendedTooltip name="ОтборДоговорКонтрагентаИспользованиеРасширеннаяПодсказка" id="252"/>
 								</CheckBoxField>
@@ -188,7 +187,6 @@
 							<ChildItems>
 								<CheckBoxField name="ОтборОрганизацияИспользование" id="204">
 									<SkipOnInput>true</SkipOnInput>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОтборОрганизацияИспользованиеКонтекстноеМеню" id="205"/>
 									<ExtendedTooltip name="ОтборОрганизацияИспользованиеРасширеннаяПодсказка" id="206"/>
 								</CheckBoxField>
@@ -639,7 +637,7 @@
 		<Table name="Список" id="17">
 			<Representation>List</Representation>
 			<DefaultItem>true</DefaultItem>
-			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
 			<FileDragMode>AsFile</FileDragMode>
@@ -797,10 +795,11 @@
 		</Table>
 	</ChildItems>
 	<Attributes/>
-	<BaseForm version="2.20">
+	<BaseForm version="2.21">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 		<SaveDataInSettings>UseList</SaveDataInSettings>
 		<CommandBarLocation>None</CommandBarLocation>
+		<ShowCommandBar>false</ShowCommandBar>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<Autofill>false</Autofill>
 		</AutoCommandBar>
@@ -897,7 +896,6 @@
 									<CheckBoxField name="ОтборИнформацияИспользование" id="211">
 										<SkipOnInput>true</SkipOnInput>
 										<TitleLocation>None</TitleLocation>
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ОтборИнформацияИспользованиеКонтекстноеМеню" id="212"/>
 										<ExtendedTooltip name="ОтборИнформацияИспользованиеРасширеннаяПодсказка" id="213"/>
 									</CheckBoxField>
@@ -933,7 +931,6 @@
 								<ExtendedTooltip name="ГруппаОтборДоговорКонтрагентаРасширеннаяПодсказка" id="249"/>
 								<ChildItems>
 									<CheckBoxField name="ОтборДоговорКонтрагентаИспользование" id="250">
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ОтборДоговорКонтрагентаИспользованиеКонтекстноеМеню" id="251"/>
 										<ExtendedTooltip name="ОтборДоговорКонтрагентаИспользованиеРасширеннаяПодсказка" id="252"/>
 									</CheckBoxField>
@@ -983,7 +980,6 @@
 								<ChildItems>
 									<CheckBoxField name="ОтборОрганизацияИспользование" id="204">
 										<SkipOnInput>true</SkipOnInput>
-										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ОтборОрганизацияИспользованиеКонтекстноеМеню" id="205"/>
 										<ExtendedTooltip name="ОтборОрганизацияИспользованиеРасширеннаяПодсказка" id="206"/>
 									</CheckBoxField>
@@ -1434,7 +1430,7 @@
 			<Table name="Список" id="17">
 				<Representation>List</Representation>
 				<DefaultItem>true</DefaultItem>
-				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 				<InitialTreeView>ExpandTopLevel</InitialTreeView>
 				<EnableStartDrag>true</EnableStartDrag>
 				<FileDragMode>AsFile</FileDragMode>

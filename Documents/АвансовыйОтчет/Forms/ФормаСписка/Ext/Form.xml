@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -237,7 +237,6 @@
 					<ExtendedTooltip name="ГруппаОтборФизЛицоРасширеннаяПодсказка" id="137"/>
 					<ChildItems>
 						<CheckBoxField name="ОтборФизЛицоИспользование" id="138">
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОтборФизЛицоИспользованиеКонтекстноеМеню" id="139"/>
 							<ExtendedTooltip name="ОтборФизЛицоИспользованиеРасширеннаяПодсказка" id="140"/>
 						</CheckBoxField>
@@ -262,7 +261,6 @@
 					<ExtendedTooltip name="ГруппаОтборОрганизацияРасширеннаяПодсказка" id="129"/>
 					<ChildItems>
 						<CheckBoxField name="ОтборОрганизацияИспользование" id="130">
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОтборОрганизацияИспользованиеКонтекстноеМеню" id="131"/>
 							<ExtendedTooltip name="ОтборОрганизацияИспользованиеРасширеннаяПодсказка" id="132"/>
 						</CheckBoxField>
@@ -496,7 +494,7 @@
 			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
-			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
 			<FileDragMode>AsFile</FileDragMode>
@@ -764,7 +762,7 @@
 			</Settings>
 		</Attribute>
 	</Attributes>
-	<BaseForm version="2.20">
+	<BaseForm version="2.21">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<Autofill>false</Autofill>
@@ -999,7 +997,6 @@
 						<ExtendedTooltip name="ГруппаОтборФизЛицоРасширеннаяПодсказка" id="137"/>
 						<ChildItems>
 							<CheckBoxField name="ОтборФизЛицоИспользование" id="138">
-								<CheckBoxType>Auto</CheckBoxType>
 								<ContextMenu name="ОтборФизЛицоИспользованиеКонтекстноеМеню" id="139"/>
 								<ExtendedTooltip name="ОтборФизЛицоИспользованиеРасширеннаяПодсказка" id="140"/>
 							</CheckBoxField>
@@ -1024,7 +1021,6 @@
 						<ExtendedTooltip name="ГруппаОтборОрганизацияРасширеннаяПодсказка" id="129"/>
 						<ChildItems>
 							<CheckBoxField name="ОтборОрганизацияИспользование" id="130">
-								<CheckBoxType>Auto</CheckBoxType>
 								<ContextMenu name="ОтборОрганизацияИспользованиеКонтекстноеМеню" id="131"/>
 								<ExtendedTooltip name="ОтборОрганизацияИспользованиеРасширеннаяПодсказка" id="132"/>
 							</CheckBoxField>
@@ -1258,7 +1254,7 @@
 				<Representation>List</Representation>
 				<CommandBarLocation>None</CommandBarLocation>
 				<DefaultItem>true</DefaultItem>
-				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 				<InitialTreeView>ExpandTopLevel</InitialTreeView>
 				<EnableStartDrag>true</EnableStartDrag>
 				<FileDragMode>AsFile</FileDragMode>

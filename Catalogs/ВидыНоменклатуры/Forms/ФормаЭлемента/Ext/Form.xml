@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -9,6 +9,7 @@
 	<ChildItems>
 		<InputField name="Наименование" id="1">
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
 		</InputField>
@@ -46,7 +47,7 @@
 					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
-					<CheckBoxType>Auto</CheckBoxType>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="УслугаКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="УслугаРасширеннаяПодсказка" id="6"/>
 				</CheckBoxField>
@@ -136,7 +137,6 @@
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьХарактеристикиКонтекстноеМеню" id="15"/>
 					<ExtendedTooltip name="ИспользоватьХарактеристикиExtendedTooltip" id="16"/>
 				</CheckBoxField>
@@ -375,6 +375,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТаблицаДопРеквизитовХарактеристикПредставлениеРеквизитаКонтекстноеМеню" id="64"/>
 							<ExtendedTooltip name="ТаблицаДопРеквизитовХарактеристикПредставлениеРеквизитаРасширеннаяПодсказка" id="65"/>
 						</InputField>
@@ -509,6 +510,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<TextEdit>false</TextEdit>
 							<ContextMenu name="ТаблицаДопСведенийХарактеристикПредставлениеРеквизитаКонтекстноеМеню" id="101"/>
 							<ExtendedTooltip name="ТаблицаДопСведенийХарактеристикПредставлениеРеквизитаExtendedTooltip" id="102"/>
@@ -519,13 +521,14 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes/>
-	<BaseForm version="2.20">
-		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<BaseForm version="2.21">
+		<WindowOpeningMode>LockOwner</WindowOpeningMode>
 		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 		<ChildItems>
 			<InputField name="Наименование" id="1">
 				<EditMode>EnterOnInput</EditMode>
+				<AutoEditMode>true</AutoEditMode>
 				<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 				<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
 			</InputField>
@@ -563,7 +566,7 @@
 						</Title>
 						<TitleLocation>Right</TitleLocation>
 						<EditMode>EnterOnInput</EditMode>
-						<CheckBoxType>Auto</CheckBoxType>
+						<AutoEditMode>true</AutoEditMode>
 						<ContextMenu name="УслугаКонтекстноеМеню" id="5"/>
 						<ExtendedTooltip name="УслугаРасширеннаяПодсказка" id="6"/>
 					</CheckBoxField>
@@ -653,7 +656,6 @@
 							</v8:item>
 						</ToolTip>
 						<ToolTipRepresentation>Button</ToolTipRepresentation>
-						<CheckBoxType>Auto</CheckBoxType>
 						<ContextMenu name="ИспользоватьХарактеристикиКонтекстноеМеню" id="15"/>
 						<ExtendedTooltip name="ИспользоватьХарактеристикиExtendedTooltip" id="16"/>
 					</CheckBoxField>
@@ -892,6 +894,7 @@
 									</v8:item>
 								</Title>
 								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
 								<ContextMenu name="ТаблицаДопРеквизитовХарактеристикПредставлениеРеквизитаКонтекстноеМеню" id="64"/>
 								<ExtendedTooltip name="ТаблицаДопРеквизитовХарактеристикПредставлениеРеквизитаРасширеннаяПодсказка" id="65"/>
 							</InputField>
@@ -1026,6 +1029,7 @@
 									</v8:item>
 								</Title>
 								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
 								<TextEdit>false</TextEdit>
 								<ContextMenu name="ТаблицаДопСведенийХарактеристикПредставлениеРеквизитаКонтекстноеМеню" id="101"/>
 								<ExtendedTooltip name="ТаблицаДопСведенийХарактеристикПредставлениеРеквизитаExtendedTooltip" id="102"/>

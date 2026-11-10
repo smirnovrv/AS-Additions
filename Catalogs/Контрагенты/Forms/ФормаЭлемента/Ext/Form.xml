@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>WriteAndClose</ExcludedCommand>
 	</CommandSet>
@@ -14,6 +14,7 @@
 	<ChildItems>
 		<UsualGroup name="ГруппаОсновное" id="1168">
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОсновноеРасширеннаяПодсказка" id="1169"/>
@@ -26,6 +27,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ОсновнаяРабочаяОбластьРасширеннаяПодсказка" id="1171"/>
@@ -70,6 +72,7 @@
 											<Representation>Text</Representation>
 											<DefaultButton>true</DefaultButton>
 											<CommandName>0</CommandName>
+											<ButtonImportance>Main</ButtonImportance>
 											<ExtendedTooltip name="ФормаКомандаЗаписатьИЗакрытьРасширеннаяПодсказка" id="366"/>
 										</Button>
 										<Button name="ФормаЗаписать" id="391">
@@ -563,6 +566,7 @@
 															<v8:content>Метки</v8:content>
 														</v8:item>
 													</Title>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаМеткиРасширеннаяПодсказка" id="1144"/>
@@ -819,6 +823,7 @@
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаРеквизитыЕГРРасширеннаяПодсказка" id="1367"/>
@@ -831,6 +836,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ThroughAlign>Use</ThroughAlign>
@@ -879,8 +885,9 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Collapsed>true</Collapsed>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<Representation>None</Representation>
 													<ShowLeftMargin>false</ShowLeftMargin>
 													<ShowTitle>false</ShowTitle>
@@ -907,6 +914,7 @@
 												</v8:item>
 											</Title>
 											<ToolTipRepresentation>None</ToolTipRepresentation>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаОКАТОДляТаможниРасширеннаяПодсказка" id="1161"/>
@@ -1476,6 +1484,7 @@
 											<Width>25</Width>
 											<HorizontalStretch>true</HorizontalStretch>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<BackColor>style:НекорректныйКонтрагентЦветФонаВСписке</BackColor>
@@ -1526,7 +1535,7 @@
 							<Width>1000</Width>
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowLeftMargin>false</ShowLeftMargin>
 							<ExtendedTooltip name="ГруппаОсновнойБанковскийСчетРасширеннаяПодсказка" id="572"/>
@@ -1637,6 +1646,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>25</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<AutoMarkIncomplete>false</AutoMarkIncomplete>
@@ -1692,7 +1702,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowLeftMargin>false</ShowLeftMargin>
 							<ExtendedTooltip name="ГруппаКонтактнаяИнформацияExtendedTooltip" id="211"/>
@@ -1787,7 +1797,6 @@
 											<ChildItems>
 												<CheckBoxField name="ЮрФактАдресаСовпадают" id="116">
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЮрФактАдресаСовпадаютКонтекстноеМеню" id="117"/>
 													<ExtendedTooltip name="ЮрФактАдресаСовпадаютExtendedTooltip" id="225"/>
 												</CheckBoxField>
@@ -1864,7 +1873,6 @@
 											<ChildItems>
 												<CheckBoxField name="ЮрПочтовыйАдресаСовпадают" id="131">
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЮрПочтовыйАдресаСовпадаютКонтекстноеМеню" id="132"/>
 													<ExtendedTooltip name="ЮрПочтовыйАдресаСовпадаютExtendedTooltip" id="235"/>
 												</CheckBoxField>
@@ -2142,7 +2150,7 @@
 							<Width>100</Width>
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаОсновноеКонтактноеЛицоРасширеннаяПодсказка" id="812"/>
 							<ChildItems>
@@ -2194,7 +2202,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowLeftMargin>false</ShowLeftMargin>
 							<ExtendedTooltip name="ГруппаДополнительнаяИнформацияРасширеннаяПодсказка" id="241"/>
@@ -2216,7 +2224,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowLeftMargin>false</ShowLeftMargin>
 							<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="244"/>
@@ -2237,7 +2245,7 @@
 					<VerticalStretch>true</VerticalStretch>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<ShowTitle>false</ShowTitle>
 					<BackColor>style:TableHeaderBackColor</BackColor>
 					<ExtendedTooltip name="ПанельПодсказкиРасширеннаяПодсказка" id="1173"/>
@@ -2528,7 +2536,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаУХРасширеннаяПодсказка" id="1088"/>
@@ -2549,7 +2557,7 @@
 					<Group>Vertical</Group>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>None</Representation>
 					<ExtendedTooltip name="ГруппаПериметрРасширеннаяПодсказка" id="1090"/>
 					<ChildItems>
@@ -2614,7 +2622,7 @@
 					<Group>Vertical</Group>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>None</Representation>
 					<ExtendedTooltip name="ПоддержкаМногоязычностиРасширеннаяПодсказка" id="1101"/>
 					<ChildItems>
@@ -2678,7 +2686,7 @@
 					<Group>Vertical</Group>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>None</Representation>
 					<ExtendedTooltip name="ГруппаАдресМеждународныйРасширеннаяПодсказка" id="1116"/>
 					<ChildItems>
@@ -2710,7 +2718,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>None</Representation>
 			<ShowLeftMargin>false</ShowLeftMargin>
 			<ExtendedTooltip name="ГруппаФЗ223РасширеннаяПодсказка" id="1124"/>
@@ -2730,6 +2738,7 @@
 						<InputField name="КодОКОПФ" id="1127">
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>8</Width>
 							<ChoiceButton>true</ChoiceButton>
 							<ContextMenu name="КодОКОПФКонтекстноеМеню" id="1128"/>
@@ -2746,6 +2755,7 @@
 						<InputField name="НаименованиеОКОПФ" id="1130">
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="НаименованиеОКОПФКонтекстноеМеню" id="1131"/>
 							<ExtendedTooltip name="НаименованиеОКОПФExtendedTooltip" id="1132"/>
 						</InputField>
@@ -2783,7 +2793,7 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes/>
-	<BaseForm version="2.20">
+	<BaseForm version="2.21">
 		<CommandSet>
 			<ExcludedCommand>WriteAndClose</ExcludedCommand>
 		</CommandSet>
@@ -2794,6 +2804,7 @@
 		<ChildItems>
 			<UsualGroup name="ГруппаОсновное" id="1168">
 				<Group>AlwaysHorizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаОсновноеРасширеннаяПодсказка" id="1169"/>
@@ -2806,6 +2817,7 @@
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ОсновнаяРабочаяОбластьРасширеннаяПодсказка" id="1171"/>
@@ -2850,6 +2862,7 @@
 												<Representation>Text</Representation>
 												<DefaultButton>true</DefaultButton>
 												<CommandName>0</CommandName>
+												<ButtonImportance>Main</ButtonImportance>
 												<ExtendedTooltip name="ФормаКомандаЗаписатьИЗакрытьРасширеннаяПодсказка" id="366"/>
 											</Button>
 											<Button name="ФормаЗаписать" id="391">
@@ -3343,6 +3356,7 @@
 																<v8:content>Метки</v8:content>
 															</v8:item>
 														</Title>
+														<Behavior>Usual</Behavior>
 														<Representation>None</Representation>
 														<ShowTitle>false</ShowTitle>
 														<ExtendedTooltip name="ГруппаМеткиРасширеннаяПодсказка" id="1144"/>
@@ -3599,6 +3613,7 @@
 													</v8:item>
 												</Title>
 												<Group>AlwaysHorizontal</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаРеквизитыЕГРРасширеннаяПодсказка" id="1123"/>
@@ -3611,6 +3626,7 @@
 															</v8:item>
 														</Title>
 														<Group>Vertical</Group>
+														<Behavior>Usual</Behavior>
 														<Representation>None</Representation>
 														<ShowTitle>false</ShowTitle>
 														<ThroughAlign>Use</ThroughAlign>
@@ -3659,8 +3675,9 @@
 															</v8:item>
 														</Title>
 														<Group>Vertical</Group>
+														<Behavior>Usual</Behavior>
 														<Collapsed>true</Collapsed>
-														<ControlRepresentation>Picture</ControlRepresentation>
+														<ControlRepresentation>Button</ControlRepresentation>
 														<Representation>None</Representation>
 														<ShowLeftMargin>false</ShowLeftMargin>
 														<ShowTitle>false</ShowTitle>
@@ -3687,6 +3704,7 @@
 													</v8:item>
 												</Title>
 												<ToolTipRepresentation>None</ToolTipRepresentation>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаОКАТОДляТаможниРасширеннаяПодсказка" id="1161"/>
@@ -4255,6 +4273,7 @@
 												<Width>25</Width>
 												<HorizontalStretch>true</HorizontalStretch>
 												<Group>Vertical</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<BackColor>style:НекорректныйКонтрагентЦветФонаВСписке</BackColor>
@@ -4305,7 +4324,7 @@
 								<Width>1000</Width>
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ShowLeftMargin>false</ShowLeftMargin>
 								<ExtendedTooltip name="ГруппаОсновнойБанковскийСчетРасширеннаяПодсказка" id="572"/>
@@ -4416,6 +4435,7 @@
 															</v8:item>
 														</Title>
 														<EditMode>EnterOnInput</EditMode>
+														<AutoEditMode>true</AutoEditMode>
 														<Width>25</Width>
 														<HorizontalStretch>false</HorizontalStretch>
 														<AutoMarkIncomplete>false</AutoMarkIncomplete>
@@ -4471,7 +4491,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ShowLeftMargin>false</ShowLeftMargin>
 								<ExtendedTooltip name="ГруппаКонтактнаяИнформацияExtendedTooltip" id="211"/>
@@ -4566,7 +4586,6 @@
 												<ChildItems>
 													<CheckBoxField name="ЮрФактАдресаСовпадают" id="116">
 														<TitleLocation>Right</TitleLocation>
-														<CheckBoxType>Auto</CheckBoxType>
 														<ContextMenu name="ЮрФактАдресаСовпадаютКонтекстноеМеню" id="117"/>
 														<ExtendedTooltip name="ЮрФактАдресаСовпадаютExtendedTooltip" id="225"/>
 													</CheckBoxField>
@@ -4643,7 +4662,6 @@
 												<ChildItems>
 													<CheckBoxField name="ЮрПочтовыйАдресаСовпадают" id="131">
 														<TitleLocation>Right</TitleLocation>
-														<CheckBoxType>Auto</CheckBoxType>
 														<ContextMenu name="ЮрПочтовыйАдресаСовпадаютКонтекстноеМеню" id="132"/>
 														<ExtendedTooltip name="ЮрПочтовыйАдресаСовпадаютExtendedTooltip" id="235"/>
 													</CheckBoxField>
@@ -4921,7 +4939,7 @@
 								<Width>100</Width>
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаОсновноеКонтактноеЛицоРасширеннаяПодсказка" id="812"/>
 								<ChildItems>
@@ -4973,7 +4991,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ShowLeftMargin>false</ShowLeftMargin>
 								<ExtendedTooltip name="ГруппаДополнительнаяИнформацияРасширеннаяПодсказка" id="241"/>
@@ -4995,7 +5013,7 @@
 								<Group>Vertical</Group>
 								<Behavior>Collapsible</Behavior>
 								<Collapsed>true</Collapsed>
-								<ControlRepresentation>Picture</ControlRepresentation>
+								<ControlRepresentation>Button</ControlRepresentation>
 								<Representation>None</Representation>
 								<ShowLeftMargin>false</ShowLeftMargin>
 								<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="244"/>
@@ -5016,7 +5034,7 @@
 						<VerticalStretch>true</VerticalStretch>
 						<Group>Vertical</Group>
 						<Behavior>Usual</Behavior>
-						<ControlRepresentation>Picture</ControlRepresentation>
+						<ControlRepresentation>Button</ControlRepresentation>
 						<ShowTitle>false</ShowTitle>
 						<BackColor>style:TableHeaderBackColor</BackColor>
 						<ExtendedTooltip name="ПанельПодсказкиРасширеннаяПодсказка" id="1173"/>
@@ -5307,7 +5325,7 @@
 				<Group>Vertical</Group>
 				<Behavior>Usual</Behavior>
 				<Collapsed>true</Collapsed>
-				<ControlRepresentation>Picture</ControlRepresentation>
+				<ControlRepresentation>Button</ControlRepresentation>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаУХРасширеннаяПодсказка" id="1273"/>
@@ -5328,7 +5346,7 @@
 						<Group>Vertical</Group>
 						<Behavior>Collapsible</Behavior>
 						<Collapsed>true</Collapsed>
-						<ControlRepresentation>Picture</ControlRepresentation>
+						<ControlRepresentation>Button</ControlRepresentation>
 						<Representation>None</Representation>
 						<ExtendedTooltip name="ГруппаПериметрРасширеннаяПодсказка" id="1275"/>
 						<ChildItems>
@@ -5393,7 +5411,7 @@
 						<Group>Vertical</Group>
 						<Behavior>Collapsible</Behavior>
 						<Collapsed>true</Collapsed>
-						<ControlRepresentation>Picture</ControlRepresentation>
+						<ControlRepresentation>Button</ControlRepresentation>
 						<Representation>None</Representation>
 						<ExtendedTooltip name="ПоддержкаМногоязычностиРасширеннаяПодсказка" id="1289"/>
 						<ChildItems>
@@ -5457,7 +5475,7 @@
 						<Group>Vertical</Group>
 						<Behavior>Collapsible</Behavior>
 						<Collapsed>true</Collapsed>
-						<ControlRepresentation>Picture</ControlRepresentation>
+						<ControlRepresentation>Button</ControlRepresentation>
 						<Representation>None</Representation>
 						<ExtendedTooltip name="ГруппаАдресМеждународныйРасширеннаяПодсказка" id="1301"/>
 						<ChildItems>
@@ -5489,7 +5507,7 @@
 				<Group>Vertical</Group>
 				<Behavior>Collapsible</Behavior>
 				<Collapsed>true</Collapsed>
-				<ControlRepresentation>Picture</ControlRepresentation>
+				<ControlRepresentation>Button</ControlRepresentation>
 				<Representation>None</Representation>
 				<ShowLeftMargin>false</ShowLeftMargin>
 				<ExtendedTooltip name="ГруппаФЗ223РасширеннаяПодсказка" id="1309"/>
@@ -5509,6 +5527,7 @@
 							<InputField name="КодОКОПФ" id="1312">
 								<ToolTipRepresentation>Button</ToolTipRepresentation>
 								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
 								<Width>8</Width>
 								<ChoiceButton>true</ChoiceButton>
 								<ContextMenu name="КодОКОПФКонтекстноеМеню" id="1313"/>
@@ -5525,6 +5544,7 @@
 							<InputField name="НаименованиеОКОПФ" id="1315">
 								<TitleLocation>None</TitleLocation>
 								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
 								<ContextMenu name="НаименованиеОКОПФКонтекстноеМеню" id="1316"/>
 								<ExtendedTooltip name="НаименованиеОКОПФExtendedTooltip" id="1317"/>
 							</InputField>
