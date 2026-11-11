@@ -62,9 +62,11 @@
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
-			<DefaultRoles/>
+			<DefaultRoles>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_КорректировкаДолга</xr:Item>
+			</DefaultRoles>
 			<Vendor>АС</Vendor>
-			<Version>3.3.3.18 (119)</Version>
+			<Version>3.3.3.18 (121)</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -171,7 +173,7 @@
 			<CommonPicture>НаШагНазад</CommonPicture>
 			<CommonPicture>ВернутьИсполнителю</CommonPicture>
 			<CommonPicture>СтрелкаВлево</CommonPicture>
-			<Role>АЛФ_Премия</Role>
+			<Role>АС_КорректировкаДолга</Role>
 			<Role>ИИТ_Оператор</Role>
 			<CommonTemplate>ПФ_MXL_Т1</CommonTemplate>
 			<FilterCriterion>ДокументыПоКонтрагенту</FilterCriterion>
@@ -185,6 +187,7 @@
 			<CommonModule>МодульУправленияПроцессамиУХ</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ОбщегоНазначенияОПК</CommonModule>
+			<CommonModule>ОтчетыКлиентПереопределяемый</CommonModule>
 			<CommonModule>ПодключаемыеКомандыКлиент</CommonModule>
 			<CommonModule>ПользователиСлужебный</CommonModule>
 			<CommonModule>ПоступлениеТоваровУслугФормы</CommonModule>
@@ -336,6 +339,7 @@
 			<Document>АктОРасхожденияхПолученный</Document>
 			<Document>АктСверкиВзаиморасчетов</Document>
 			<Document>АС_Договор</Document>
+			<Document>АС_КорректировкаДолга</Document>
 			<Document>АС_КС2</Document>
 			<Document>АС_ЭкземплярБюджета</Document>
 			<Document>БольничныйЛист</Document>
@@ -538,6 +542,7 @@
 			<Enum>СостоянияБанковскихДокументов</Enum>
 			<Enum>ТипыПроцентныхСтавок</Enum>
 			<Enum>СистемыНалогообложения</Enum>
+			<Enum>АС_ВидыОперацийКорректировкиДолга</Enum>
 			<Enum>АС_ТипыОкладов</Enum>
 			<Enum>ВидыОперацийСписаниеДенежныхСредств</Enum>
 			<Enum>УдалитьВидыДенежныхСредств</Enum>
@@ -586,6 +591,7 @@
 			<InformationRegister>СтатусыДокументов</InformationRegister>
 			<InformationRegister>ЧекиНПД</InformationRegister>
 			<AccumulationRegister>АС_БюджетРасходов_2_6</AccumulationRegister>
+			<AccumulationRegister>ИИТ_ДенежныеСредстваОбъектовСтроительства</AccumulationRegister>
 			<AccumulationRegister>ИИТ_ЗаказыПоставщику</AccumulationRegister>
 			<AccumulationRegister>ИИТ_ОборотыПоБДР</AccumulationRegister>
 			<AccumulationRegister>ИИТ_ОстаткиДенежныхСредствУПодотчетников</AccumulationRegister>

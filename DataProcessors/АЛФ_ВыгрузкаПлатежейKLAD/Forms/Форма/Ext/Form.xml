@@ -33,27 +33,10 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОтборРасширеннаяПодсказка" id="11"/>
 			<ChildItems>
-				<InputField name="НачалоПериода" id="12">
-					<DataPath>НачалоПериода</DataPath>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Период с</v8:content>
-						</v8:item>
-					</Title>
-					<ContextMenu name="НачалоПериодаКонтекстноеМеню" id="13"/>
-					<ExtendedTooltip name="НачалоПериодаРасширеннаяПодсказка" id="14"/>
-				</InputField>
-				<InputField name="КонецПериода" id="15">
-					<DataPath>КонецПериода</DataPath>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>по</v8:content>
-						</v8:item>
-					</Title>
-					<ContextMenu name="КонецПериодаКонтекстноеМеню" id="16"/>
-					<ExtendedTooltip name="КонецПериодаРасширеннаяПодсказка" id="17"/>
+				<InputField name="Период" id="12">
+					<DataPath>Период</DataPath>
+					<ContextMenu name="ПериодКонтекстноеМеню" id="13"/>
+					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="14"/>
 				</InputField>
 				<InputField name="Организация" id="18">
 					<DataPath>Организация</DataPath>
@@ -166,6 +149,9 @@
 				<ContextMenu name="ПлатежиУправлениеПоискомКонтекстноеМеню" id="41"/>
 				<ExtendedTooltip name="ПлатежиУправлениеПоискомРасширеннаяПодсказка" id="42"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">ПлатежиВыбор</Event>
+			</Events>
 			<ChildItems>
 				<InputField name="ПлатежиДокумент" id="100">
 					<DataPath>Платежи.Документ</DataPath>
@@ -213,6 +199,11 @@
 					<DataPath>Платежи.Организация</DataPath>
 					<ContextMenu name="ПлатежиОрганизацияКонтекстноеМеню" id="119"/>
 					<ExtendedTooltip name="ПлатежиОрганизацияРасширеннаяПодсказка" id="120"/>
+				</InputField>
+				<InputField name="ПлатежиОбъектСтроительства" id="220">
+					<DataPath>Платежи.ОбъектСтроительства</DataPath>
+					<ContextMenu name="ПлатежиОбъектСтроительстваКонтекстноеМеню" id="221"/>
+					<ExtendedTooltip name="ПлатежиОбъектСтроительстваРасширеннаяПодсказка" id="222"/>
 				</InputField>
 				<InputField name="ПлатежиКонтрагент" id="121">
 					<DataPath>Платежи.Контрагент</DataPath>
@@ -297,32 +288,15 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
-		<Attribute name="НачалоПериода" id="2">
+		<Attribute name="Период" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Начало периода</v8:content>
+					<v8:content>Период</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:dateTime</v8:Type>
-				<v8:DateQualifiers>
-					<v8:DateFractions>Date</v8:DateFractions>
-				</v8:DateQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="КонецПериода" id="3">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Конец периода</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:dateTime</v8:Type>
-				<v8:DateQualifiers>
-					<v8:DateFractions>Date</v8:DateFractions>
-				</v8:DateQualifiers>
+				<v8:Type>v8:StandardPeriod</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="Организация" id="4">
@@ -464,6 +438,21 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Организация (org)</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОбъектСтроительства" id="19">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Объект строительства (object)</v8:content>
 						</v8:item>
 					</Title>
 					<Type>

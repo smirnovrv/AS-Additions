@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="3">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="5"/>
+		</InputField>
+		<InputField name="Дата" id="6">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="7"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="8"/>
+		</InputField>
+		<InputField name="ВидОперации" id="9">
+			<DataPath>Объект.ВидОперации</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ContextMenu name="ВидОперацииКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="ВидОперацииРасширеннаяПодсказка" id="11"/>
+		</InputField>
+		<InputField name="Организация" id="12">
+			<DataPath>Объект.Организация</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="13"/>
+			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="14"/>
+		</InputField>
+		<InputField name="ПоставщикДебитор" id="15">
+			<DataPath>Объект.ПоставщикДебитор</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ContextMenu name="ПоставщикДебиторКонтекстноеМеню" id="16"/>
+			<ExtendedTooltip name="ПоставщикДебиторРасширеннаяПодсказка" id="17"/>
+		</InputField>
+		<InputField name="ПоставщикКредитор" id="18">
+			<DataPath>Объект.ПоставщикКредитор</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ContextMenu name="ПоставщикКредиторКонтекстноеМеню" id="19"/>
+			<ExtendedTooltip name="ПоставщикКредиторРасширеннаяПодсказка" id="20"/>
+		</InputField>
+		<LabelDecoration name="ПояснениеСтрок" id="21">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Строка 1 — сторно оплаты поставщика-дебитора (минус в списании). Строка 2 — перенос поставщику-кредитору (плюс в списании). Если сумма строки 2 пустая, берется сумма строки 1.</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ПояснениеСтрокКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="ПояснениеСтрокРасширеннаяПодсказка" id="23"/>
+		</LabelDecoration>
+		<Table name="Оплаты" id="24">
+			<Representation>List</Representation>
+			<RowSelectionMode>Cell</RowSelectionMode>
+			<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Оплаты</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ОплатыКонтекстноеМеню" id="25"/>
+			<AutoCommandBar name="ОплатыКоманднаяПанель" id="26"/>
+			<ExtendedTooltip name="ОплатыРасширеннаяПодсказка" id="27"/>
+			<SearchStringAddition name="ОплатыСтрокаПоиска" id="28">
+				<AdditionSource>
+					<Item>Оплаты</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ОплатыСтрокаПоискаКонтекстноеМеню" id="29"/>
+				<ExtendedTooltip name="ОплатыСтрокаПоискаРасширеннаяПодсказка" id="30"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ОплатыСостояниеПросмотра" id="31">
+				<AdditionSource>
+					<Item>Оплаты</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ОплатыСостояниеПросмотраКонтекстноеМеню" id="32"/>
+				<ExtendedTooltip name="ОплатыСостояниеПросмотраРасширеннаяПодсказка" id="33"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ОплатыУправлениеПоиском" id="34">
+				<AdditionSource>
+					<Item>Оплаты</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ОплатыУправлениеПоискомКонтекстноеМеню" id="35"/>
+				<ExtendedTooltip name="ОплатыУправлениеПоискомРасширеннаяПодсказка" id="36"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnActivateRow">ОплатыПриАктивизацииСтроки</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="ОплатыНомерСтроки" id="37">
+					<DataPath>Объект.Оплаты.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ОплатыНомерСтрокиКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ОплатыНомерСтрокиРасширеннаяПодсказка" id="39"/>
+				</LabelField>
+				<InputField name="ОплатыДоговор" id="40">
+					<DataPath>Объект.Оплаты.Договор</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ОплатыДоговорКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ОплатыДоговорРасширеннаяПодсказка" id="42"/>
+				</InputField>
+				<InputField name="ОплатыОбъект" id="43">
+					<DataPath>Объект.Оплаты.Объект</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+					<ContextMenu name="ОплатыОбъектКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ОплатыОбъектРасширеннаяПодсказка" id="45"/>
+				</InputField>
+				<InputField name="ОплатыЭтап" id="46">
+					<DataPath>Объект.Оплаты.Этап</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+					<ContextMenu name="ОплатыЭтапКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ОплатыЭтапРасширеннаяПодсказка" id="48"/>
+				</InputField>
+				<InputField name="ОплатыСтатья" id="49">
+					<DataPath>Объект.Оплаты.Статья</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+					<ContextMenu name="ОплатыСтатьяКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ОплатыСтатьяРасширеннаяПодсказка" id="51"/>
+				</InputField>
+				<InputField name="ОплатыТипПлатежа" id="52">
+					<DataPath>Объект.Оплаты.ТипПлатежа</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ОплатыТипПлатежаКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ОплатыТипПлатежаРасширеннаяПодсказка" id="54"/>
+				</InputField>
+				<InputField name="ОплатыСтавкаНДС" id="55">
+					<DataPath>Объект.Оплаты.СтавкаНДС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ОплатыСтавкаНДСКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ОплатыСтавкаНДСРасширеннаяПодсказка" id="57"/>
+				</InputField>
+				<InputField name="ОплатыСумма" id="58">
+					<DataPath>Объект.Оплаты.Сумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ОплатыСуммаКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="ОплатыСуммаРасширеннаяПодсказка" id="60"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.АС_КорректировкаДолга</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

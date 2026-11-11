@@ -233,6 +233,7 @@
 		</title>
 		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
+		<availableAsField>false</availableAsField>
 	</parameter>
 	<parameter>
 		<name>Пользователь</name>
@@ -247,6 +248,7 @@
 		</valueType>
 		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
+		<availableAsField>false</availableAsField>
 	</parameter>
 	<parameter>
 		<name>Роль</name>
@@ -258,6 +260,7 @@
 		</title>
 		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
+		<availableAsField>false</availableAsField>
 	</parameter>
 	<parameter>
 		<name>Профиль</name>
@@ -269,6 +272,7 @@
 		</title>
 		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
+		<availableAsField>false</availableAsField>
 	</parameter>
 	<parameter>
 		<name>ГруппаДоступа</name>
@@ -280,6 +284,7 @@
 		</title>
 		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
+		<availableAsField>false</availableAsField>
 	</parameter>
 	<parameter>
 		<name>ТолькоИзменение</name>
@@ -304,36 +309,70 @@
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ОбъектМетаданных</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>91c5e0cc-63a9-4398-b8d3-561eeecd248d</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Объект метаданных</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+			</dcsset:filter>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ОбъектМетаданных</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>a11a1111-1111-4111-8111-111111111101</dcsset:userSettingID>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Пользователь</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>a11a1111-1111-4111-8111-111111111102</dcsset:userSettingID>
+					<dcsset:userSettingID>f699765c-29a8-4cf9-8733-316b24f75277</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Роль</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>a11a1111-1111-4111-8111-111111111103</dcsset:userSettingID>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>5aacf505-45f9-4432-8459-f029a1748850</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Профиль</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>a11a1111-1111-4111-8111-111111111104</dcsset:userSettingID>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>a4cf89ef-7361-495b-ab00-c1b00dc3304f</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ГруппаДоступа</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>a11a1111-1111-4111-8111-111111111105</dcsset:userSettingID>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>baa41962-0a34-409f-8571-e2b6e45bb6c4</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ТолькоИзменение</dcscor:parameter>
 					<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
-					<dcsset:userSettingID>a11a1111-1111-4111-8111-111111111106</dcsset:userSettingID>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>4cb213de-2790-4e60-ad48-ab913dbfaa98</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:order>

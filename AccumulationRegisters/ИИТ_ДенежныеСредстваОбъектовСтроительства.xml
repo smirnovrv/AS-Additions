@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AccumulationRegister uuid="76b0360a-2c31-4688-a9bd-c80a75f043b2">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ИИТ_ДенежныеСредстваОбъектовСтроительства" category="Record">
+				<xr:TypeId>f6c386fe-3053-4872-a5c2-b8f90572c43d</xr:TypeId>
+				<xr:ValueId>fd36f94a-c412-4a45-9723-b9ec975200ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ИИТ_ДенежныеСредстваОбъектовСтроительства" category="Manager">
+				<xr:TypeId>1d212988-917e-445a-b3db-85a3912d87b1</xr:TypeId>
+				<xr:ValueId>0b96062f-0594-4e9b-9cb2-0421fd910a74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ИИТ_ДенежныеСредстваОбъектовСтроительства" category="Selection">
+				<xr:TypeId>00e3d53d-b0ac-4ce9-9600-d33174372c86</xr:TypeId>
+				<xr:ValueId>7cea0e56-8fed-41bc-8964-b5a01befe824</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ИИТ_ДенежныеСредстваОбъектовСтроительства" category="List">
+				<xr:TypeId>b82cd390-a684-4dd6-9f05-403057435462</xr:TypeId>
+				<xr:ValueId>dffbd562-c498-4d9d-ac3a-3a5f4f5c1e5a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ИИТ_ДенежныеСредстваОбъектовСтроительства" category="RecordSet">
+				<xr:TypeId>f1eeba5b-830a-4e64-afb1-46930fda015f</xr:TypeId>
+				<xr:ValueId>ab2a92e8-7a27-472f-b76c-1482ae90f4aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ИИТ_ДенежныеСредстваОбъектовСтроительства" category="RecordKey">
+				<xr:TypeId>03ee0202-0619-4b31-ae58-0aad2663a683</xr:TypeId>
+				<xr:ValueId>8c469383-29a3-474c-b0e3-8c7546bc0769</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИИТ_ДенежныеСредстваОбъектовСтроительства</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>27a3e2ed-4b18-4978-8b68-a2becfa293de</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects/>
+	</AccumulationRegister>
+</MetaDataObject>

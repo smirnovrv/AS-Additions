@@ -14,6 +14,7 @@
 			<ExtendedConfigurationObject>696cbe18-9710-4a43-be0c-cb5314b05e36</ExtendedConfigurationObject>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">5fd54734-cde7-4a71-ac4e-6e28b9887c09</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.АС_КорректировкаДолга</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
